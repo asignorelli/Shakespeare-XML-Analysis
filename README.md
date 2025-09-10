@@ -6,7 +6,7 @@ Ava Finn, Henry Paz, Josh Stendebeck, Alyssa Signorelli
 ### Project Mentor: 
 
 ### Weekly Meeting Time: 
-
+N/A
 ### Core Questions: 
 How has Shakespeare changed the English language? How have certain words and phrases coined by Shakespeare evolved over time? Why did they change? How are they still used today?
 ### Corpus: 
