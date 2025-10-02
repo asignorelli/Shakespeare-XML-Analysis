@@ -16,7 +16,6 @@ parti-coated
 Tibert
 acture
 fedarie
-pash (noun 2)
 tirrit
 adoptedly
 felicitate
@@ -26,14 +25,11 @@ adoptious
 fer
 pauser
 torcher
-affectioned (adj.2)
 festinately
 pebbled
 tortive
 agued
-fill (noun 2)
 pensived
-trash (verb 1)
 a-hooting
 finless
 persistency
@@ -45,14 +41,11 @@ truncheoner
 airless
 fitful
 phantasim
-twilled (adj. 2)
 allayment
 fitment
 Philippan
-allicholly (adj. and noun)
-fives (noun 1)
+
 phraseless
-alligator (noun 2)
 fixture
 pibble-pabble
 allons
@@ -81,7 +74,6 @@ poppering
 unbless
 appertainment
 fustilarian
-portage( noun 2)
 unbloodied
 a-repairing
 posied
@@ -101,7 +93,6 @@ gar
 precurror
 unbreeched
 assubjugate
-glib (verb 2)
 predecease
 uncandied
 attask
@@ -123,9 +114,10 @@ guessingly
 preyful
 unclog
 guiltily
-priceless(shared credit)
-barful(shared credit)
-unclue / unclew
+priceless
+barful
+unclue
+unclew
 barky
 primogenitive
 uncolted
@@ -137,7 +129,6 @@ hardock
 printless
 unconfinable
 batler
-hay (noun 5)
 prompture
 uncuckolded
 Bavian
@@ -158,9 +149,8 @@ pulsidge
 uncurse
 bemadding
 hist
-push(shared credit)
+push
 bemock
-hostessship(noun 3)
 undeaf
 bemocked
 undeeded
@@ -180,7 +170,6 @@ besmirched
 immoment
 questant
 uneducated
-besort (noun and verb)
 impaint
 questrist
 unexperient
@@ -206,7 +195,6 @@ importless
 recountment
 unforfeited
 blastment
-impress (noun 2 and verb 1)
 rejoindure
 ungalled
 boggler  
@@ -214,7 +202,8 @@ relier
 ungenitured
 bosky
 inaidable
-relume / relumine
+relume
+relumine
 ungored
 bottled
 incardinate
@@ -239,7 +228,6 @@ unhardened
 budger
 indistinguished
 repured
-unimproved (adj. 2)
 buggle-boo
 infamonize
 reputeless
@@ -253,7 +241,6 @@ unmitigable
 injoint
 resurvey
 unmitigated
-canary (noun 4)
 inscroll
 revengive
 unnerved
@@ -272,7 +259,6 @@ unpathed
 carlot
 instinctively
 rondure
-unpay (verb 2)
 cerement
 insultment
 rooky
@@ -333,7 +319,6 @@ cojoin
 scrippage
 unshout
 collied
-sect (noun 2)
 unshrubbed
 comart
 jadery
@@ -402,12 +387,11 @@ laughable
 smirched
 untutored
 co-supreme
-law (int.)
-sneap / sneaping
+sneap
+sneaping
 unvenerable
 crestless
 lewdster
-soiled (adj. 2)
 unwappered
 crimeful
 lifeling
@@ -418,11 +402,9 @@ loo
 soldieress
 unweighing
 cullionly
-looped (adj. 2)
 solidare
 unwept
 cursorary
-lune (noun 2)
 sonance
 unwrung
 cyme
@@ -430,7 +412,6 @@ lustihood
 sortance
 ushering
 soundless
-sowl (verb 3)
 spectacled
 daisied
 malicho
@@ -483,7 +464,6 @@ misbecomingly
 strewment
 discandy
 misgraffed
-stricture (noun 2)
 wafture
 discandying
 mis-sheathed
@@ -491,7 +471,6 @@ stringless
 wappened
 discase
 missingly
-stuck (noun 2)
 week
 disedge
 mistership
@@ -515,20 +494,16 @@ dispraisingly
 moraller
 superdainty
 disproperty
-morris (noun 2)
 superflux
 dispurse
-mose (verb 2)
 superpraise
 disquantity
 moulten
 superscript
 distilment
-moy (noun 2)
 superserviceable
 yellowing
 disvouch
-suppliant (adj. 2)
 dotant
 suraddition
 dowerless
@@ -562,10 +537,8 @@ opposeless
 enclog
 oppugnancy
 encompassment
-ostent (noun 2)
 encrimsoned
 ouphe
-end (verb 2)
 enfranched
 enfreedom
 engaol
@@ -577,12 +550,10 @@ enridged
 enschedule
 ensky
 enswathe
-entame (verb 2)
 entwist
 enwheel
 escot
 eventful
-evil (noun 2)
 exceptless
 excitement
 exion
