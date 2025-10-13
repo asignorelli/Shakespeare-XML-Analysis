@@ -1476,7 +1476,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0009430" n="1.1.59"> </c>
 <w xml:id="w0009440" n="1.1.59">be</w>
 <c xml:id="c0009450" n="1.1.59"> </c>
-<w xml:id="w0009460" n="1.1.59">laughable</w>
+<w xml:id="w0009460" n="1.1.59" ana="neologism">laughable</w>
 <pc xml:id="p0009470" n="1.1.59">.</pc>
 <lb xml:id="lb-00590"/>
 <lb xml:id="lb-00591"/>
@@ -4463,7 +4463,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0034010" n="1.2.18"> </c>
 <w xml:id="w0034020" n="1.2.18">devise</w>
 <c xml:id="c0034030" n="1.2.18"> </c>
-<w xml:id="w0034040" n="1.2.18">laws</w>
+<w xml:id="w0034040" n="1.2.18" ana="neologism">laws</w>
 <c xml:id="c0034050" n="1.2.18"> </c>
 <w xml:id="w0034060" n="1.2.18">for</w>
 <c xml:id="c0034070" n="1.2.18"> </c>
@@ -22286,7 +22286,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0177490" n="2.8.17"> </c>
 <w xml:id="w0177500" n="2.8.17">the</w>
 <c xml:id="c0177510" n="2.8.17"> </c>
-<w xml:id="w0177520" n="2.8.17">law</w>
+<w xml:id="w0177520" n="2.8.17" ana="neologism">law</w>
 <pc xml:id="p0177530" n="2.8.17">,</pc>
 <c xml:id="c0177540" n="2.8.17"> </c>
 <w xml:id="w0177550" n="2.8.17">my</w>
@@ -29345,7 +29345,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <milestone unit="ftln" xml:id="ftln-1429" n="3.2.77" ana="#verse" corresp="#w0234760 #c0234770 #w0234780 #p0234790 #c0234800 #w0234810 #c0234820 #w0234830 #c0234840 #w0234850 #c0234860 #w0234870 #c0234880 #w0234890 #c0234900 #w0234910"/>
 <w xml:id="w0234760" n="3.2.77">In</w>
 <c xml:id="c0234770" n="3.2.77"> </c>
-<w xml:id="w0234780" n="3.2.77">law</w>
+<w xml:id="w0234780" n="3.2.77" ana="neologism">law</w>
 <pc xml:id="p0234790" n="3.2.77">,</pc>
 <c xml:id="c0234800" n="3.2.77"> </c>
 <w xml:id="w0234810" n="3.2.77">what</w>
@@ -33587,7 +33587,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <milestone unit="ftln" xml:id="ftln-1653" n="3.2.301" ana="#verse" corresp="#w0270280 #c0270290 #w0270300 #p0270310 #c0270320 #w0270330 #p0270340 #c0270350 #w0270360 #c0270370 #w0270380 #c0270390 #w0270400 #c0270410 #w0270420 #p0270430"/>
 <w xml:id="w0270280" n="3.2.301">If</w>
 <c xml:id="c0270290" n="3.2.301"> </c>
-<w xml:id="w0270300" n="3.2.301">law</w>
+<w xml:id="w0270300" n="3.2.301" ana="neologism">law</w>
 <pc xml:id="p0270310" n="3.2.301">,</pc>
 <c xml:id="c0270320" n="3.2.301"> </c>
 <w xml:id="w0270330" n="3.2.301">authority</w>
@@ -34985,7 +34985,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0281540" n="3.3.29"> </c>
 <w xml:id="w0281550" n="3.3.29">of</w>
 <c xml:id="c0281560" n="3.3.29"> </c>
-<w xml:id="w0281570" n="3.3.29">law</w>
+<w xml:id="w0281570" n="3.3.29" ana="neologism">law</w>
 <pc xml:id="p0281580" n="3.3.29">,</pc>
 <lb xml:id="lb-17200"/>
 <milestone unit="ftln" xml:id="ftln-1721" n="3.3.30" ana="#verse" corresp="#w0281590 #c0281600 #w0281610 #c0281620 #w0281630 #c0281640 #w0281650 #c0281660 #w0281670 #c0281680 #w0281690"/>
@@ -40881,7 +40881,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0329770" n="4.1.102"> </c>
 <w xml:id="w0329780" n="4.1.102">your</w>
 <c xml:id="c0329790" n="4.1.102"> </c>
-<w xml:id="w0329800" n="4.1.102">law</w>
+<w xml:id="w0329800" n="4.1.102" ana="neologism">law</w>
 <pc xml:id="p0329810" n="4.1.102">:</pc>
 <lb xml:id="lb-20110"/>
 <milestone unit="ftln" xml:id="ftln-2012" n="4.1.103" ana="#verse" corresp="#w0329820 #c0329830 #w0329840 #c0329850 #w0329860 #c0329870 #w0329880 #c0329890 #w0329900 #c0329910 #w0329920 #c0329930 #w0329940 #c0329950 #w0329960 #c0329970 #w0329980 #p0329990"/>
@@ -41813,7 +41813,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0337180" n="4.1.144"> </c>
 <w xml:id="w0337190" n="4.1.144">for</w>
 <c xml:id="c0337200" n="4.1.144"> </c>
-<w xml:id="w0337210" n="4.1.144">law</w>
+<w xml:id="w0337210" n="4.1.144" ana="neologism">law</w>
 <pc xml:id="p0337220" n="4.1.144">.</pc>
 </ab>
 </sp>
@@ -42338,7 +42338,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0341580" n="SD 4.1.168.1"> </c>
 <w xml:id="w0341590" n="SD 4.1.168.1">of</w>
 <lb xml:id="lb-20772"/>
-<w xml:id="w0341600" n="SD 4.1.168.1">laws</w>
+<w xml:id="w0341600" n="SD 4.1.168.1" ana="neologism">laws</w>
 <pc xml:id="p0341610" n="SD 4.1.168.1">,</pc>
 <c xml:id="c0341620" n="SD 4.1.168.1"> </c>
 <w xml:id="w0341630" n="SD 4.1.168.1">with</w>
@@ -42638,7 +42638,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0343740" n="4.1.181"> </c>
 <w xml:id="w0343750" n="4.1.181">Venetian</w>
 <c xml:id="c0343760" n="4.1.181"> </c>
-<w xml:id="w0343770" n="4.1.181">law</w>
+<w xml:id="w0343770" n="4.1.181" ana="neologism">law</w>
 <lb xml:id="lb-20900"/>
 <milestone unit="ftln" xml:id="ftln-2091" n="4.1.182" ana="#verse" corresp="#w0343780 #c0343790 #w0343800 #c0343810 #w0343820 #c0343830 #w0343840 #c0343850 #w0343860 #c0343870 #w0343880 #c0343890 #w0343900 #p0343910"/>
 <w xml:id="w0343780" n="4.1.182">Cannot</w>
@@ -43231,7 +43231,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0348450" n="4.1.213"> </c>
 <w xml:id="w0348460" n="4.1.213">the</w>
 <c xml:id="c0348470" n="4.1.213"> </c>
-<w xml:id="w0348480" n="4.1.213">law</w>
+<w xml:id="w0348480" n="4.1.213" ana="neologism">law</w>
 <pc xml:id="p0348490" n="4.1.213">,</pc>
 <lb xml:id="lb-21220"/>
 <milestone unit="ftln" xml:id="ftln-2123" n="4.1.214" ana="#verse" corresp="#w0348500 #c0348510 #w0348520 #c0348530 #w0348540 #c0348550 #w0348560 #c0348570 #w0348580 #c0348590 #w0348600 #c0348610 #w0348620 #p0348630"/>
@@ -43438,7 +43438,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0350110" n="4.1.223"> </c>
 <w xml:id="w0350120" n="4.1.223">the</w>
 <c xml:id="c0350130" n="4.1.223"> </c>
-<w xml:id="w0350140" n="4.1.223">law</w>
+<w xml:id="w0350140" n="4.1.223" ana="neologism">law</w>
 <c xml:id="c0350150" n="4.1.223"> </c>
 <w xml:id="w0350160" n="4.1.223">to</w>
 <c xml:id="c0350170" n="4.1.223"> </c>
@@ -43951,7 +43951,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0354120" n="4.1.246"> </c>
 <w xml:id="w0354130" n="4.1.246">the</w>
 <c xml:id="c0354140" n="4.1.246"> </c>
-<w xml:id="w0354150" n="4.1.246">law</w>
+<w xml:id="w0354150" n="4.1.246" ana="neologism">law</w>
 <pc xml:id="p0354160" n="4.1.246">;</pc>
 <c xml:id="c0354170" n="4.1.246"> </c>
 <w xml:id="w0354180" n="4.1.246">your</w>
@@ -43978,7 +43978,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0354370" n="4.1.247"> </c>
 <w xml:id="w0354380" n="4.1.247">the</w>
 <c xml:id="c0354390" n="4.1.247"> </c>
-<w xml:id="w0354400" n="4.1.247">law</w>
+<w xml:id="w0354400" n="4.1.247" ana="neologism">law</w>
 <pc xml:id="p0354410" n="4.1.247">,</pc>
 <lb xml:id="lb-21560"/>
 <milestone unit="ftln" xml:id="ftln-2157" n="4.1.248" ana="#verse" corresp="#w0354420 #c0354430 #w0354440 #c0354450 #w0354460 #c0354470 #w0354480 #c0354490 #w0354500 #c0354510 #w0354520 #p0354530"/>
@@ -44190,7 +44190,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0355950" n="4.1.257"> </c>
 <w xml:id="w0355960" n="4.1.257">the</w>
 <c xml:id="c0355970" n="4.1.257"> </c>
-<w xml:id="w0355980" n="4.1.257">law</w>
+<w xml:id="w0355980" n="4.1.257" ana="neologism">law</w>
 <lb xml:id="lb-21660"/>
 <milestone unit="ftln" xml:id="ftln-2167" n="4.1.258" ana="#verse" corresp="#w0355990 #c0356000 #w0356010 #c0356020 #w0356030 #c0356040 #w0356050 #c0356060 #w0356070 #c0356080 #w0356090 #p0356100"/>
 <w xml:id="w0355990" n="4.1.258">Hath</w>
@@ -45391,7 +45391,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0365390" n="4.1.313"> </c>
 <w xml:id="w0365400" n="4.1.313">the</w>
 <c xml:id="c0365410" n="4.1.313"> </c>
-<w xml:id="w0365420" n="4.1.313">law</w>
+<w xml:id="w0365420" n="4.1.313" ana="neologism">law</w>
 <c xml:id="c0365430" n="4.1.313"> </c>
 <w xml:id="w0365440" n="4.1.313">doth</w>
 <c xml:id="c0365450" n="4.1.313"> </c>
@@ -45455,7 +45455,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <milestone unit="ftln" xml:id="ftln-2225" n="4.1.316" ana="#verse" corresp="#w0365830 #c0365840 #w0365850 #c0365860 #w0365870 #c0365880 #w0365890 #p0365900 #c0365910 #w0365920 #c0365930 #w0365940 #c0365950 #w0365960 #c0365970 #w0365980 #c0365990 #w0366000 #p0366010"/>
 <w xml:id="w0365830" n="4.1.316">The</w>
 <c xml:id="c0365840" n="4.1.316"> </c>
-<w xml:id="w0365850" n="4.1.316">law</w>
+<w xml:id="w0365850" n="4.1.316" ana="neologism">law</w>
 <c xml:id="c0365860" n="4.1.316"> </c>
 <w xml:id="w0365870" n="4.1.316">allows</w>
 <c xml:id="c0365880" n="4.1.316"> </c>
@@ -45644,7 +45644,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0367370" n="4.1.324"> </c>
 <w xml:id="w0367380" n="4.1.324">the</w>
 <c xml:id="c0367390" n="4.1.324"> </c>
-<w xml:id="w0367400" n="4.1.324">laws</w>
+<w xml:id="w0367400" n="4.1.324" ana="neologism">laws</w>
 <c xml:id="c0367410" n="4.1.324"> </c>
 <w xml:id="w0367420" n="4.1.324">of</w>
 <c xml:id="c0367430" n="4.1.324"> </c>
@@ -45708,7 +45708,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0367810" n="4.1.327"> </c>
 <w xml:id="w0367820" n="4.1.327">the</w>
 <c xml:id="c0367830" n="4.1.327"> </c>
-<w xml:id="w0367840" n="4.1.327">law</w>
+<w xml:id="w0367840" n="4.1.327" ana="neologism">law</w>
 <pc xml:id="p0367850" n="4.1.327">?</pc>
 </ab>
 </sp>
@@ -46525,7 +46525,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <milestone unit="ftln" xml:id="ftln-2271" n="4.1.362" ana="#verse" corresp="#w0373900 #c0373910 #w0373920 #c0373930 #w0373940 #c0373950 #w0373960 #c0373970 #w0373980 #c0373990 #w0374000 #c0374010 #w0374020 #c0374030 #w0374040 #p0374050"/>
 <w xml:id="w0373900" n="4.1.362">The</w>
 <c xml:id="c0373910" n="4.1.362"> </c>
-<w xml:id="w0373920" n="4.1.362">law</w>
+<w xml:id="w0373920" n="4.1.362" ana="neologism">law</w>
 <c xml:id="c0373930" n="4.1.362"> </c>
 <w xml:id="w0373940" n="4.1.362">hath</w>
 <c xml:id="c0373950" n="4.1.362"> </c>
@@ -46551,7 +46551,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0374130" n="4.1.363"> </c>
 <w xml:id="w0374140" n="4.1.363">the</w>
 <c xml:id="c0374150" n="4.1.363"> </c>
-<w xml:id="w0374160" n="4.1.363">laws</w>
+<w xml:id="w0374160" n="4.1.363" ana="neologism">laws</w>
 <c xml:id="c0374170" n="4.1.363"> </c>
 <w xml:id="w0374180" n="4.1.363">of</w>
 <c xml:id="c0374190" n="4.1.363"> </c>

@@ -1,0 +1,9 @@
+To highlight each of the chosen words, use this Regex:
+
+    <w([^>]*?)>(alligator|bottled|canary|laughable|memento|investment|fub|vastly|law|gnarled)</w>
+
+And replace all with:
+
+    <w\1 ana="neologism">\2</w>
+
+The most common word is "law", and most other words do not show up at all.

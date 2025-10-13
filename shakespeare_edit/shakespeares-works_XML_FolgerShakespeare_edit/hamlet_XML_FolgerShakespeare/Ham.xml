@@ -2346,7 +2346,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0014210" n="1.1.99"> </c>
 <w xml:id="w0014220" n="1.1.99">by</w>
 <c xml:id="c0014230" n="1.1.99"> </c>
-<w xml:id="w0014240" n="1.1.99">law</w>
+<w xml:id="w0014240" n="1.1.99" ana="neologism">law</w>
 <c xml:id="c0014250" n="1.1.99"> </c>
 <w xml:id="w0014260" n="1.1.99">and</w>
 <c xml:id="c0014270" n="1.1.99"> </c>
@@ -2538,7 +2538,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0015880" n="1.1.110"> </c>
 <w xml:id="w0015890" n="1.1.110">of</w>
 <c xml:id="c0015900" n="1.1.110"> </c>
-<w xml:id="w0015910" n="1.1.110">lawless</w>
+<w xml:id="w0015910" n="1.1.110" ana="neologism">lawless</w>
 <c xml:id="c0015920" n="1.1.110"> </c>
 <w xml:id="w0015930" n="1.1.110">resolutes</w>
 <lb xml:id="lb-01100"/>
@@ -4547,7 +4547,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0032630" n="1.2.24"> </c>
 <w xml:id="w0032640" n="1.2.24">of</w>
 <c xml:id="c0032650" n="1.2.24"> </c>
-<w xml:id="w0032660" n="1.2.24">law</w>
+<w xml:id="w0032660" n="1.2.24" ana="neologism">law</w>
 <pc xml:id="p0032670" n="1.2.24">,</pc>
 <lb xml:id="lb-02140"/>
 <milestone unit="ftln" xml:id="ftln-0215" n="1.2.25" ana="#verse" corresp="#w0032680 #c0032690 #w0032700 #c0032710 #w0032720 #c0032730 #w0032740 #c0032750 #w0032760 #p0032770 #w0032780 #c0032790 #w0032800 #c0032810 #w0032820 #c0032830 #w0032840 #p0032850"/>
@@ -29504,7 +29504,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0229240" n="2.2.425"> </c>
 <w xml:id="w0229250" n="2.2.425">the</w>
 <c xml:id="c0229260" n="2.2.425"> </c>
-<w xml:id="w0229270" n="2.2.425">law</w>
+<w xml:id="w0229270" n="2.2.425" ana="neologism">law</w>
 <c xml:id="c0229280" n="2.2.425"> </c>
 <w xml:id="w0229290" n="2.2.425">of</w>
 <c xml:id="c0229300" n="2.2.425"> </c>
@@ -34214,7 +34214,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0267780" n="3.1.35"> </c>
 <pc xml:id="p0267790" n="3.1.35"></pc>
 <app from="#p0267790"><rdg wit="#print #adobe">(</rdg></app>
-<w xml:id="w0267800" n="3.1.35">lawful</w>
+<w xml:id="w0267800" n="3.1.35" ana="neologism">lawful</w>
 <c xml:id="c0267810" n="3.1.35"> </c>
 <w xml:id="w0267820" n="3.1.35">espials</w>
 <pc xml:id="p0267830" n="3.1.35">,</pc>
@@ -35057,7 +35057,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0274680" n="3.1.80"> </c>
 <w xml:id="w0274690" n="3.1.80">the</w>
 <c xml:id="c0274700" n="3.1.80"> </c>
-<w xml:id="w0274710" n="3.1.80">law’s</w>
+<w xml:id="w0274710" n="3.1.80" ana="neologism">law’s</w>
 <c xml:id="c0274720" n="3.1.80"> </c>
 <w xml:id="w0274730" n="3.1.80">delay</w>
 <pc xml:id="p0274740" n="3.1.80">,</pc>
@@ -47291,7 +47291,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0371570" n="3.3.64"> </c>
 <w xml:id="w0371580" n="3.3.64">the</w>
 <c xml:id="c0371590" n="3.3.64"> </c>
-<w xml:id="w0371600" n="3.3.64">law</w>
+<w xml:id="w0371600" n="3.3.64" ana="neologism">law</w>
 <pc xml:id="p0371610" n="3.3.64">.</pc>
 <c xml:id="c0371620" n="3.3.64"> </c>
 <w xml:id="w0371630" n="3.3.64">But</w>
@@ -52968,7 +52968,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0417400" n="4.1.8"> </c>
 <w xml:id="w0417410" n="4.1.8">his</w>
 <c xml:id="c0417420" n="4.1.8"> </c>
-<w xml:id="w0417430" n="4.1.8">lawless</w>
+<w xml:id="w0417430" n="4.1.8" ana="neologism">lawless</w>
 <c xml:id="c0417440" n="4.1.8"> </c>
 <w xml:id="w0417450" n="4.1.8">fit</w>
 <pc xml:id="p0417460" n="4.1.8">,</pc>
@@ -54505,7 +54505,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0429530" n="4.3.3"> </c>
 <w xml:id="w0429540" n="4.3.3">strong</w>
 <c xml:id="c0429550" n="4.3.3"> </c>
-<w xml:id="w0429560" n="4.3.3">law</w>
+<w xml:id="w0429560" n="4.3.3" ana="neologism">law</w>
 <c xml:id="c0429570" n="4.3.3"> </c>
 <w xml:id="w0429580" n="4.3.3">on</w>
 <c xml:id="c0429590" n="4.3.3"> </c>
@@ -67172,7 +67172,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0529260" n="5.1.22"> </c>
 <w xml:id="w0529270" n="5.1.22">this</w>
 <c xml:id="c0529280" n="5.1.22"> </c>
-<w xml:id="w0529290" n="5.1.22">law</w>
+<w xml:id="w0529290" n="5.1.22" ana="neologism">law</w>
 <pc xml:id="p0529300" n="5.1.22">?</pc>
 </ab>
 </sp>
@@ -67197,7 +67197,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0529430" n="5.1.23"> </c>
 <w xml:id="w0529440" n="5.1.23">’quest</w>
 <c xml:id="c0529450" n="5.1.23"> </c>
-<w xml:id="w0529460" n="5.1.23">law</w>
+<w xml:id="w0529460" n="5.1.23" ana="neologism">law</w>
 <pc xml:id="p0529470" n="5.1.23">.</pc>
 </ab>
 </sp>
@@ -68763,7 +68763,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0541410" n="5.1.101"> </c>
 <w xml:id="w0541420" n="5.1.101">a</w>
 <c xml:id="c0541430" n="5.1.101"> </c>
-<w xml:id="w0541440" n="5.1.101">lawyer</w>
+<w xml:id="w0541440" n="5.1.101" ana="neologism">lawyer</w>
 <pc xml:id="p0541450" n="5.1.101">?</pc>
 <c xml:id="c0541460" n="5.1.101"> </c>
 <w xml:id="w0541470" n="5.1.101">Where</w>
