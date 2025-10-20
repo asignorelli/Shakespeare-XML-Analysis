@@ -1,3 +1,7 @@
-Law:
-Alligator:
-Laughable:
+Use this regex search for the new definition words:
+
+    <w([^>]*?)>(pash|law|affectioned|fill|trash|twilled|allicholly|fives|alligator|glib|hay|hostessship|besort|impress|unimproved|canary|unpay|sect|soiled|looped|lune|sowl|stricture|stuck|morris|mose|moy|suppliant|ostent|end|entame|evil)</w>
+
+Replace with:
+
+    <w\1 ana="newDef">\2</w>
