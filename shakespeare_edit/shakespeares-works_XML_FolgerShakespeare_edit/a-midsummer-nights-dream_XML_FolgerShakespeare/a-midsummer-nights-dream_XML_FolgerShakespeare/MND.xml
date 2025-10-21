@@ -1182,7 +1182,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0007130" n="1.1.45"> </c>
 <w xml:id="w0007140" n="1.1.45">our</w>
 <c xml:id="c0007150" n="1.1.45"> </c>
-<w xml:id="w0007160" n="1.1.45">law</w>
+<w xml:id="w0007160" n="1.1.45" ana="neologism">law</w>
 <lb xml:id="lb-00450"/>
 <milestone unit="ftln" xml:id="ftln-0046" n="1.1.46" ana="#verse" corresp="#w0007170 #c0007180 #w0007190 #c0007200 #w0007210 #c0007220 #w0007230 #c0007240 #w0007250 #p0007260"/>
 <w xml:id="w0007170" n="1.1.46">Immediately</w>
@@ -2610,7 +2610,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0018790" n="1.1.121"> </c>
 <w xml:id="w0018800" n="1.1.121">the</w>
 <c xml:id="c0018810" n="1.1.121"> </c>
-<w xml:id="w0018820" n="1.1.121">law</w>
+<w xml:id="w0018820" n="1.1.121" ana="neologism">law</w>
 <c xml:id="c0018830" n="1.1.121"> </c>
 <w xml:id="w0018840" n="1.1.121">of</w>
 <c xml:id="c0018850" n="1.1.121"> </c>
@@ -3516,7 +3516,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0026050" n="1.1.164"> </c>
 <w xml:id="w0026060" n="1.1.164">Athenian</w>
 <c xml:id="c0026070" n="1.1.164"> </c>
-<w xml:id="w0026080" n="1.1.164">law</w>
+<w xml:id="w0026080" n="1.1.164" ana="neologism">law</w>
 <lb xml:id="lb-01640"/>
 <milestone unit="ftln" xml:id="ftln-0165" n="1.1.165" ana="#verse" corresp="#w0026090 #c0026100 #w0026110 #c0026120 #w0026130 #p0026140 #c0026150 #w0026160 #c0026170 #w0026180 #c0026190 #w0026200 #c0026210 #w0026220 #p0026230 #c0026240 #w0026250"/>
 <w xml:id="w0026090" n="1.1.165">Cannot</w>
@@ -33778,7 +33778,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0267360" n="4.1.159"> </c>
 <w xml:id="w0267370" n="4.1.159">Athenian</w>
 <c xml:id="c0267380" n="4.1.159"> </c>
-<w xml:id="w0267390" n="4.1.159">law</w>
+<w xml:id="w0267390" n="4.1.159" ana="neologism">law</w>
 <pc xml:id="p0267400" n="4.1.159">—</pc>
 </ab>
 </sp>
@@ -33815,12 +33815,12 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0267620" n="4.1.161"> </c>
 <w xml:id="w0267630" n="4.1.161">the</w>
 <c xml:id="c0267640" n="4.1.161"> </c>
-<w xml:id="w0267650" n="4.1.161">law</w>
+<w xml:id="w0267650" n="4.1.161" ana="neologism">law</w>
 <pc xml:id="p0267660" n="4.1.161">,</pc>
 <c xml:id="c0267670" n="4.1.161"> </c>
 <w xml:id="w0267680" n="4.1.161">the</w>
 <c xml:id="c0267690" n="4.1.161"> </c>
-<w xml:id="w0267700" n="4.1.161">law</w>
+<w xml:id="w0267700" n="4.1.161" ana="neologism">law</w>
 <pc xml:id="p0267710" n="4.1.161"></pc>
 <app from="#p0267710"><rdg wit="#print #adobe">,</rdg></app>
 <c xml:id="c0267720" n="4.1.161"> </c>

@@ -1,4 +1,185 @@
-/*This is the CSS sheet for index.html */
+:root {
+  --bg: #0f0f10;
+  --text-gray: #2b2b2b;
+  --blue: #1e7cff;
+  --accent-blue: #2790ff;
+  --title-stroke: rgba(0, 0, 0, 0.6);
+  --font-sans: "Quartzo", system-ui, sans-serif;
+}
+
+/* my custom font */
+@font-face {
+  font-family: "Quartzo";
+  src: url("../HTML/fonts/Quartzo.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* reset */
 * {
-  background-color: lightblue;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+html,
+body {
+  height: 100%
+}
+
+body {
+  background: var(--bg);
+  color: #fff;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.2;
+}
+
+/* white page name labels at the top */
+.subpage-labels {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 60px;
+  z-index: 5;
+}
+
+/* each nav label style */
+.subpage-labels span {
+  font-family: var(--font-sans);
+  font-size: clamp(14px, 2.2vw, 28px);
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* for the mouse hover effect */
+.subpage-labels span:hover {
+  color: var(--blue);
+  transform: scale(1.08);
+}
+
+/* hero section */
+.hero {
+  position: relative;
+  min-height: 70vh;
+  height: calc(100vh - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* background repeating words */
+.bg-words {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 6% 0;
+  gap: 18px 30px;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.7;
+  margin: 0;
+}
+
+/* make each word take only the space it needs and start hidden */
+.bg-words span {
+  flex: 0 0 auto;
+  font-size: clamp(14px, 2.2vw, 28px);
+  color: var(--text-gray);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  /* animation starting state */
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.6s ease, transform 0.35s ease;
+}
+
+/* visible state applied by JS */
+.bg-words span.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* title container */
+.title {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  display: inline-block;
+  line-height: 0.88;
+  transform: translateY(-10px);
+  margin-bottom: 80px;
+}
+
+/* each line large and heavy */
+.title .line {
+  display: block;
+  font-weight: 900;
+  font-size: clamp(36px, 7vw, 90px);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #1e7cff;
+  /* space between lines */
+  margin-bottom: 15px;
+}
+
+/* shakespeare portrait */
+.shakespeare {
+  position: absolute;
+  /* push it to the bottom of the page */
+  bottom: -20vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  width: clamp(180px, 28vw, 420px);
+  /* responsive size */
+  max-height: 65vh;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.85));
+}
+
+/* about section */
+.about {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 40%, rgba(0, 0, 0, 0.04) 100%);
+  color: #e6eef8;
+  padding: 200px 20px;
+}
+
+.about .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+  padding-bottom: 30px;
+}
+
+.about h2 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.about p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 900px;
+  opacity: 0.92;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
