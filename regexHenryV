@@ -1,0 +1,3 @@
+The identified invented words from the masterlist that appear in Henry V are: addiction, bawcock, cursorary, deracinate, dishearten, dawn, extract, premeditated, push, swagger, savagery, unpruned, untempering, vaulting.
+The regex pattern to match these (case-insensitive, word boundaries) is:
+\b(addiction|bawcock|cursorary|deracinate|dishearten|dawn|extract|premeditated|push|swagger|savagery|unpruned|untempering|vaulting)\b
