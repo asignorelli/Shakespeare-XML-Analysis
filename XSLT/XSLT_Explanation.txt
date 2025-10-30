@@ -1,0 +1,4 @@
+Our XSLT is meant to:
+-Define a map variable that maps each neologism to its replacement value
+-Have the ability to automatically do this for each play
+-Instead of having to manually find and replace, we can just run the transformation on each play
