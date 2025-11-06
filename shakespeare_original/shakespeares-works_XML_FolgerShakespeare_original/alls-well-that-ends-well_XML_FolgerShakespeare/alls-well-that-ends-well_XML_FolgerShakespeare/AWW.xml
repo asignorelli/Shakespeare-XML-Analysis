@@ -3880,7 +3880,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0029020" n="1.1.180"> </c>
 <w xml:id="w0029030" n="1.1.180">fond</w>
 <c xml:id="c0029040" n="1.1.180"> </c>
-<w xml:id="w0029050" n="1.1.180">adoptious</w>
+<w xml:id="w0029050" n="1.1.180" ana="neologism">adoptious</w>
 <c xml:id="c0029060" n="1.1.180"> </c>
 <w xml:id="w0029070" n="1.1.180">christendoms</w>
 <lb xml:id="lb-01800"/>
@@ -10810,7 +10810,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0084330" n="1.3.212"> </c>
 <w xml:id="w0084340" n="1.3.212">and</w>
 <c xml:id="c0084350" n="1.3.212"> </c>
-<w xml:id="w0084360" n="1.3.212">intenible</w>
+<w xml:id="w0084360" n="1.3.212" ana="neologism">intenible</w>
 <c xml:id="c0084370" n="1.3.212"> </c>
 <w xml:id="w0084380" n="1.3.212">sieve</w>
 <lb xml:id="lb-05330"/>
@@ -12273,7 +12273,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0096180" n="2.1.18"> </c>
 <w xml:id="w0096190" n="2.1.18">bravest</w>
 <c xml:id="c0096200" n="2.1.18"> </c>
-<w xml:id="w0096210" n="2.1.18">questant</w>
+<w xml:id="w0096210" n="2.1.18" ana="neologism">questant</w>
 <c xml:id="c0096220" n="2.1.18"> </c>
 <w xml:id="w0096230" n="2.1.18">shrinks</w>
 <pc xml:id="p0096240" n="2.1.18">,</pc>
@@ -15556,7 +15556,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0121850" n="2.1.181"> </c>
 <w xml:id="w0121860" n="2.1.181">fiery</w>
 <c xml:id="c0121870" n="2.1.181"> </c>
-<w xml:id="w0121880" n="2.1.181">torcher</w>
+<w xml:id="w0121880" n="2.1.181" ana="neologism">torcher</w>
 <c xml:id="c0121890" n="2.1.181"> </c>
 <w xml:id="w0121900" n="2.1.181">his</w>
 <c xml:id="c0121910" n="2.1.181"> </c>
@@ -20952,7 +20952,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0163610" n="2.3.139"> </c>
 <w xml:id="w0163620" n="2.3.139">a</w>
 <c xml:id="c0163630" n="2.3.139"> </c>
-<w xml:id="w0163640" n="2.3.139">dropsied</w>
+<w xml:id="w0163640" n="2.3.139" ana="neologism">dropsied</w>
 <c xml:id="c0163650" n="2.3.139"> </c>
 <w xml:id="w0163660" n="2.3.139">honor</w>
 <pc xml:id="p0163670" n="2.3.139">.</pc>
@@ -37027,7 +37027,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <c xml:id="c0289070" n="3.6.93"> </c>
 <w xml:id="w0289080" n="3.6.93">a</w>
 <c xml:id="c0289090" n="3.6.93"> </c>
-<w xml:id="w0289100" n="3.6.93">week</w>
+<w xml:id="w0289100" n="3.6.93" ana="neologism">week</w>
 <c xml:id="c0289110" n="3.6.93"> </c>
 <w xml:id="w0289120" n="3.6.93">escape</w>
 <c xml:id="c0289130" n="3.6.93"> </c>
@@ -45538,7 +45538,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
 <w xml:id="w0355510" n="4.3.150">gallant</w>
 <lb xml:id="lb-22340"/>
 <milestone unit="ftln" xml:id="ftln-2235" n="4.3.151" ana="#prose" corresp="#w0355520 #p0355530 #w0355540 #c0355550 #w0355560 #c0355570 #w0355580 #c0355590 #w0355600 #c0355610 #w0355620 #p0355630 #w0355640 #c0355650 #w0355660 #c0355670 #w0355680"/>
-<w xml:id="w0355520" n="4.3.151">militarist</w>
+<w xml:id="w0355520" n="4.3.151" ana="neologism">militarist</w>
 <pc xml:id="p0355530" n="4.3.151">—</pc>
 <w xml:id="w0355540" n="4.3.151">that</w>
 <c xml:id="c0355550" n="4.3.151"> </c>
