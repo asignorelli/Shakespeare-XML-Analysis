@@ -13,26 +13,30 @@
     <xsl:variable name="docs"
         select="collection('file:///Users/77zap/Github/Shakespeare-XML-Analysis/shakespeare-xml-only?select=*.xml')"/>
     
-    <!-- 2. Load the neologism word list -->
-    <xsl:variable name="word-list"
-        select="doc('file:///Users/77zap/Github/Shakespeare-XML-Analysis/Data/Original/wordListXML.xml')//w/string()"/>
-    
+    <!-- 2. Load the neologism word lists -->
+    <xsl:variable name="word-listNeo"
+        select="doc('file:///Users/77zap/Github/Shakespeare-XML-Analysis/Data/Original/wordListXML.xml')//w[@ana='neologism']/string()"/>
+    <xsl:variable name="word-listNewDef"
+        select="doc('file:///Users/77zap/Github/Shakespeare-XML-Analysis/Data/Original/wordListXML.xml')//w[@ana='newDef']/string()"/>
     <!-- 3. Create a single regex alternation pattern -->
-    <xsl:variable name="neologism-pattern"
-        select="concat('(^|\\b)(', string-join($word-list, '|'), ')(\\b|$)')"/>
-    
+    <xsl:variable name="neologism-patternNeo"
+        select="concat('(^|\\b)(', string-join($word-listNeo, '|'), ')(\\b|$)')"/>
+    <xsl:variable name="neologism-patternNewDef"
+        select="concat('(^|\\b)(', string-join($word-listNewDef, '|'), ')(\\b|$)')"/>
     <!-- 4. Root template: iterate over each document in the collection -->
     <xsl:template match="/">
         <xsl:for-each select="$docs">
-            <!-- Make a unique output filename -->
-            <xsl:variable name="relative-path"
-                select="replace(base-uri(.), '^.*/shakespeare-xml-only/', '')"/>
-            <xsl:variable name="safe-filename"
-                select="replace($relative-path, '/', '_')" />
-            
+            <!-- Extract the play title from the TEI header -->
+            <xsl:variable name="title"
+                select="normalize-space(//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title)" />
+            <!-- Replace spaces and punctuation for a clean filename -->
+            <xsl:variable name="safe-title"
+                select="replace($title, '[^A-Za-z0-9]+', '_')" />
+            <!-- Add .xml extension if missing -->
+            <xsl:variable name="filename" select="concat($safe-title, '.xml')" />
             <!-- Write a full transformed copy to the output directory -->
             <xsl:result-document
-                href="file:///Users/77zap/Github/Shakespeare-XML-Analysis/shakespeare-marked-up/{$safe-filename}">
+                href="file:///Users/77zap/Github/Shakespeare-XML-Analysis/shakespeare-neo-and-newDef/{$filename}">
                 <xsl:apply-templates/>
             </xsl:result-document>
         </xsl:for-each>
@@ -42,10 +46,17 @@
     <xsl:template match="tei:w">
         <xsl:variable name="word" select="normalize-space(.)"/>
         <xsl:choose>
-            <xsl:when test="matches($word, $neologism-pattern, 'i')">
+            <xsl:when test="matches($word, $neologism-patternNeo, 'i')">
                 <xsl:copy>
                     <xsl:copy-of select="@*"/>
                     <xsl:attribute name="ana">neologism</xsl:attribute>
+                    <xsl:apply-templates/>
+                </xsl:copy>
+            </xsl:when>
+            <xsl:when test="matches($word, $neologism-patternNewDef, 'i')">
+                <xsl:copy>
+                    <xsl:copy-of select="@*"/>
+                    <xsl:attribute name="ana">newDef</xsl:attribute>
                     <xsl:apply-templates/>
                 </xsl:copy>
             </xsl:when>

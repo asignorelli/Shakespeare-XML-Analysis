@@ -1,6 +1,0 @@
-Here's some general guidelines for how we are completing this project:
-
-1. First, our corpus is going to be three Shakespeare plays each. These can be accessed in the shakespeares_original folder. Now, if you are going to markup one of these documents, make sure you are using the shakespeare_edit folder and do any edits within that. 
-2. Ensure that you are communicating which plays you are marking up and when. This ensures that we don't have merge conflicts.
-3. We are going to be performing two distinct regex searches; one for the neoligisms and another for the words he invented a definition for. 
-4. Ensure you are using the same regex search and replaces, so we have a unified corpus. Use commments or a text file if you notice a unique pattern or something interesting, make sure to document it so we can use it in our analysis.

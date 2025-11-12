@@ -1,426 +1,599 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <words>
-    <w>a-billing</w>
-    <w>fangless</w>
-    <w>pajock</w>
-    <w>tanling</w>
-    <w>abrook</w>
-    <w>fap</w>
-    <w>pannell</w>
-    <w>tardily</w>
-    <w>Academe</w>
-    <w>fascinorious</w>
-    <w>parkward</w>
-    <w>temperality</w>
-    <w>acerb</w>
-    <w>fathomless</w>
-    <w>parti-coated</w>
-    <w>Tibert</w>
-    <w>acture</w>
-    <w>fedarie</w>
-    <w>tirrit</w>
-    <w>adoptedly</w>
-    <w>felicitate</w>
-    <w>passado</w>
-    <w>toged</w>
-    <w>adoptious</w>
-    <w>fer</w>
-    <w>pauser</w>
-    <w>torcher</w>
-    <w>festinately</w>
-    <w>pebbled</w>
-    <w>tortive</w>
-    <w>agued</w>
-    <w>pensived</w>
-    <w>a-hooting</w>
-    <w>finless</w>
-    <w>persistency</w>
-    <w>trippingly</w>
-    <w>aidance</w>
-    <w>fishify</w>
-    <w>persistive</w>
-    <w>truncheoner</w>
-    <w>airless</w>
-    <w>fitful</w>
-    <w>phantasim</w>
-    <w>allayment</w>
-    <w>fitment</w>
-    <w>Philippan</w>
-    <w>phraseless</w>
-    <w>fixture</w>
-    <w>pibble-pabble</w>
-    <w>allons</w>
-    <w>fleckled</w>
-    <w>pilcher</w>
-    <w>umbered</w>
-    <w>allottery</w>
-    <w>fleshment</w>
-    <w>pioned</w>
-    <w>unaching</w>
-    <w>annexment</w>
-    <w>forbiddenly</w>
-    <w>plantage</w>
-    <w>unaneled</w>
-    <w>anthropophaginian</w>
-    <w>forgetive</w>
-    <w>plighter</w>
-    <w>unauspicious</w>
-    <w>apathaton</w>
-    <w>foutre</w>
-    <w>plumpy</w>
-    <w>unbated</w>
-    <w>appearer</w>
-    <w>fub</w>
-    <w>poppering</w>
-    <w>unbless</w>
-    <w>appertainment</w>
-    <w>fustilarian</w>
-    <w>unbloodied</w>
-    <w>a-repairing</w>
-    <w>posied</w>
-    <w>unblowed</w>
-    <w>argal</w>
-    <w>preambulate</w>
-    <w>unbonneted</w>
-    <w>a-ripening</w>
-    <w>preceptial</w>
-    <w>unbookish</w>
-    <w>aroint</w>
-    <w>gally</w>
-    <w>precipit</w>
-    <w>unbraided</w>
-    <w>asinego</w>
-    <w>gar</w>
-    <w>precurror</w>
-    <w>unbreeched</w>
-    <w>assubjugate</w>
-    <w>predecease</w>
-    <w>uncandied</w>
-    <w>attask</w>
-    <w>gnarled</w>
-    <w>preformed</w>
-    <w>uncape</w>
-    <w>attemptable</w>
-    <w>gratility</w>
-    <w>pre-employ</w>
-    <w>unchary</w>
-    <w>attributive</w>
-    <w>greasily</w>
-    <w>prenzie</w>
-    <w>uncheck</w>
-    <w>guardage</w>
-    <w>pre-surmise</w>
-    <w>unclaimed</w>
-    <w>guessingly</w>
-    <w>preyful</w>
-    <w>unclog</w>
-    <w>guiltily</w>
-    <w>priceless</w>
-    <w>barful</w>
-    <w>unclue</w>
-    <w>unclew</w>
-    <w>barky</w>
-    <w>primogenitive</w>
-    <w>uncolted</w>
-    <w>basta</w>
-    <w>primy</w>
-    <w>uncomprehensive</w>
-    <w>bateless</w>
-    <w>hardock</w>
-    <w>printless</w>
-    <w>unconfinable</w>
-    <w>batler</w>
-    <w>prompture</w>
-    <w>uncuckolded</w>
-    <w>Bavian</w>
-    <w>hearsed</w>
-    <w>propertied</w>
-    <w>uncurbable</w>
-    <w>bawcock</w>
-    <w>herblet</w>
-    <w>pudency</w>
-    <w>uncurl</w>
-    <w>behowl</w>
-    <w>hic jacet</w>
-    <w>pugging</w>
-    <w>uncurrent</w>
-    <w>belee</w>
-    <w>hillo</w>
-    <w>pulsidge</w>
-    <w>uncurse</w>
-    <w>bemadding</w>
-    <w>hist</w>
-    <w>push</w>
-    <w>bemock</w>
-    <w>undeaf</w>
-    <w>bemocked</w>
-    <w>undeeded</w>
-    <w>bemonster</w>
-    <w>undeserver</w>
-    <w>bepray</w>
-    <w>undinted</w>
-    <w>bescreen</w>
-    <w>illume</w>
-    <w>qualmed</w>
-    <w>undistinguishable</w>
-    <w>besmirch</w>
-    <w>immediacy</w>
-    <w>quatch</w>
-    <w>unearthly</w>
-    <w>besmirched</w>
-    <w>immoment</w>
-    <w>questant</w>
-    <w>uneducated</w>
-    <w>impaint</w>
-    <w>questrist</w>
-    <w>unexperient</w>
-    <w>betrim</w>
-    <w>impartment</w>
-    <w>unexpressive</w>
-    <w>betumbled</w>
-    <w>imperceiverant</w>
-    <w>unfamed</w>
-    <w>bewasted</w>
-    <w>impeticos</w>
-    <w>unfathered</w>
-    <w>bewitchment</w>
-    <w>impleach</w>
-    <w>razorable</w>
-    <w>unfilial</w>
-    <w>biddy</w>
-    <w>implorator</w>
-    <w>reclusive</w>
-    <w>unfool</w>
-    <w>birthdom</w>
-    <w>importless</w>
-    <w>recountment</w>
-    <w>unforfeited</w>
-    <w>blastment</w>
-    <w>rejoindure</w>
-    <w>ungalled</w>
-    <w>boggler</w>
-    <w>relier</w>
-    <w>ungenitured</w>
-    <w>bosky</w>
-    <w>inaidable</w>
-    <w>relume</w>
-    <w>relumine</w>
-    <w>ungored</w>
-    <w>bottled</w>
-    <w>incardinate</w>
-    <w>remediate</w>
-    <w>ungravely</w>
-    <w>bragless</w>
-    <w>inclip</w>
-    <w>removedness</w>
-    <w>ungrown</w>
-    <w>brimfulness</w>
-    <w>incorpsed</w>
-    <w>reportingly</w>
-    <w>unhaired</w>
-    <w>brisky</w>
-    <w>increaseful</w>
-    <w>reposure</w>
-    <w>unhand</w>
-    <w>bubukle</w>
-    <w>indistinguishable</w>
-    <w>reprobance</w>
-    <w>unhardened</w>
-    <w>budger</w>
-    <w>indistinguished</w>
-    <w>repured</w>
-    <w>buggle-boo</w>
-    <w>infamonize</w>
-    <w>reputeless</w>
-    <w>unkinglike</w>
-    <w>infectiously</w>
-    <w>respeak</w>
-    <w>unmeritable</w>
-    <w>inhoop</w>
-    <w>restem</w>
-    <w>unmitigable</w>
-    <w>injoint</w>
-    <w>resurvey</w>
-    <w>unmitigated</w>
-    <w>inscroll</w>
-    <w>revengive</w>
-    <w>unnerved</w>
-    <w>cannibally</w>
-    <w>inshell</w>
-    <w>reverb</w>
-    <w>unowed</w>
-    <w>canopied</w>
-    <w>insinew</w>
-    <w>reword</w>
-    <w>unpanged</w>
-    <w>cardinally</w>
-    <w>insisture</w>
-    <w>ribaudred</w>
-    <w>unpathed</w>
-    <w>carlot</w>
-    <w>instinctively</w>
-    <w>rondure</w>
-    <w>cerement</w>
-    <w>insultment</w>
-    <w>rooky</w>
-    <w>unpeg</w>
-    <w>chaffless</w>
-    <w>insuppresive</w>
-    <w>rootedly</w>
-    <w>unpinked</w>
-    <w>chaliced</w>
-    <w>intenible</w>
-    <w>rubious</w>
-    <w>unplausive</w>
-    <w>chapeless</w>
-    <w>interchain</w>
-    <w>rumourer</w>
-    <w>unpolicied</w>
-    <w>chapless</w>
-    <w>intertangled</w>
-    <w>runnion</w>
-    <w>unpregnant</w>
-    <w>characterless</w>
-    <w>intertissued</w>
-    <w>unprevailing</w>
-    <w>charneco</w>
-    <w>intrenchant</w>
-    <w>unprofited</w>
-    <w>childness</w>
-    <w>intrince</w>
-    <w>unprovoke</w>
-    <w>chirurgeonly</w>
-    <w>inurn</w>
-    <w>s'</w>
-    <w>unpruned</w>
-    <w>choppy</w>
-    <w>inventorially</w>
-    <w>sanctuarize</w>
-    <w>unqualitied</w>
-    <w>cital</w>
-    <w>investment</w>
-    <w>savagery</w>
-    <w>unrecalling</w>
-    <w>climature</w>
-    <w>invised</w>
-    <w>scaffoldage</w>
-    <w>unrecuring</w>
-    <w>cloyless</w>
-    <w>irregulous</w>
-    <w>scamel</w>
-    <w>unseduced</w>
-    <w>cloyment</w>
-    <w>iterance</w>
-    <w>scarfed</w>
-    <w>unseminared</w>
-    <w>codding</w>
-    <w>scrimer</w>
-    <w>unsex</w>
-    <w>cojoin</w>
-    <w>scrippage</w>
-    <w>unshout</w>
-    <w>collied</w>
-    <w>unshrubbed</w>
-    <w>comart</w>
-    <w>jadery</w>
-    <w>sedged</w>
-    <w>unshunned</w>
-    <w>combless</w>
-    <w>Joan</w>
-    <w>semblative</w>
-    <w>unsisting</w>
-    <w>comeddled</w>
-    <w>joinder</w>
-    <w>sessa</w>
-    <w>unslipping</w>
-    <w>comutual</w>
-    <w>jointress</w>
-    <w>sharded</w>
-    <w>unsmirched</w>
-    <w>compulsative</w>
-    <w>juvenal</w>
-    <w>shelvy</w>
-    <w>unsolicited</w>
-    <w>compulsatory</w>
-    <w>sherris</w>
-    <w>unsphere</w>
-    <w>compunctious</w>
-    <w>silverly</w>
-    <w>unstooping</w>
-    <w>conceptious</w>
-    <w>sistering</w>
-    <w>unsullied</w>
-    <w>concernancy</w>
-    <w>keech</w>
-    <w>skimble-skamble</w>
-    <w>unswayable</w>
-    <w>confineless</w>
-    <w>keksyes</w>
-    <w>skyish</w>
-    <w>unswayed</w>
-    <w>confirmity</w>
-    <w>kickie-wickie</w>
-    <w>sledded</w>
-    <w>untempering</w>
-    <w>congree</w>
-    <w>kingdomed</w>
-    <w>sleided</w>
-    <w>untender</w>
-    <w>congreet</w>
-    <w>slickly</w>
-    <w>untent</w>
-    <w>conspectuity</w>
-    <w>slippered</w>
-    <w>untented</w>
-    <w>continuantly</w>
-    <w>slish</w>
-    <w>untimbered</w>
-    <w>copataine</w>
-    <w>labra</w>
-    <w>sluggardize</w>
-    <w>untread</w>
-    <w>correctioner</w>
-    <w>languageless</w>
-    <w>smell-less</w>
-    <w>untreasure</w>
-    <w>corresponsive</w>
-    <w>laughable</w>
-    <w>smirched</w>
-    <w>untutored</w>
-    <w>co-supreme</w>
-    <w>sneap</w>
-    <w>sneaping</w>
-    <w>unvenerable</w>
-    <w>crestless</w>
-    <w>lewdster</w>
-    <w>unwappered</w>
-    <w>crimeful</w>
-    <w>lifeling</w>
-    <w>sola</w>
-    <w>unwedgeable</w>
-    <w>cubiculo</w>
-    <w>loo</w>
-    <w>soldieress</w>
-    <w>unweighing</w>
-    <w>cullionly</w>
-    <w>solidare</w>
-    <w>unwept</w>
-    <w>cursorary</w>
-    <w>sonance</w>
-    <w>unwrung</w>
-    <w>cyme</w>
-    <w>lustihood</w>
-    <w>sortance</w>
-    <w>ushering</w>
-    <w>soundless</w>
-    <w>spectacled</w>
-    <w>daisied</w>
-    <w>malicho</w>
-    <w>spectatorship</w>
-    <w>vagrom</w>
-    <w>dateless</w>
-    <w>mansionry</w>
-    <w>spelling</w>
-    <w>varletto</w>
-    <w>de</w>
+<w ana = "neologism">a-billing</w>
+<w ana = "neologism">abrook</w>
+<w ana = "neologism">Academe</w>
+<w ana = "neologism">acerb</w>
+<w ana = "neologism">acture</w>
+<w ana = "neologism">adoptedly</w>
+<w ana = "neologism">adoptious</w>
+<w ana = "newDef" type = "adj.2">affectioned</w> 
+<w ana = "neologism">agued</w>
+<w ana = "neologism">a-hooting</w>
+<w ana = "neologism">aidance</w>
+<w ana = "neologism">airless</w>
+<w ana = "neologism">allayment</w>
+<w ana = "neologism">allicholly</w> 
+<w ana = "neologism">alligator</w> 
+<w ana = "neologism">allons</w>
+<w ana = "neologism">allottery</w>
+<w ana = "neologism">annexment</w>
+<w ana = "neologism">anthropophaginian</w>
+<w ana = "neologism">apathaton</w>
+<w ana = "neologism">appearer</w>
+<w ana = "neologism">appertainment</w>
+<w ana = "neologism">a-repairing</w>
+<w ana = "neologism">argal</w>
+<w ana = "neologism">a-ripening</w>
+<w ana = "neologism">aroint</w>
+<w ana = "neologism">asinego</w>
+<w ana = "neologism">assubjugate</w>
+<w ana = "neologism">attask</w>
+<w ana = "neologism">attemptable</w>
+<w ana = "neologism">attributive  </w>
+<w ana = "neologism">fangless</w>
+<w ana = "neologism">fap</w>
+<w ana = "neologism">fascinorious</w>
+<w ana = "neologism">fathomless</w>
+<w ana = "neologism">fedarie</w>
+<w ana = "neologism">felicitate</w>
+<w ana = "neologism">fer</w>
+<w ana = "neologism">festinately</w>
+<w ana = "newDef" type = "noun 2">fill</w> 
+<w ana = "neologism">finless</w>
+<w ana = "neologism">fishify</w>
+<w ana = "neologism">fitful</w>
+<w ana = "neologism">fitment</w>
+<w ana = "newDef" type = "noun 1">fives</w> 
+<w ana = "neologism">fixture</w>
+<w ana = "neologism">fleckled</w>
+<w ana = "neologism">fleshment</w>
+<w ana = "neologism">forbiddenly</w>
+<w ana = "neologism">forgetive</w>
+<w ana = "neologism">foutre</w>
+<w ana = "neologism">fub</w>
+<w ana = "neologism">fustilarian</w>
+<w ana = "neologism">gally</w>
+<w ana = "neologism">gar</w>
+<w ana = "newDef" type = "verb 2">glib</w> 
+<w ana = "neologism">gnarled</w>
+<w ana = "neologism">gratility</w>
+<w ana = "neologism">greasily</w>
+<w ana = "neologism">guardage</w>
+<w ana = "neologism">guessingly</w>
+<w ana = "neologism">guiltily</w>
+<w ana = "neologism">pajock</w>
+<w ana = "neologism">pannell</w>
+<w ana = "neologism">parkward</w>
+<w ana = "neologism">parti-coated</w>
+<w ana = "neologism">pash</w> 
+<w ana = "neologism">passado</w>
+<w ana = "neologism">pauser</w>
+<w ana = "neologism">pebbled</w>
+<w ana = "neologism">pensived</w>
+<w ana = "neologism">persistency</w>
+<w ana = "neologism">persistive</w>
+<w ana = "neologism">phantasim</w>
+<w ana = "neologism">Philippan</w>
+<w ana = "neologism">phraseless</w>
+<w ana = "neologism">pibble-pabble</w>
+<w ana = "neologism">pilcher</w>
+<w ana = "neologism">pioned</w>
+<w ana = "neologism">plantage</w>
+<w ana = "neologism">plighter</w>
+<w ana = "neologism">plumpy</w>
+<w ana = "neologism">poppering</w>
+<w ana = "newDef" type = "noun 2">portage</w> 
+<w ana = "neologism">posied</w>
+<w ana = "neologism">preambulate</w>
+<w ana = "neologism">preceptial</w>
+<w ana = "neologism">precipit</w>
+<w ana = "neologism">precurror</w>
+<w ana = "neologism">predecease</w>
+<w ana = "neologism">preformed</w>
+<w ana = "neologism">pre-employ</w>
+<w ana = "neologism">prenzie</w>
+<w ana = "neologism">pre-surmise</w>
+<w ana = "neologism">preyful    </w>
+<w ana = "neologism">tanling</w>
+<w ana = "neologism">tardily</w>
+<w ana = "neologism">temperality</w>
+<w ana = "neologism">Tibert</w>
+<w ana = "neologism">tirrit</w>
+<w ana = "neologism">toged</w>
+<w ana = "neologism">torcher</w>
+<w ana = "neologism">tortive</w>
+<w ana = "newDef" type = "verb 1">trash</w> 
+<w ana = "neologism">trippingly</w>
+<w ana = "neologism">truncheoner</w>
+<w ana = "newDef" type = "adj. 2">twilled</w> 
+<w ana = "neologism">umbered</w>
+<w ana = "neologism">unaching</w>
+<w ana = "neologism">unaneled</w>
+<w ana = "neologism">unauspicious</w>
+<w ana = "neologism">unbated</w>
+<w ana = "neologism">unbless</w>
+<w ana = "neologism">unbloodied</w>
+<w ana = "neologism">unblowed</w>
+<w ana = "neologism">unbonneted</w>
+<w ana = "neologism">unbookish</w>
+<w ana = "neologism">unbraided</w>
+<w ana = "neologism">unbreeched</w>
+<w ana = "neologism">uncandied</w>
+<w ana = "neologism">uncape</w>
+<w ana = "neologism">unchary</w>
+<w ana = "neologism">uncheck</w>
+<w ana = "neologism">unclaimed</w>
+<w ana = "neologism" type = "shared credit">unclog</w> 
+<w ana = "neologism">priceless</w>
+<w ana = "neologism">unclew</w>
+<w ana = "neologism">unclew</w>
+<w ana = "neologism">uncolted</w>
+<w ana = "neologism">barful</w>
+<w ana = "neologism">barky</w>
+<w ana = "neologism">basta</w>
+<w ana = "neologism">bateless</w>
+<w ana = "neologism">batler</w>
+<w ana = "neologism">Bavian</w>
+<w ana = "neologism">bawcock</w>
+<w ana = "neologism">behowl</w>
+<w ana = "neologism">belee</w>
+<w ana = "neologism">bemadding</w>
+<w ana = "neologism">bemock</w>
+<w ana = "neologism">bemocked</w>
+<w ana = "neologism">bemonster</w>
+<w ana = "neologism">bepray</w>
+<w ana = "neologism">bescreen</w>
+<w ana = "neologism">besmirch</w>
+<w ana = "neologism">besmirched</w>
+<w ana = "neologism">besort </w> 
+<w ana = "neologism">betrim</w>
+<w ana = "neologism">betumbled</w>
+<w ana = "neologism">bewasted</w>
+<w ana = "neologism">bewitchment</w>
+<w ana = "neologism">biddy</w>
+<w ana = "neologism">birthdom</w>
+<w ana = "neologism">blastment</w>
+<w ana = "neologism">boggler</w>
+<w ana = "neologism">bosky</w>
+<w ana = "neologism">bottled</w>
+<w ana = "neologism">bragless</w>
+<w ana = "neologism">brimfulness</w>
+<w ana = "neologism">brisky</w>
+<w ana = "neologism">bubukle</w>
+<w ana = "neologism">budger</w>
+<w ana = "neologism">buggle-boo</w>
+<w ana = "newDef" type = "noun 4">canary</w> 
+<w ana = "neologism">cannibally</w>
+<w ana = "neologism">canopied</w>
+<w ana = "neologism">cardinally</w>
+<w ana = "neologism">carlot</w>
+<w ana = "neologism">cerement</w>
+<w ana = "neologism">hardock</w>
+<w ana = "newDef" type = "noun 5">hay</w> 
+<w ana = "neologism">hearsed</w>
+<w ana = "neologism">herblet</w>
+<w ana = "neologism">hic jacet</w>
+<w ana = "neologism">hillo</w>
+<w ana = "neologism">hist</w>
+<w ana = "neologism">hostessship</w>
+<w ana = "neologism">illume</w>
+<w ana = "neologism">immediacy</w>
+<w ana = "neologism">immoment</w>
+<w ana = "neologism">impaint</w>
+<w ana = "neologism">impartment</w>
+<w ana = "neologism">imperceiverant</w>
+<w ana = "neologism">impeticos</w>
+<w ana = "neologism">impleach</w>
+<w ana = "neologism">implorator</w>
+<w ana = "neologism">importless</w>
+<w ana = "newDef" type = "both noun 2 and verb 1">impress</w> 
+<w ana = "neologism">inaidable</w>
+<w ana = "neologism">incardinate</w>
+<w ana = "neologism">inclip</w>
+<w ana = "neologism">incorpsed</w>
+<w ana = "neologism">increaseful</w>
+<w ana = "neologism">indistinguishable</w>
+<w ana = "neologism">indistinguished</w>
+<w ana = "neologism">infamonize</w>
+<w ana = "neologism">infectiously</w>
+<w ana = "neologism">inhoop</w>
+<w ana = "neologism">injoint</w>
+<w ana = "neologism">inscroll</w>
+<w ana = "neologism">inshell</w>
+<w ana = "neologism">insinew</w>
+<w ana = "neologism">insisture</w>
+<w ana = "neologism">instinctively</w>
+<w ana = "neologism">insultment</w>
+<w ana = "neologism">insuppresive</w>
+<w ana = "neologism">intenible</w>
+<w ana = "neologism">interchain</w>
+<w ana = "neologism">uncomprehensive</w>
+<w ana = "neologism">unconfinable</w>
+<w ana = "neologism">uncuckolded</w>
+<w ana = "neologism">uncurbable</w>
+<w ana = "newDef" type = "shared credit">uncurl</w> 
+<w ana = "neologism">primogenitive</w>
+<w ana = "neologism">primy</w>
+<w ana = "neologism">printless</w>
+<w ana = "neologism">prompture</w>
+<w ana = "neologism">propertied</w>
+<w ana = "neologism">pudency</w>
+<w ana = "neologism">pugging</w>
+<w ana = "neologism">pulsidge</w>
+<w ana = "newDef" type = "noun 3">push</w> 
+<w ana = "neologism">qualmed</w>
+<w ana = "neologism">quatch</w>
+<w ana = "neologism">questant</w>
+<w ana = "neologism">questrist</w>
+<w ana = "neologism">razorable</w>
+<w ana = "neologism">reclusive</w>
+<w ana = "neologism">recountment</w>
+<w ana = "neologism">rejoindure</w>
+<w ana = "neologism">relier</w>
+<w ana = "neologism">relume</w>
+<w ana = "neologism">relumine</w>
+<w ana = "neologism">remediate</w>
+<w ana = "neologism">removedness</w>
+<w ana = "neologism">reportingly</w>
+<w ana = "neologism">reposure</w>
+<w ana = "neologism">reprobance</w>
+<w ana = "neologism">repured</w>
+<w ana = "neologism">reputeless</w>
+<w ana = "neologism">respeak</w>
+<w ana = "neologism">restem</w>
+<w ana = "neologism">resurvey</w>
+<w ana = "neologism">revengive</w>
+<w ana = "neologism">reverb</w>
+<w ana = "neologism">reword</w>
+<w ana = "neologism">ribaudred</w>
+<w ana = "neologism">rondure</w>
+<w ana = "neologism">rooky</w>
+<w ana = "neologism">rootedly</w>
+<w ana = "neologism">uncurrent</w>
+<w ana = "neologism" type = "shared credit">uncurse</w> 
+<w ana = "neologism">undeaf</w>
+<w ana = "neologism">undeeded</w>
+<w ana = "neologism">undeserver</w>
+<w ana = "neologism">undinted</w>
+<w ana = "neologism">undistinguishable</w>
+<w ana = "neologism">unearthly</w>
+<w ana = "neologism">uneducated</w>
+<w ana = "neologism">unexperient</w>
+<w ana = "neologism">unexpressive</w>
+<w ana = "neologism">unfamed</w>
+<w ana = "neologism">unfathered</w>
+<w ana = "neologism">unfilial</w>
+<w ana = "neologism">unfool</w>
+<w ana = "neologism">unforfeited</w>
+<w ana = "neologism">ungalled</w>
+<w ana = "neologism">ungenitured</w>
+<w ana = "neologism">ungored</w>
+<w ana = "neologism">ungravely</w>
+<w ana = "neologism">ungrown</w>
+<w ana = "neologism">unhaired</w>
+<w ana = "neologism">unhand</w>
+<w ana = "neologism">unhardened</w>
+<w ana = "newDef" type = "adj. 2">unimproved</w> 
+<w ana = "neologism">unkinglike</w>
+<w ana = "neologism">unmeritable</w>
+<w ana = "neologism">unmitigable</w>
+<w ana = "neologism">unmitigated</w>
+<w ana = "neologism">unnerved</w>
+<w ana = "neologism">unowed</w>
+<w ana = "neologism">unpanged</w>
+<w ana = "neologism">unpathed</w>
+<w ana = "newDef" type = "verb 2">unpay</w> 
+<w ana = "neologism">unpeg</w>
+<w ana = "neologism">unpinked</w>
+<w ana = "neologism">unplausive</w>
+<w ana = "neologism">chaffless</w>
+<w ana = "neologism">chaliced</w>
+<w ana = "neologism">chapeless</w>
+<w ana = "neologism">chapless</w>
+<w ana = "neologism">characterless</w>
+<w ana = "neologism">charneco</w>
+<w ana = "neologism">childness</w>
+<w ana = "neologism">chirurgeonly</w>
+<w ana = "neologism">choppy</w>
+<w ana = "neologism">cital</w>
+<w ana = "neologism">climature</w>
+<w ana = "neologism">cloyless</w>
+<w ana = "neologism">cloyment</w>
+<w ana = "neologism">codding</w>
+<w ana = "neologism">cojoin</w>
+<w ana = "neologism">collied</w>
+<w ana = "neologism">comart</w>
+<w ana = "neologism">combless</w>
+<w ana = "neologism">comeddled</w>
+<w ana = "neologism">comutual</w>
+<w ana = "neologism">compulsative</w>
+<w ana = "neologism">compulsatory</w>
+<w ana = "neologism">compunctious</w>
+<w ana = "neologism">conceptious</w>
+<w ana = "neologism">concernancy</w>
+<w ana = "neologism">confineless</w>
+<w ana = "neologism">confirmity</w>
+<w ana = "neologism">congree</w>
+<w ana = "neologism">congreet</w>
+<w ana = "neologism">conspectuity</w>
+<w ana = "neologism">continuantly</w>
+<w ana = "neologism">copataine</w>
+<w ana = "neologism">correctioner</w>
+<w ana = "neologism">corresponsive</w>
+<w ana = "neologism">co-supreme</w>
+<w ana = "neologism">crestless</w>
+<w ana = "neologism">crimeful</w>
+<w ana = "neologism">cubiculo</w>
+<w ana = "neologism">cullionly</w>
+<w ana = "neologism">cursorary</w>
+<w ana = "neologism">cyme</w>
+<w ana = "neologism">daisied</w>
+<w ana = "neologism">dateless</w>
+<w ana = "neologism">intertangled</w>
+<w ana = "neologism">intertissued</w>
+<w ana = "neologism">intrenchant</w>
+<w ana = "neologism">intrince</w>
+<w ana = "neologism">inurn</w>
+<w ana = "neologism">inventorially</w>
+<w ana = "neologism">investment</w>
+<w ana = "neologism">invised</w>
+<w ana = "neologism">irregulous</w>
+<w ana = "neologism">iterance</w>
+<w ana = "neologism">jadery</w>
+<w ana = "neologism">Joan</w>
+<w ana = "neologism">joinder</w>
+<w ana = "neologism">jointress</w>
+<w ana = "neologism">juvenal</w>
+<w ana = "neologism">keech</w>
+<w ana = "neologism">keksyes</w>
+<w ana = "neologism">kickie-wickie</w>
+<w ana = "neologism">kingdomed</w>
+<w ana = "neologism">labra</w>
+<w ana = "neologism">languageless</w>
+<w ana = "neologism">laughable</w>
+<w ana = "newDef" type = "int.">law</w> 
+<w ana = "neologism">lewdster</w>
+<w ana = "neologism">lifeling</w>
+<w ana = "neologism">loo</w>
+<w ana = "newDef" type = "adj. 2">looped</w> 
+<w ana = "newDef" type = "noun 2">lune</w> 
+<w ana = "neologism">lustihood</w>
+<w ana = "neologism">malicho</w>
+<w ana = "neologism">mansionry</w>
+<w ana = "neologism">manus</w>
+<w ana = "neologism">mappery</w>
+<w ana = "neologism">marcantant</w>
+<w ana = "neologism">rubious</w>
+<w ana = "neologism">rumourer</w>
+<w ana = "neologism">runnion</w>
+<w ana = "neologism">s'</w>
+<w ana = "neologism">sanctuarize</w>
+<w ana = "neologism">savagery</w>
+<w ana = "neologism">scaffoldage</w>
+<w ana = "neologism">scamel</w>
+<w ana = "neologism">scarfed</w>
+<w ana = "neologism">scrimer</w>
+<w ana = "neologism">scrippage</w>
+<w ana = "newDef" type = "noun 2">sect</w> 
+<w ana = "neologism">sedged</w>
+<w ana = "neologism">semblative</w>
+<w ana = "neologism">sessa</w>
+<w ana = "neologism">sharded</w>
+<w ana = "neologism">shelvy</w>
+<w ana = "neologism">sherris</w>
+<w ana = "neologism">silverly</w>
+<w ana = "neologism">sistering</w>
+<w ana = "neologism">skimble-skamble</w>
+<w ana = "neologism">skyish</w>
+<w ana = "neologism">sledded</w>
+<w ana = "neologism">sleided</w>
+<w ana = "neologism">slickly</w>
+<w ana = "neologism">slippered</w>
+<w ana = "neologism">slish</w>
+<w ana = "neologism">sluggardize</w>
+<w ana = "neologism">smell-less</w>
+<w ana = "neologism">smirched</w>
+<w ana = "neologism">sneap</w>
+<w ana = "neologism">sneaping</w>
+<w ana = "newDef" type = "adj. 2">soiled</w> 
+<w ana = "neologism">sola</w>
+<w ana = "neologism">soldieress</w>
+<w ana = "neologism">solidare</w>
+<w ana = "neologism">sonance</w>
+<w ana = "neologism">sortance</w>
+<w ana = "neologism">soundless</w>
+<w ana = "newDef" type = "verb 3">sowl</w> 
+<w ana = "neologism">spectacled</w>
+<w ana = "neologism">spectatorship</w>
+<w ana = "neologism">unpolicied</w>
+<w ana = "neologism">unpregnant</w>
+<w ana = "neologism">unprevailing</w>
+<w ana = "neologism">unprofited</w>
+<w ana = "neologism">unprovoke</w>
+<w ana = "neologism">unpruned</w>
+<w ana = "neologism">unqualitied</w>
+<w ana = "neologism">unrecalling</w>
+<w ana = "neologism">unrecuring</w>
+<w ana = "neologism">unseduced</w>
+<w ana = "neologism">unseminared</w>
+<w ana = "neologism">unsex</w>
+<w ana = "neologism">unshout</w>
+<w ana = "neologism">unshrubbed</w>
+<w ana = "neologism">unshunned</w>
+<w ana = "neologism">unsisting</w>
+<w ana = "neologism">unslipping</w>
+<w ana = "neologism">unsmirched</w>
+<w ana = "neologism">unsolicited</w>
+<w ana = "neologism">unsphere</w>
+<w ana = "neologism">unstooping</w>
+<w ana = "neologism">unsullied</w>
+<w ana = "neologism">unswayable</w>
+<w ana = "neologism">unswayed</w>
+<w ana = "neologism">untempering</w>
+<w ana = "neologism">untender</w>
+<w ana = "neologism">untent</w>
+<w ana = "neologism">untented</w>
+<w ana = "neologism">untimbered</w>
+<w ana = "neologism">untread</w>
+<w ana = "neologism">untreasure</w>
+<w ana = "neologism">untutored</w>
+<w ana = "neologism">unvenerable</w>
+<w ana = "neologism">unwappered</w>
+<w ana = "neologism">unwedgeable</w>
+<w ana = "neologism">unweighing</w>
+<w ana = "neologism">unwept</w>
+<w ana = "neologism">unwrung</w>
+<w ana = "neologism">ushering</w>
+<w ana = "neologism">vagrom</w>
+<w ana = "neologism">varletto</w>
+<w ana = "neologism">vastidity</w>
+<w ana = "neologism">vastly</w>
+<w ana = "neologism">deceptious</w>
+<w ana = "neologism">definement</w>
+<w ana = "neologism">defunctive</w>
+<w ana = "neologism">denotement</w>
+<w ana = "neologism">deracinate</w>
+<w ana = "neologism">derogately</w>
+<w ana = "neologism">devotement</w>
+<w ana = "neologism">diable</w>
+<w ana = "neologism">dich</w>
+<w ana = "neologism">directitude</w>
+<w ana = "neologism">disbench</w>
+<w ana = "neologism">discandy</w>
+<w ana = "neologism">discandying</w>
+<w ana = "neologism">discase</w>
+<w ana = "neologism">disedge</w>
+<w ana = "neologism">disinsanity</w>
+<w ana = "neologism">disliken</w>
+<w ana = "neologism">dislimn</w>
+<w ana = "neologism">disorb</w>
+<w ana = "neologism">dispraisingly</w>
+<w ana = "neologism">disproperty</w>
+<w ana = "neologism">dispurse</w>
+<w ana = "neologism">disquantity</w>
+<w ana = "neologism">distilment</w>
+<w ana = "neologism">disvouch</w>
+<w ana = "neologism">dotant</w>
+<w ana = "neologism">dowerless</w>
+<w ana = "neologism">drollery</w>
+<w ana = "neologism">droplet</w>
+<w ana = "neologism">dropsied</w>
+<w ana = "neologism">dwindle</w>
+<w ana = "neologism">eanling</w>
+<w ana = "neologism">effectless</w>
+<w ana = "neologism">egma</w>
+<w ana = "neologism">emballing</w>
+<w ana = "neologism">embrasure</w>
+<w ana = "neologism">empatron</w>
+<w ana = "neologism">empiricutic</w>
+<w ana = "neologism">enacture</w>
+<w ana = "neologism">enclog</w>
+<w ana = "neologism">encompassment</w>
+<w ana = "neologism">encrimsoned</w>
+<w ana = "newDef" type = "verb 2">end</w> 
+<w ana = "neologism">meditance</w>
+<w ana = "neologism">meered</w>
+<w ana = "neologism">memento mori</w>
+<w ana = "neologism">militarist</w>
+<w ana = "neologism">millioned</w>
+<w ana = "neologism">minimus</w>
+<w ana = "neologism">misadventured</w>
+<w ana = "neologism">misbecomingly</w>
+<w ana = "neologism">misgraffed</w>
+<w ana = "neologism">mis-sheathed</w>
+<w ana = "neologism">missingly</w>
+<w ana = "neologism">mistership</w>
+<w ana = "neologism">mistreading</w>
+<w ana = "neologism">mobled</w>
+<w ana = "neologism">mockable</w>
+<w ana = "neologism">Moorship</w>
+<w ana = "neologism">moraller</w>
+<w ana = "newDef" type = "noun 2">morris</w> 
+<w ana = "newDef" type = "verb 2">mose</w> 
+<w ana = "neologism">moulten</w>
+<w ana = "newDef" type = "noun 2">moy</w> 
+<w ana = "neologism">nayword</w>
+<w ana = "neologism">neglectingly</w>
+<w ana = "neologism">niggarding</w>
+<w ana = "neologism">noncome</w>
+<w ana = "neologism">nonny</w>
+<w ana = "neologism">nonregardance</w>
+<w ana = "neologism">Norwejan</w>
+<w ana = "neologism">oathable</w>
+<w ana = "neologism">omittance</w>
+<w ana = "neologism">oneyer</w>
+<w ana = "neologism">operance</w>
+<w ana = "neologism">opposeless</w>
+<w ana = "neologism">oppugnancy</w>
+<w ana = "newDef" type = "noun 2">ostent</w> 
+<w ana = "neologism">ouphe</w>
+<w ana = "neologism">ventage</w>
+<w ana = "neologism">via</w>
+<w ana = "neologism">spelling</w>
+<w ana = "neologism">spilth</w>
+<w ana = "neologism">spleenful</w>
+<w ana = "neologism">sprag</w>
+<w ana = "neologism">sprightfully</w>
+<w ana = "neologism">squinny</w>
+<w ana = "neologism">startingly</w>
+<w ana = "neologism">stelled</w>
+<w ana = "neologism">sternage</w>
+<w ana = "neologism">stigmatic</w>
+<w ana = "neologism">stichery</w>
+<w ana = "neologism">strewment</w>
+<w ana = "newDef" type = "noun 2">stricture</w> 
+<w ana = "neologism">stringless</w>
+<w ana = "newDef" type = "noun 2">stuck</w> 
+<w ana = "neologism">subcontract</w>
+<w ana = "neologism">subduement</w>
+<w ana = "neologism">subtractor</w>
+<w ana = "neologism">successantly</w>
+<w ana = "neologism">sumless</w>
+<w ana = "neologism">superdainty</w>
+<w ana = "neologism">superflux</w>
+<w ana = "neologism">superpraise</w>
+<w ana = "neologism">superscript</w>
+<w ana = "neologism">superserviceable</w>
+<w ana = "newDef" type = "adj. 2">suppliant</w> 
+<w ana = "neologism">suraddition</w>
+<w ana = "neologism">suum</w>
+<w ana = "neologism">swoltery</w>
+<w ana = "neologism" type = "shared credit">sympathize</w> 
+<w ana = "neologism">viewless</w>
+<w ana = "neologism">villagery</w>
+<w ana = "neologism">visitating</w>
+<w ana = "neologism">vizament</w>
+<w ana = "neologism">wafture</w>
+<w ana = "neologism">wappened</w>
+<w ana = "neologism">week</w>
+<w ana = "neologism">wenchless</w>
+<w ana = "neologism">windring</w>
+<w ana = "neologism">wrinch</w>
+<w ana = "neologism">yellowing</w>
+<w ana = "neologism">enfranched</w>
+<w ana = "neologism">enfreedom</w>
+<w ana = "neologism">engaol</w>
+<w ana = "neologism">enguard</w>
+<w ana = "neologism">enhearse</w>
+<w ana = "neologism">enmesh</w>
+<w ana = "neologism">enrapt</w>
+<w ana = "neologism">enridged</w>
+<w ana = "neologism">enschedule</w>
+<w ana = "neologism">ensky</w>
+<w ana = "neologism">enswathe</w>
+<w ana = "newDef" type = "verb 2">entame</w> 
+<w ana = "neologism">entwist</w>
+<w ana = "neologism">enwheel</w>
+<w ana = "neologism">escot</w>
+<w ana = "neologism">eventful</w>
+<w ana = "newDef" type = "noun 2">evil</w> 
+<w ana = "neologism">exceptless</w>
+<w ana = "neologism">excitement</w>
+<w ana = "neologism">exion</w>
+<w ana = "neologism">exposture</w>
+<w ana = "neologism">exposure</w>
+<w ana = "neologism">expressure</w>
+<w ana = "neologism">exsufflicate</w>
+<w ana = "neologism">extincture</w>
+<w ana = "neologism">extolment</w>
 </words>
