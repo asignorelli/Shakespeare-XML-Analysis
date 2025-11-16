@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shakespeare's Neologisms</title>
+
+  <!-- add tab icon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+
+<body>
+    <div class="subpage-labels">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="words.html">WORDS</a>
+      <a href="corpus.html">CORPUS</a>
+      <a href="analysis.html">ANALYSIS</a>
+</div>
+<section class="about">
+  <div class="container fade-section">
+
+    <!-- Vertical accent line container -->
+    <div class="about-content">
+
+      <h2>About This Project</h2>
+      <p class="dropcap">
+        This project explores the neologisms coined by William Shakespeare throughout his literary works.
+        Neologisms are newly invented words or phrases that often reflect the cultural and societal changes
+        of their time. Shakespeare is renowned for his inventive use of language, and many of the words he
+        created have become an integral part of the English lexicon.
+      </p>
+
+      <h2>Methodology</h2>
+
+      <div class="method-grid">
+        <!-- Left column: description -->
+        <p>
+          Throughout this project, we examined the full corpus of Shakespeare's works, including all plays
+          and sonnets. These were formatted as XML files, and our team developed a multi-step process to
+          analyze the text. We first obtained a list of Shakespeare's invented words from:
+          <a href="http://elizabethandrama.org/shakespeare-invented-words-project/master-list-invented-words/">
+            Elizabethan Drama – Invented Words
+          </a>.
+          Using this list, we generated an XSLT transformation that marks each instance of a matching word in
+          the corpus. This provided us with a comprehensive dataset of Shakespearean neologisms.
+        </p>
+
+        <!-- Right column: pipeline block -->
+        <div class="pipeline-card fade-section">
+          <h3>Analysis Procedure</h3>
+          <div class="pipeline-step">1. Collect Shakespeare XML corpus</div>
+          <div class="pipeline-step">2. Import neologism word list</div>
+          <div class="pipeline-step">3. Apply XSLT transformation</div>
+          <div class="pipeline-step">4. Mark up matched neologisms in each text</div>
+          <div class="pipeline-step">5. Analyze results</div>
+        </div>
+      </div>
+
+      <h2>Team Members</h2>
+      <div class="team-members">
+        <span>Ava Finn</span>
+        <span>Henry Paz</span>
+        <span>Alyssa Signorelli</span>
+        <span>Josh Stedenbeck</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+<script src="../JavaScript/script.js" defer></script>
+
+</body>
+
+</html>

@@ -22,3 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
     i * delayBetween);
   });
 });
+
+// GLOBAL FADE-IN
+document.addEventListener("DOMContentLoaded", () => {
+    document.body.classList.add("page-loaded");
+});

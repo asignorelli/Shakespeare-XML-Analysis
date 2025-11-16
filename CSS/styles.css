@@ -184,3 +184,85 @@ body {
   opacity: 0.92;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/* ---------------------------------
+   ABOUT PAGE CUSTOM STYLES
+-----------------------------------*/
+
+/* 1. vertical accent line container */
+.about-content {
+  border-left: 3px solid rgba(255, 255, 255, 0.1);
+  padding-left: 28px;
+  margin-left: 10px;
+}
+
+/* 2. Drop cap style for first paragraph */
+.dropcap::first-letter {
+  font-size: 3.4rem;
+  float: left;
+  padding-right: 10px;
+  line-height: 0.8;
+  color: var(--accent-blue);
+  font-family: Cambria, serif;
+}
+
+/* 3. Two-column layout for methodology */
+.method-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 40px;
+  align-items: start;
+  margin-top: 20px;
+}
+
+@media (max-width: 850px) {
+  .method-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Pipeline card */
+.pipeline-card {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 18px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.07);
+}
+
+.pipeline-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: var(--accent-blue);
+}
+
+.pipeline-step {
+  padding: 6px 0;
+  font-family: Cambria, serif;
+  opacity: 0.9;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.pipeline-step:last-child {
+  border-bottom: none;
+}
+
+/* 6. Link styling */
+.about a {
+  color: var(--accent-blue);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: 0.25s ease;
+}
+
+.about a:hover {
+  color: #6ab3ff;
+}
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  font-family: Cambria, serif;
+  opacity: 0.9;
+  font-size: 1.1rem;
+  gap: 6px 20px;
+}
