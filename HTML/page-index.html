@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Shakespeare’s Neologisms</title>
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+      <link rel="stylesheet" href="../CSS/styles.css">
+      <style>
+                    body {
+                    margin: 0;
+                    padding: 0 7rem;
+                    padding-top: 80px;/* left/right margin */
+                    }
+                    #searchbar {
+                    width: 100%;
+                    position:relative;                  
+                    font-size: 1.2rem;
+                    padding: 10px;
+                    margin: 1.5rem 0;
+                    border-radius: 8px;
+                    border: 2px solid #555;
+                    }
+                    #filters {
+                    margin-bottom: 1rem;
+                    }
+                    .grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+                    grid-gap: 1.2rem;
+                    }
+                    .box {
+                    border: 2px solid #444;
+                    padding: 20px;
+                    background: #f5f5f5;
+                    border-radius: 8px;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                    }
+                </style>
+   </head>
+   <body>
+      <div class="subpage-labels"><a href="about.html">ABOUT</a><a>WORDS</a><a href="corpus.html">CORPUS</a><a>ANALYSIS</a></div><input id="searchbar" type="text" placeholder="Search for a play…" onkeyup="filterPlays()"><div id="filters"><button onclick="filterCategory('all')">All</button><button onclick="filterCategory('comedy')">Comedies</button><button onclick="filterCategory('tragedy')">Tragedies</button><button onclick="filterCategory('history')">Histories</button></div>
+      <div class="grid" id="playGrid">
+         <div class="box" data-title="Antony and Cleopatra" data-genre=""><a href=".html">Antony and Cleopatra</a></div>
+         <div class="box" data-title="As You Like It" data-genre=""><a href=".html">As You Like It</a></div>
+         <div class="box" data-title="A Midsummer Night’s Dream" data-genre=""><a href=".html">A Midsummer Night’s Dream</a></div>
+         <div class="box" data-title="Coriolanus" data-genre=""><a href=".html">Coriolanus</a></div>
+         <div class="box" data-title="Cymbeline" data-genre=""><a href=".html">Cymbeline</a></div>
+         <div class="box" data-title="Hamlet" data-genre=""><a href=".html">Hamlet</a></div>
+         <div class="box" data-title="Henry IV, Part 2" data-genre=""><a href=".html">Henry IV, Part 2</a></div>
+         <div class="box" data-title="Henry IV, Part I" data-genre=""><a href=".html">Henry IV, Part I</a></div>
+         <div class="box" data-title="Henry V" data-genre=""><a href=".html">Henry V</a></div>
+         <div class="box" data-title="Henry VIII" data-genre=""><a href=".html">Henry VIII</a></div>
+         <div class="box" data-title="Henry VI, Part 1" data-genre=""><a href=".html">Henry VI, Part 1</a></div>
+         <div class="box" data-title="Henry VI, Part 2" data-genre=""><a href=".html">Henry VI, Part 2</a></div>
+         <div class="box" data-title="Henry VI, Part 3" data-genre=""><a href=".html">Henry VI, Part 3</a></div>
+         <div class="box" data-title="Julius Caesar" data-genre=""><a href=".html">Julius Caesar</a></div>
+         <div class="box" data-title="King John" data-genre=""><a href=".html">King John</a></div>
+         <div class="box" data-title="King Lear" data-genre=""><a href=".html">King Lear</a></div>
+         <div class="box" data-title="Love’s Labor’s Lost" data-genre=""><a href=".html">Love’s Labor’s Lost</a></div>
+         <div class="box" data-title="Lucrece" data-genre=""><a href=".html">Lucrece</a></div>
+         <div class="box" data-title="Macbeth" data-genre=""><a href=".html">Macbeth</a></div>
+         <div class="box" data-title="Measure for Measure" data-genre=""><a href=".html">Measure for Measure</a></div>
+         <div class="box" data-title="Much Ado About Nothing" data-genre=""><a href=".html">Much Ado About Nothing</a></div>
+         <div class="box" data-title="Othello" data-genre=""><a href=".html">Othello</a></div>
+         <div class="box" data-title="Pericles, Prince of Tyre" data-genre=""><a href=".html">Pericles, Prince of Tyre</a></div>
+         <div class="box" data-title="Richard II" data-genre=""><a href=".html">Richard II</a></div>
+         <div class="box" data-title="Richard III" data-genre=""><a href=".html">Richard III</a></div>
+         <div class="box" data-title="Romeo and Juliet" data-genre=""><a href=".html">Romeo and Juliet</a></div>
+         <div class="box" data-title="Sonnets" data-genre=""><a href=".html">Sonnets</a></div>
+         <div class="box" data-title="The Comedy of Errors" data-genre=""><a href=".html">The Comedy of Errors</a></div>
+         <div class="box" data-title="The Merchant of Venice" data-genre=""><a href=".html">The Merchant of Venice</a></div>
+         <div class="box" data-title="The Merry Wives of Windsor" data-genre=""><a href=".html">The Merry Wives of Windsor</a></div>
+         <div class="box" data-title="The Phoenix and Turtle" data-genre=""><a href=".html">The Phoenix and Turtle</a></div>
+         <div class="box" data-title="The Taming of the Shrew" data-genre=""><a href=".html">The Taming of the Shrew</a></div>
+         <div class="box" data-title="The Tempest" data-genre=""><a href=".html">The Tempest</a></div>
+         <div class="box" data-title="The Two Gentlemen of Verona" data-genre=""><a href=".html">The Two Gentlemen of Verona</a></div>
+         <div class="box" data-title="The Two Noble Kinsmen" data-genre=""><a href=".html">The Two Noble Kinsmen</a></div>
+         <div class="box" data-title="The Winter’s Tale" data-genre=""><a href=".html">The Winter’s Tale</a></div>
+         <div class="box" data-title="Timon of Athens" data-genre=""><a href=".html">Timon of Athens</a></div>
+         <div class="box" data-title="Titus Andronicus" data-genre=""><a href=".html">Titus Andronicus</a></div>
+         <div class="box" data-title="Troilus and Cressida" data-genre=""><a href=".html">Troilus and Cressida</a></div>
+         <div class="box" data-title="Twelfth Night" data-genre=""><a href=".html">Twelfth Night</a></div>
+         <div class="box" data-title="Venus and Adonis" data-genre=""><a href=".html">Venus and Adonis</a></div>
+      </div><script>
+                    function filterPlays() {
+                    let input = document.getElementById('searchbar').value.toLowerCase();
+                    let items = document.querySelectorAll('#playGrid .box');
+                    
+                    items.forEach(box => {
+                    let title = box.dataset.title.toLowerCase();
+                    box.style.display = title.includes(input) ? 'block' : 'none';
+                    });
+                    }
+                    
+                    function filterCategory(cat) {
+                    let items = document.querySelectorAll('#playGrid .box');
+                    
+                    items.forEach(box => {
+                    let g = box.dataset.genre || "";
+                    if (cat === "all") {
+                    box.style.display = "block";
+                    } else {
+                    box.style.display = g.includes(cat) ? "block" : "none";
+                    }
+                    });
+                    }
+                </script><script src="../JavaScript/script.js"></script></body>
+</html>
