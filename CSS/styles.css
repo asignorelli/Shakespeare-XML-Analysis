@@ -266,3 +266,79 @@ body {
   font-size: 1.1rem;
   gap: 6px 20px;
 }
+
+/* ----------------WORD PAGE
+
+    CUSTOM STYLES ------------------*/  
+.about .word-title {
+    margin-bottom: 12px;
+    color: #224cf5;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 11rem;
+}
+
+.about .word-description-big {
+    font-size: 2rem;
+    line-height: 1.6;
+    max-width: 1000px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.about .word-description {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#word-cloud {
+    width: 100%;           /* Will fill its container */
+    max-width: 800px;      /* Max size on big screens */
+    height: 800px;         /* Make it a square, so the circle is perfect */
+    margin: 40px auto;     /* Center it on the page with space */
+    border-radius: 50%;    /* This makes it a circle! */
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;      /* This clips words that go outside the circle */
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+#word-cloud {
+    width: 100%;           /* Will fill its container */
+    max-width: 800px;      /* Max size on big screens */
+    height: 800px;         /* Make it a square, so the circle is perfect */
+    margin: 40px auto;     /* Center it on the page with space */
+    border-radius: 50%;    /* This makes it a circle! */
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-color: #e6eef8;
+    position: relative;
+    overflow: hidden;      /* This clips words that go outside the circle */
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.word {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    user-select: none;
+}
+
+.word:hover {
+    color: #667eea;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
