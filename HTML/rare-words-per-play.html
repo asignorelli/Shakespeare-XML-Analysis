@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rare Words in Shakespeare's Plays</title>
+  <link rel="stylesheet" href="../CSS/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="../JS/rare-word-analyzer.js"></script>
+  <style>
+    body { font-family: Georgia, serif; background: #fdf6e3; padding: 20px; }
+    .container { max-width: 1100px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+    h1 { color: #8B0000; text-align: center; }
+    canvas { margin: 30px 0; }
+    .nav { text-align: center; margin: 20px 0; }
+    select { padding: 10px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Shakespeare's Rarest Words — By Play</h1>
+    <p>Select a play to see which of the 46 ultra-rare words appear in it!</p>
+    
+    <div class="nav">
+      <select id="playSelect"></select>
+    </div>
+
+    <h2 id="playTitle" style="text-align:center; color:#333;">Loading...</h2>
+    <canvas id="rareChart"></canvas>
+
+    <p style="text-align:center; font-size:0.9em; color:#666; margin-top:30px;">
+      These words are so rare — most appear only <strong>once</strong> in the entire works of Shakespeare!
+    </p>
+  </div>
+
+  <script>
+    const select = document.getElementById("playSelect");
+    const titleEl = document.getElementById("playTitle");
+    let chart = null;
+
+    // Populate dropdown
+    RareWordAnalyzer.PLAY_DATA.forEach((play, index) => {
+      const opt = document.createElement("option");
+      opt.value = index;
+      opt.textContent = play.title;
+      select.appendChild(opt);
+    });
+
+    async function loadPlay(index) {
+      const play = RareWordAnalyzer.PLAY_DATA[index];
+      titleEl.textContent = `"${play.title}"`;
+      
+      const counts = await RareWordAnalyzer.countRareWordsInPlay(play.file);
+
+      const data = RareWordAnalyzer.RARE_WORDS.map(word => counts[word] || 0);
+      const labels = RareWordAnalyzer.RARE_WORDS.map(w => w.charAt(0).toUpperCase() + w.slice(1));
+
+      if (chart) chart.destroy();
+      chart = new Chart(document.getElementById('rareChart'), {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Occurrences in this play',
+            data: data,
+            backgroundColor: data.map(n => n > 0 ? '#8B0000' : '#ddd'),
+            borderColor: '#444',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: ctx => ctx.raw > 0 ? `${ctx.raw} time(s)` : 'Not used'
+              }
+            }
+          },
+          scales: {
+            x: { beginAtZero: true, max: 3, ticks: { stepSize: 1 } }
+          }
+        }
+      });
+    }
+
+    select.addEventListener("change", (e) => loadPlay(e.target.value));
+    loadPlay(0); // Load first play on start
+  </script>
+</body>
+</html>
