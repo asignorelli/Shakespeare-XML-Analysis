@@ -2,46 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rare Words in Shakespeare's Plays</title>
+  <title>Rare Shakespeare Words + Exact Quotes!</title>
   <link rel="stylesheet" href="../CSS/style.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="../JS/rare-word-analyzer.js"></script>
   <style>
-    body { font-family: Georgia, serif; background: #fdf6e3; padding: 20px; }
-    .container { max-width: 1100px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
-    h1 { color: #8B0000; text-align: center; }
-    canvas { margin: 30px 0; }
-    .nav { text-align: center; margin: 20px 0; }
-    select { padding: 10px; font-size: 16px; }
+    body { background: #fdf6e3; padding: 20px; font-family: Georgia, serif; }
+    .container { max-width: 1200px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 0 25px rgba(0,0,0,0.15); }
+    h1, h2 { color: #8B0000; text-align: center; }
+    select { padding: 12px; font-size: 18px; width: 80%; max-width: 600px; }
+    #details { margin-top: 30px; padding: 20px; background: #fff8f8; border-left: 6px solid #8B0000; display: none; }
+    .quote { font-style: italic; font-size: 1.4em; }
+    canvas { background: white; padding: 20px; border-radius: 8px; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Shakespeare's Rarest Words — By Play</h1>
-    <p>Select a play to see which of the 46 ultra-rare words appear in it!</p>
+    <h1>Shakespeare’s Rarest Words — With Exact Quotes!</h1>
+    <p style="text-align:center;">Choose a play → hover a red bar → see the actual line and speaker!</p>
     
-    <div class="nav">
+    <div style="text-align:center; margin:30px;">
       <select id="playSelect"></select>
     </div>
 
-    <h2 id="playTitle" style="text-align:center; color:#333;">Loading...</h2>
+    <h2 id="playTitle">Loading the magic...</h2>
     <canvas id="rareChart"></canvas>
 
-    <p style="text-align:center; font-size:0.9em; color:#666; margin-top:30px;">
-      These words are so rare — most appear only <strong>once</strong> in the entire works of Shakespeare!
-    </p>
+    <div id="details">
+      <h3>Found: <span id="foundWord"></span></h3>
+      <p><strong>Speaker:</strong> <span id="speaker"></span></p>
+      <p><strong>Location:</strong> <span id="location"></span></p>
+      <p class="quote" id="quote"></p>
+    </div>
   </div>
 
   <script>
     const select = document.getElementById("playSelect");
     const titleEl = document.getElementById("playTitle");
-    let chart = null;
+    const details = document.getElementById("details");
+    const foundWord = document.getElementById("foundWord");
+    const speakerEl = document.getElementById("speaker");
+    const locationEl = document.getElementById("location");
+    const quoteEl = document.getElementById("quote");
 
-    // Populate dropdown
-    RareWordAnalyzer.PLAY_DATA.forEach((play, index) => {
+    let chart = null;
+    let currentOccurrences = [];
+
+    RareWordAnalyzer.PLAY_DATA.forEach((play, i) => {
       const opt = document.createElement("option");
-      opt.value = index;
+      opt.value = i;
       opt.textContent = play.title;
       select.appendChild(opt);
     });
@@ -49,10 +58,17 @@
     async function loadPlay(index) {
       const play = RareWordAnalyzer.PLAY_DATA[index];
       titleEl.textContent = `"${play.title}"`;
-      
-      const counts = await RareWordAnalyzer.countRareWordsInPlay(play.file);
+      details.style.display = "none";
 
-      const data = RareWordAnalyzer.RARE_WORDS.map(word => counts[word] || 0);
+      currentOccurrences = await RareWordAnalyzer.getRareWordOccurrences(play.file);
+
+      // Group by word
+      const counts = {};
+      currentOccurrences.forEach(o => {
+        counts[o.word] = (counts[o.word] || 0) + 1;
+      });
+
+      const data = RareWordAnalyzer.RARE_WORDS.map(w => counts[w] || 0);
       const labels = RareWordAnalyzer.RARE_WORDS.map(w => w.charAt(0).toUpperCase() + w.slice(1));
 
       if (chart) chart.destroy();
@@ -61,10 +77,9 @@
         data: {
           labels: labels,
           datasets: [{
-            label: 'Occurrences in this play',
+            label: 'Occurrences',
             data: data,
-            backgroundColor: data.map(n => n > 0 ? '#8B0000' : '#ddd'),
-            borderColor: '#444',
+            backgroundColor: data.map(n => n > 0 ? '#8B0000' : '#e8e8e8'),
             borderWidth: 1
           }]
         },
@@ -73,21 +88,33 @@
           responsive: true,
           plugins: {
             legend: { display: false },
-            tooltip: {
-              callbacks: {
-                label: ctx => ctx.raw > 0 ? `${ctx.raw} time(s)` : 'Not used'
-              }
-            }
+            tooltip: { enabled: false }, // we use custom hover
           },
-          scales: {
-            x: { beginAtZero: true, max: 3, ticks: { stepSize: 1 } }
+          onHover: (event, elements) => {
+            event.native.target.style.cursor = elements[0] ? 'pointer' : 'default';
+          },
+          onClick: (event, elements) => {
+            if (elements.length > 0) {
+              const idx = elements[0].index;
+              const word = RareWordAnalyzer.RARE_WORDS[idx];
+              const occurrencesForWord = currentOccurrences.filter(o => o.word === word);
+
+              // For now show the first occurrence (most words only have one!)
+              const occ = occurrencesForWord[0];
+              foundWord.textContent = word.toUpperCase();
+              speakerEl.textContent = occ.speaker;
+              locationEl.textContent = occ.location;
+              quoteEl.innerHTML = occ.highlightedLine;
+              details.style.display = "block";
+              details.scrollIntoView({ behavior: "smooth" });
+            }
           }
         }
       });
     }
 
-    select.addEventListener("change", (e) => loadPlay(e.target.value));
-    loadPlay(0); // Load first play on start
+    select.addEventListener("change", () => loadPlay(select.value));
+    loadPlay(0);
   </script>
 </body>
 </html>
