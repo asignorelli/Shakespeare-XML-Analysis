@@ -37,6 +37,20 @@ body {
   line-height: 1.2;
 }
 
+/* start invisible + slightly lowered */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* when visible */
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 /* white page name labels at the top */
 .subpage-labels {
   position: absolute;
@@ -93,6 +107,8 @@ body {
   user-select: none;
   opacity: 0.7;
   margin: 0;
+  width:100%;
+  box-sizing:border-box;
 }
 
 /* make each word take only the space it needs and start hidden */
@@ -166,12 +182,14 @@ body {
 .about .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 100px;
   padding-bottom: 30px;
+  font-size: 1.1rem;
+  text-align: center;
 }
 
 .about h2 {
-  font-size: 1.6rem;
+  font-size: 3rem;
   margin-bottom: 12px;
   color: #fff;
   font-weight: 700;
