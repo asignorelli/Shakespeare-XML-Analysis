@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shakespeare's Super Rare Words!</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { background: lightyellow; font-family: Comic Sans, cursive; text-align: center; }
+    h1 { color: purple; font-size: 40px; }
+    canvas { margin: 20px auto; max-width: 90%; }
+  </style>
+</head>
+<body>
+  <h1>Shakespeare's Rarest Magic Words! ✨</h1>
+  <p>Most of these words only appear ONCE ever!</p>
+  <canvas id="myChart" height="600"></canvas>
+
+  <script src="../JS/word-frequency.js"></script>  <!-- has PLAY_FILES list -->
+  <script src="../JS/rare-words.js"></script>
+  <script>
+    async function drawRainbow() {
+      let treasure = await RareWordHunter.huntRareWords();
+
+      new Chart(document.getElementById('myChart'), {
+        type: 'bar',
+        data: {
+          labels: RareWordHunter.RARE_WORDS.map(w => w.charAt(0).toUpperCase() + w.slice(1)),
+          datasets: [{
+            label: 'How many times Shakespeare said it',
+            data: RareWordHunter.RARE_WORDS.map(w => treasure[w]),
+            backgroundColor: [
+              '#FF0000','#FF8800','#FFFF00','#00FF00','#00FFFF','#0000FF','#FF00FF',
+              '#FFB6C1','#87CEEB','#98FB98','#FFA07A','#DDA0DD','#F0E68C','#E6E6FA'
+            ].flatMap(c => Array(4).fill(c)).slice(0, RareWordHunter.RARE_WORDS.length)
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: { y: { beginAtZero: true, max: 5, ticks: { stepSize: 1 } } }
+        }
+      });
+    }
+    drawRainbow();
+  </script>
+</body>
+</html>
