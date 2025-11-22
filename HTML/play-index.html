@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,40 +9,56 @@
       <link rel="stylesheet" href="../CSS/styles.css">
       <style>
                     body {
-                    margin: 0;
-                    padding: 0 7rem;
-                    padding-top: 80px;/* left/right margin */
-                    }
-                    #searchbar {
-                    width: 100%;
-                    position:relative;                  
-                    font-size: 1.2rem;
-                    padding: 10px;
-                    margin: 1.5rem 0;
-                    border-radius: 8px;
-                    border: 2px solid #555;
-                    }
-                    #filters {
-                    margin-bottom: 1rem;
-                    }
-                    .grid {
-                    display: grid;
-                    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-                    grid-gap: 1.2rem;
-                    }
-                    .box {
-                    border: 2px solid #444;
-                    padding: 20px;
-                    background: #f5f5f5;
-                    border-radius: 8px;
-                    text-align: center;
-                    font-size: 1.2rem;
-                    cursor: pointer;
-                    }
+         margin: 0;
+         padding: 0 7rem;
+         padding-top: 80px;
+         /* left/right margin */
+      }
+
+      #searchbar {
+         width: 100%;
+         position: relative;
+         font-size: 1.2rem;
+         padding: 10px;
+         margin: 1.5rem 0;
+         border-radius: 8px;
+         border: 2px solid #555;
+      }
+
+      #filters {
+         margin-bottom: 1rem;
+      }
+
+      .grid {
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+         grid-gap: 1.2rem;
+      }
+
+      .box {
+         border: 2px solid #444;
+         padding: 20px;
+         background: #f5f5f5;
+         border-radius: 8px;
+         text-align: center;
+         font-size: 1.2rem;
+         cursor: pointer;
+      }
                 </style>
    </head>
    <body>
-      <div class="subpage-labels"><a href="about.html">ABOUT</a><a href="words.html">WORDS</a><a href="play-index.html">CORPUS</a><a href="analysis.html">ANALYSIS</a></div><input id="searchbar" type="text" placeholder="Search for a play…" onkeyup="filterPlays()"><div id="filters"><label><input type="checkbox" class="genreFilter" value="Comedy"> Comedy </label><label><input type="checkbox" class="genreFilter" value="Tragedy"> Tragedy</label><label><input type="checkbox" class="genreFilter" value="History"> History</label></div>
+   <div class="subpage-labels">
+   <a href="index.html">HOME</a>
+   <a href="about.html">ABOUT</a>
+   <a href="play-index.html">CORPUS</a>
+   <div class="dropdown">
+   <button onclick="myFunction()" class="dropbtn">ANALYSIS</button>
+   <div id="myDropdown" class="dropdown-content">
+   <a href="newDef.html">New Definitions</a>
+   <a href="words.html">Frequency</a>
+   </div>
+   </div>
+   </div>
       <div class="grid" id="playGrid">
          <div class="box" data-title="Antony and Cleopatra" data-genre="Tragedy"><a href="../HTML/plays/Antony_and_Cleopatra.html">Antony and Cleopatra</a></div>
          <div class="box" data-title="As You Like It" data-genre="Comedy"><a href="../HTML/plays/As_You_Like_It.html">As You Like It</a></div>
@@ -86,31 +103,27 @@
          <div class="box" data-title="Venus and Adonis" data-genre="Poem"><a href="../HTML/plays/Venus_and_Adonis.html">Venus and Adonis</a></div>
       </div><script>
                     
-                        function filterPlays() { let input = document.getElementById('searchbar').value.toLowerCase(); let items = document.querySelectorAll('#playGrid .box'); items.forEach(box => { let title = box.dataset.title.toLowerCase(); box.style.display = title.includes(input) ? 'block' : 'none'; }); } function filterCategory(cat) { let items = document.querySelectorAll('#playGrid .box'); items.forEach(box => { let g = box.dataset.genre || ""; if (cat === "all") { box.style.display = "block"; } else { box.style.display = g.includes(cat) ? "block" : "none"; } }); }
-    function filterPlays() {
-        let input = document.getElementById('searchbar').value.toLowerCase();
+             function filterPlays() {
+         let input = document.getElementById('searchbar').value.toLowerCase();
+         let items = document.querySelectorAll('#playGrid .box');
 
-        let com = document.getElementById("comedyCheck").checked;
-        let tra = document.getElementById("tragedyCheck").checked;
-        let his = document.getElementById("historyCheck").checked;
-
-        let boxes = document.querySelectorAll(".box");
-
-        boxes.forEach(box => {
+         items.forEach(box => {
             let title = box.dataset.title.toLowerCase();
-            let genre = box.dataset.genre.toLowerCase();
+            box.style.display = title.includes(input) ? 'block' : 'none';
+         });
+      }
 
-            let textMatch = title.includes(input);
+      function filterCategory(cat) {
+         let items = document.querySelectorAll('#playGrid .box');
 
-            let genreMatch =
-            (!com && !tra && !his) ||
-            (com && genre.includes("comedy")) ||
-            (tra && genre.includes("tragedy")) ||
-            (his && genre.includes("history"));
-
-box.style.display = (textMatch && genreMatch) ? "block" : "none";
-        });
-    }
+         items.forEach(box => {
+            let g = box.dataset.genre || "";
+            if (cat === "all") {
+               box.style.display = "block";
+            } else {
+               box.style.display = g.includes(cat) ? "block" : "none";
+            }
+         });
+      }
                     
                 </script><script src="../../JavaScript/script.js"></script></body>
-</html>
