@@ -36,6 +36,7 @@
 </seriesStmt>
 <sourceDesc>
 <listWit>
+    <desc>Tragedy</desc>
 <witness xml:id="prt2011">
 <biblStruct>
 <monogr>
@@ -47,6 +48,7 @@
 <pubPlace>New York</pubPlace>
 <publisher>Washington Square Press</publisher>
 <date>2011</date>
+    <time>1594</time>
 </imprint>
 </monogr>
 </biblStruct>

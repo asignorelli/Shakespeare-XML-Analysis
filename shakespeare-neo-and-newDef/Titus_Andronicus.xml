@@ -39,6 +39,7 @@
          </notesStmt>
          <sourceDesc>
             <listWit>
+               <desc>Tragedy</desc>
                <witness xml:id="print">
                   <biblStruct>
                      <monogr>
@@ -50,6 +51,7 @@
                            <pubPlace>New York</pubPlace>
                            <publisher>Washington Square Press</publisher>
                            <date>2005</date>
+                           <time>1593</time>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -47323,7 +47325,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
                      <c xml:id="c0316220" n="4.3.85"> </c>
                      <w xml:id="w0316230" n="4.3.85">next</w>
                      <c xml:id="c0316240" n="4.3.85"> </c>
-                     <w xml:id="w0316250" n="4.3.85" ana="neologism">week</w>
+                     <w xml:id="w0316250" n="4.3.85" ana="newDef">week</w>
                      <pc xml:id="p0316260" n="4.3.85">.</pc>
                   </ab>
                </sp>

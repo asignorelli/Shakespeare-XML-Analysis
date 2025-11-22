@@ -36,6 +36,7 @@
 </seriesStmt>
 <sourceDesc>
 <listWit>
+    <desc>History</desc>
 <witness xml:id="print">
 <biblStruct>
 <monogr>
@@ -47,6 +48,7 @@
 <pubPlace>New York</pubPlace>
 <publisher>Washington Square Press</publisher>
 <date>1999</date>
+    <time>1597</time>
 </imprint>
 </monogr>
 </biblStruct>

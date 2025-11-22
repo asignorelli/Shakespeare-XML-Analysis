@@ -13,6 +13,7 @@
 <persName xml:id="MSP">Michael Poston</persName>
 <persName xml:id="RLN">Rebecca Niles</persName>
 </respStmt>
+    
 </titleStmt>
 <editionStmt>
 <edition n="0.9.2.3">Text released without textual notes</edition>
@@ -35,7 +36,9 @@
 <title>The Folger Shakespeare (formerly Folger Digital Texts)</title>
 </seriesStmt>
 <sourceDesc>
+    
 <listWit>
+    <desc>Comedy</desc>
 <witness xml:id="print">
 <biblStruct>
 <monogr>
@@ -47,6 +50,8 @@
 <pubPlace>New York</pubPlace>
 <publisher>Washington Square Press</publisher>
 <date>1998</date>
+    <time>1610</time>
+    
 </imprint>
 </monogr>
 </biblStruct>

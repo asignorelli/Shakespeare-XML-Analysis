@@ -1,0 +1,7 @@
+Path to date published:
+
+//TEI/teiHeader/fileDesc/sourceDesc/listWit/witness/biblStruct/monogr/imprint/time
+
+Path to genre:
+
+//TEI/teiHeader/fileDesc/sourceDesc/listWit/desc

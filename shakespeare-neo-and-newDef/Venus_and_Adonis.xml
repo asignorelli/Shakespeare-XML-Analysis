@@ -36,6 +36,7 @@
          </seriesStmt>
          <sourceDesc>
             <listWit>
+               <desc>Poem</desc>
                <witness xml:id="print">
                   <biblStruct>
                      <monogr>
@@ -47,6 +48,7 @@
                            <pubPlace>New York</pubPlace>
                            <publisher>Washington Square Press</publisher>
                            <date>2006</date>
+                           <time>1593</time>
                         </imprint>
                      </monogr>
                   </biblStruct>

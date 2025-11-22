@@ -36,6 +36,7 @@
          </seriesStmt>
          <sourceDesc>
             <listWit>
+               <desc>Comedy</desc>
                <witness xml:id="print">
                   <biblStruct>
                      <monogr>
@@ -47,6 +48,7 @@
                            <pubPlace>New York</pubPlace>
                            <publisher>Washington Square Press</publisher>
                            <date>1996</date>
+                           <time>1592</time>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -23583,7 +23585,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
                      <c xml:id="c0151130" n="3.2.108"> </c>
                      <w xml:id="w0151140" n="3.2.108">a</w>
                      <c xml:id="c0151150" n="3.2.108"> </c>
-                     <w xml:id="w0151160" n="3.2.108" ana="neologism">week</w>
+                     <w xml:id="w0151160" n="3.2.108" ana="newDef">week</w>
                      <c xml:id="c0151170" n="3.2.108"> </c>
                      <w xml:id="w0151180" n="3.2.108">longer</w>
                      <c xml:id="c0151190" n="3.2.108"> </c>
@@ -40608,7 +40610,7 @@ The <att>ana</att> attribute may provide information such as the specific type o
                                 corresp="#w0262560 #c0262570 #w0262580 #c0262590 #w0262600 #c0262610 #w0262620 #c0262630 #w0262640 #c0262650 #w0262660 #p0262670 #c0262680 #w0262690 #p0262700 #c0262710 #w0262720 #p0262730"/>
                      <w xml:id="w0262560" n="5.1.45">This</w>
                      <c xml:id="c0262570" n="5.1.45"> </c>
-                     <w xml:id="w0262580" n="5.1.45" ana="neologism">week</w>
+                     <w xml:id="w0262580" n="5.1.45" ana="newDef">week</w>
                      <c xml:id="c0262590" n="5.1.45"> </c>
                      <w xml:id="w0262600" n="5.1.45">he</w>
                      <c xml:id="c0262610" n="5.1.45"> </c>

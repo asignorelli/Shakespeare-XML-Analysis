@@ -36,6 +36,8 @@
          </seriesStmt>
          <sourceDesc>
             <listWit>
+               <desc>Poem</desc>
+               <desc>Tragedy</desc>
                <witness xml:id="print">
                   <biblStruct>
                      <monogr>
@@ -47,6 +49,7 @@
                            <pubPlace>New York</pubPlace>
                            <publisher>Washington Square Press</publisher>
                            <date>2006</date>
+                           <time>1594</time>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -5476,7 +5479,7 @@
                   <c xml:id="c0042560" n="213"> </c>
                   <w xml:id="w0042570" n="213">a</w>
                   <c xml:id="c0042580" n="213"> </c>
-                  <w xml:id="w0042590" n="213" ana="neologism">week</w>
+                  <w xml:id="w0042590" n="213" ana="newDef">week</w>
                   <milestone unit="line"
                              xml:id="Luc-0214"
                              n="4"
