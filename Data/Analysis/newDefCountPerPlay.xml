@@ -1,167 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plays>
     <play>
-        <title>The_Merry_Wives_of_Windsor.xml</title>
-        <neologism-count>47</neologism-count>
+        <title>The_Two_Noble_Kinsmen.xml</title>
+        <neologism-count>42</neologism-count>
+    </play>
+    <play>
+        <title>Measure_for_Measure.xml</title>
+        <neologism-count>41</neologism-count>
     </play>
     <play>
         <title>Hamlet.xml</title>
-        <neologism-count>39</neologism-count>
+        <neologism-count>33</neologism-count>
     </play>
     <play>
-        <title>Troilus_and_Cressida.xml</title>
-        <neologism-count>37</neologism-count>
-    </play>
-    <play>
-        <title>Love_s_Labor_s_Lost.xml</title>
-        <neologism-count>35</neologism-count>
-    </play>
-    <play>
-        <title>King_Lear.xml</title>
-        <neologism-count>29</neologism-count>
-    </play>
-    <play>
-        <title>Henry_IV_Part_2.xml</title>
-        <neologism-count>24</neologism-count>
-    </play>
-    <play>
-        <title>The_Two_Noble_Kinsmen.xml</title>
-        <neologism-count>24</neologism-count>
-    </play>
-    <play>
-        <title>Henry_VI_Part_1.xml</title>
-        <neologism-count>23</neologism-count>
+        <title>Richard_III.xml</title>
+        <neologism-count>32</neologism-count>
     </play>
     <play>
         <title>Henry_V.xml</title>
-        <neologism-count>21</neologism-count>
+        <neologism-count>30</neologism-count>
+    </play>
+    <play>
+        <title>Henry_VIII.xml</title>
+        <neologism-count>30</neologism-count>
+    </play>
+    <play>
+        <title>The_Merchant_of_Venice.xml</title>
+        <neologism-count>30</neologism-count>
+    </play>
+    <play>
+        <title>Henry_IV_Part_2.xml</title>
+        <neologism-count>29</neologism-count>
+    </play>
+    <play>
+        <title>Love_s_Labor_s_Lost.xml</title>
+        <neologism-count>28</neologism-count>
+    </play>
+    <play>
+        <title>Henry_VI_Part_2.xml</title>
+        <neologism-count>26</neologism-count>
+    </play>
+    <play>
+        <title>The_Comedy_of_Errors.xml</title>
+        <neologism-count>25</neologism-count>
     </play>
     <play>
         <title>The_Winter_s_Tale.xml</title>
-        <neologism-count>19</neologism-count>
-    </play>
-    <play>
-        <title>Twelfth_Night.xml</title>
-        <neologism-count>19</neologism-count>
-    </play>
-    <play>
-        <title>Antony_and_Cleopatra.xml</title>
-        <neologism-count>18</neologism-count>
+        <neologism-count>25</neologism-count>
     </play>
     <play>
         <title>Coriolanus.xml</title>
+        <neologism-count>24</neologism-count>
+    </play>
+    <play>
+        <title>Cymbeline.xml</title>
+        <neologism-count>24</neologism-count>
+    </play>
+    <play>
+        <title>Lucrece.xml</title>
+        <neologism-count>23</neologism-count>
+    </play>
+    <play>
+        <title>Romeo_and_Juliet.xml</title>
+        <neologism-count>23</neologism-count>
+    </play>
+    <play>
+        <title>Henry_IV_Part_I.xml</title>
+        <neologism-count>21</neologism-count>
+    </play>
+    <play>
+        <title>King_John.xml</title>
+        <neologism-count>21</neologism-count>
+    </play>
+    <play>
+        <title>Troilus_and_Cressida.xml</title>
+        <neologism-count>21</neologism-count>
+    </play>
+    <play>
+        <title>Timon_of_Athens.xml</title>
+        <neologism-count>19</neologism-count>
+    </play>
+    <play>
+        <title>Richard_II.xml</title>
+        <neologism-count>18</neologism-count>
+    </play>
+    <play>
+        <title>Sonnets.xml</title>
+        <neologism-count>18</neologism-count>
+    </play>
+    <play>
+        <title>Julius_Caesar.xml</title>
         <neologism-count>17</neologism-count>
+    </play>
+    <play>
+        <title>King_Lear.xml</title>
+        <neologism-count>17</neologism-count>
+    </play>
+    <play>
+        <title>Pericles_Prince_of_Tyre.xml</title>
+        <neologism-count>17</neologism-count>
+    </play>
+    <play>
+        <title>Henry_VI_Part_3.xml</title>
+        <neologism-count>16</neologism-count>
+    </play>
+    <play>
+        <title>Othello.xml</title>
+        <neologism-count>16</neologism-count>
+    </play>
+    <play>
+        <title>Twelfth_Night.xml</title>
+        <neologism-count>16</neologism-count>
+    </play>
+    <play>
+        <title>A_Midsummer_Night_s_Dream.xml</title>
+        <neologism-count>15</neologism-count>
     </play>
     <play>
         <title>Macbeth.xml</title>
         <neologism-count>15</neologism-count>
     </play>
     <play>
-        <title>Sonnets.xml</title>
+        <title>The_Taming_of_the_Shrew.xml</title>
         <neologism-count>15</neologism-count>
     </play>
     <play>
-        <title>Cymbeline.xml</title>
+        <title>The_Tempest.xml</title>
+        <neologism-count>15</neologism-count>
+    </play>
+    <play>
+        <title>Antony_and_Cleopatra.xml</title>
         <neologism-count>14</neologism-count>
     </play>
     <play>
-        <title>Othello.xml</title>
+        <title>As_You_Like_It.xml</title>
         <neologism-count>14</neologism-count>
     </play>
     <play>
-        <title>Lucrece.xml</title>
-        <neologism-count>13</neologism-count>
+        <title>Henry_VI_Part_1.xml</title>
+        <neologism-count>14</neologism-count>
     </play>
     <play>
-        <title>Measure_for_Measure.xml</title>
-        <neologism-count>13</neologism-count>
+        <title>Titus_Andronicus.xml</title>
+        <neologism-count>14</neologism-count>
     </play>
     <play>
-        <title>The_Merchant_of_Venice.xml</title>
-        <neologism-count>13</neologism-count>
+        <title>The_Merry_Wives_of_Windsor.xml</title>
+        <neologism-count>12</neologism-count>
     </play>
     <play>
-        <title>A_Midsummer_Night_s_Dream.xml</title>
+        <title>The_Two_Gentlemen_of_Verona.xml</title>
         <neologism-count>12</neologism-count>
     </play>
     <play>
         <title>Much_Ado_About_Nothing.xml</title>
-        <neologism-count>12</neologism-count>
-    </play>
-    <play>
-        <title>The_Tempest.xml</title>
-        <neologism-count>12</neologism-count>
-    </play>
-    <play>
-        <title>Henry_IV_Part_I.xml</title>
-        <neologism-count>11</neologism-count>
-    </play>
-    <play>
-        <title>As_You_Like_It.xml</title>
         <neologism-count>10</neologism-count>
-    </play>
-    <play>
-        <title>Romeo_and_Juliet.xml</title>
-        <neologism-count>10</neologism-count>
-    </play>
-    <play>
-        <title>The_Taming_of_the_Shrew.xml</title>
-        <neologism-count>9</neologism-count>
-    </play>
-    <play>
-        <title>Henry_VI_Part_2.xml</title>
-        <neologism-count>8</neologism-count>
-    </play>
-    <play>
-        <title>Richard_II.xml</title>
-        <neologism-count>8</neologism-count>
-    </play>
-    <play>
-        <title>Titus_Andronicus.xml</title>
-        <neologism-count>8</neologism-count>
-    </play>
-    <play>
-        <title>Timon_of_Athens.xml</title>
-        <neologism-count>7</neologism-count>
-    </play>
-    <play>
-        <title>King_John.xml</title>
-        <neologism-count>6</neologism-count>
-    </play>
-    <play>
-        <title>Pericles_Prince_of_Tyre.xml</title>
-        <neologism-count>6</neologism-count>
-    </play>
-    <play>
-        <title>Richard_III.xml</title>
-        <neologism-count>6</neologism-count>
-    </play>
-    <play>
-        <title>Henry_VIII.xml</title>
-        <neologism-count>5</neologism-count>
-    </play>
-    <play>
-        <title>Julius_Caesar.xml</title>
-        <neologism-count>4</neologism-count>
-    </play>
-    <play>
-        <title>Henry_VI_Part_3.xml</title>
-        <neologism-count>3</neologism-count>
     </play>
     <play>
         <title>Venus_and_Adonis.xml</title>
-        <neologism-count>3</neologism-count>
+        <neologism-count>5</neologism-count>
     </play>
     <play>
         <title>The_Phoenix_and_Turtle.xml</title>
         <neologism-count>1</neologism-count>
-    </play>
-    <play>
-        <title>The_Comedy_of_Errors.xml</title>
-        <neologism-count>0</neologism-count>
-    </play>
-    <play>
-        <title>The_Two_Gentlemen_of_Verona.xml</title>
-        <neologism-count>0</neologism-count>
     </play>
 </plays>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shakespeare_plays>
+    
+    <!-- Comedies -->
+    <play title="All's Well That Ends Well" genre="Comedy">
+        <description>A comedy about a determined woman who pursues the man she loves, navigating themes of class, deception, and reconciliation.</description>
+    </play>
+    
+    <play title="As You Like It" genre="Comedy">
+        <description>A pastoral comedy in which characters flee to the Forest of Arden, exploring love, identity, and transformation.</description>
+    </play>
+    
+    <play title="The Comedy of Errors" genre="Comedy">
+        <description>A farcical tale of two sets of twins separated at birth, leading to misunderstandings, chaos, and eventual reunion.</description>
+    </play>
+    
+    <play title="Love's Labor's Lost" genre="Comedy">
+        <description>Four noblemen vow to avoid women and devote themselves to study, only to have their plans overturned by love.</description>
+    </play>
+    
+    <play title="Measure for Measure" genre="Comedy">
+        <description>A dark comedy exploring justice, morality, and hypocrisy as a ruler tests the virtue of his subjects.</description>
+    </play>
+    
+    <play title="The Merchant of Venice" genre="Comedy">
+        <description>A complex comedy involving debt, justice, mercy, and the famous bond between Antonio and Shylock.</description>
+    </play>
+    
+    <play title="The Merry Wives of Windsor" genre="Comedy">
+        <description>Falstaff attempts to court two married women for money, only to become the target of their humorous schemes.</description>
+    </play>
+    
+    <play title="A Midsummer Night's Dream" genre="Comedy">
+        <description>A magical comedy involving fairies, lovers, and mistaken identities set in an enchanted forest.</description>
+    </play>
+    
+    <play title="Much Ado About Nothing" genre="Comedy">
+        <description>A witty battle of words between Beatrice and Benedick unfolds alongside plots of deception and romance.</description>
+    </play>
+    
+    <play title="Pericles, Prince of Tyre" genre="Comedy">
+        <description>A romantic adventure following Prince Pericles as he journeys across the Mediterranean facing trials and loss.</description>
+    </play>
+    
+    <play title="The Taming of the Shrew" genre="Comedy">
+        <description>A controversial comedy about courtship, marriage, and social expectations as Petruchio attempts to "tame" Katherina.</description>
+    </play>
+    
+    <play title="The Tempest" genre="Comedy">
+        <description>Prospero uses magic to orchestrate justice and reconciliation on a remote island after years of exile.</description>
+    </play>
+    
+    <play title="Twelfth Night" genre="Comedy">
+        <description>Viola disguises herself as a man, leading to mistaken identities, love triangles, and comic confusion.</description>
+    </play>
+    
+    <play title="The Two Gentlemen of Verona" genre="Comedy">
+        <description>Two friends fall in love with the same woman, testing loyalty, friendship, and forgiveness.</description>
+    </play>
+    
+    <play title="The Two Noble Kinsmen" genre="Comedy">
+        <description>Two cousins become rivals for the same woman after swearing eternal friendship.</description>
+    </play>
+    <play title="The Winter's Tale">
+        <description>
+            A late romance blending tragedy and comedy, following King Leontes’s destructive jealousy, the loss and miraculous recovery of his family, and a final scene of forgiveness symbolized through the play’s famous “living statue.”
+        </description>
+    </play>
+    <!-- Poems -->
+    <play title="Lucrece">
+        <description>
+            A narrative poem recounting the tragic story of Lucrece, whose assault by Sextus Tarquin leads to her suicide and ultimately sparks the overthrow of the Roman monarchy. The poem explores themes of honor, political abuse of power, and the psychological aftermath of violence.
+        </description>
+    </play>
+    <play title="The Phoenix and Turtle">
+        <description>
+            An allegorical poem mourning the mystical union and death of the Phoenix and the Turtle Dove, symbolizing perfect but impossible love. The work is dense, metaphysical, and often interpreted as a meditation on truth, unity, and spiritual transcendence.
+        </description>
+    </play>
+    <!-- Sonnets -->
+    <play title="Sonnets">
+        <description>
+            Shakespeare published a book title "Shakespeare's Sonnets", which included 154 sonnets exploring themes of love, mortality, the passage of time, beauty, and infidelity. 
+        </description>
+    </play>
+    <!-- Tragedies -->
+    <play title="Antony and Cleopatra" genre="Tragedy">
+        <description>The political and romantic turmoil between Mark Antony and Cleopatra leads to betrayal, conflict, and tragedy.</description>
+    </play>
+    
+    <play title="Coriolanus" genre="Tragedy">
+        <description>A Roman general's pride and refusal to appease the people results in his downfall.</description>
+    </play>
+    
+    <play title="Cymbeline" genre="Tragedy">
+        <description>A tale of jealousy, mistaken identities, and reconciliation set in ancient Britain.</description>
+    </play>
+    
+    <play title="Hamlet" genre="Tragedy">
+        <description>Prince Hamlet seeks revenge for his father’s murder, confronting madness, betrayal, and existential doubt.</description>
+    </play>
+    
+    <play title="Julius Caesar" genre="Tragedy">
+        <description>The conspiracy to assassinate Caesar sparks political turmoil and the downfall of his killers.</description>
+    </play>
+    
+    <play title="King Lear" genre="Tragedy">
+        <description>A king’s decision to divide his kingdom between his daughters leads to betrayal, madness, and tragedy.</description>
+    </play>
+    
+    <play title="Macbeth" genre="Tragedy">
+        <description>Ambition and prophecy drive Macbeth toward murder, tyranny, and inevitable destruction.</description>
+    </play>
+    
+    <play title="Othello" genre="Tragedy">
+        <description>Iago’s manipulation destroys Othello’s trust and marriage, leading to jealousy and tragedy.</description>
+    </play>
+    
+    <play title="Romeo and Juliet" genre="Tragedy">
+        <description>Two young lovers from feuding families fall into a doomed romance defined by passion and fate.</description>
+    </play>
+    
+    <play title="Timon of Athens" genre="Tragedy">
+        <description>A wealthy man becomes a misanthrope after being betrayed by false friends and losing his fortune.</description>
+    </play>
+    
+    <play title="Titus Andronicus" genre="Tragedy">
+        <description>A violent revenge tragedy involving betrayal, political conflict, and cycles of vengeance.</description>
+    </play>
+    
+    <play title="Troilus and Cressida" genre="Tragedy">
+        <description>A cynical retelling of the Trojan War focusing on a doomed romance amid political and moral corruption.</description>
+    </play>
+    
+    
+    <!-- Histories -->
+    <play title="Henry IV, Part 1" genre="History">
+        <description>Prince Hal navigates rebellion and responsibility while Falstaff provides comic contrast.</description>
+    </play>
+    
+    <play title="Henry IV, Part 2" genre="History">
+        <description>Prince Hal faces political upheaval and matures as he prepares to become king.</description>
+    </play>
+    
+    <play title="Henry V" genre="History">
+        <description>King Henry V leads England during the Hundred Years’ War, culminating in the Battle of Agincourt.</description>
+    </play>
+    
+    <play title="Henry VI, Part 1" genre="History">
+        <description>The early reign of Henry VI unfolds as England loses ground in France and internal conflict grows.</description>
+    </play>
+    
+    <play title="Henry VI, Part 2" genre="History">
+        <description>Political rivalries worsen, setting the stage for the Wars of the Roses.</description>
+    </play>
+    
+    <play title="Henry VI, Part 3" genre="History">
+        <description>The civil war between the houses of York and Lancaster intensifies with shifting power and violence.</description>
+    </play>
+    
+    <play title="Henry VIII" genre="History">
+        <description>A dramatization of Henry VIII’s political maneuvering, marriages, and the rise of Anne Boleyn.</description>
+    </play>
+    
+    <play title="King John" genre="History">
+        <description>King John’s turbulent reign features political intrigue, war, and disputed succession.</description>
+    </play>
+    
+    <play title="Richard II" genre="History">
+        <description>The fall of Richard II and the rise of Henry Bolingbroke mark a turning point in English monarchy.</description>
+    </play>
+    
+    <play title="Richard III" genre="History">
+        <description>Richard’s ruthless ambition drives him to seize the crown, ultimately leading to his defeat.</description>
+    </play>
+    
+</shakespeare_plays>
+

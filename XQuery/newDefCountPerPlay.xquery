@@ -7,7 +7,7 @@ let $docs := collection('file:///Users/77zap/Github/Shakespeare-XML-Analysis/sha
 
 for $doc in $docs
 let $title := tokenize(base-uri($doc), '/')[last()]     (: filename as title :)
-let $count := count($doc//tei:w[@ana='neologism'])
+let $count := count($doc//tei:w[@ana='newDef'])
 order by $count descending
 return
   <play>

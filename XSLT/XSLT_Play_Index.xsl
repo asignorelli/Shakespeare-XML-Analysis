@@ -8,7 +8,8 @@
     <xsl:output method="html" indent="yes"/>
     <xsl:param name="play-folder" as="xs:string" 
         select="'../shakespeare-neo-and-newDef'"/>
-    
+    <xsl:variable name="play-descriptions" 
+        select="doc('../Data/Original/shakespeare_playsXML.xml')"/>
     <xsl:template match="/">
         <html>
             <head>
@@ -50,7 +51,13 @@
                     text-align: center;
                     font-size: 1.2rem;
                     cursor: pointer;
+                    font-family: Verdana, Arial;
+                    
                     }
+                    a.play {
+                    color:black;
+                    text-decoration:none;
+                    }                    
                 </style>
                 
             </head>
@@ -58,12 +65,17 @@
             <body>
                 
                 <div class="subpage-labels">
+                    <a href="index.html">HOME</a>
                     <a href="about.html">ABOUT</a>
-                    <a href="words.html">WORDS</a>
                     <a href="play-index.html">CORPUS</a>
-                    <a href="analysis.html">ANALYSIS</a>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">ANALYSIS</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="newDef.html">New Definitions</a>
+                            <a href="words.html">Frequency</a>
+                        </div>
+                    </div>
                 </div>
-                
                 <input id="searchbar" type="text" placeholder="Search for a play…" onkeyup="filterPlays()"/>
                 
                 <div id="filters">
@@ -86,7 +98,11 @@
                         <!-- Play title -->
                         <xsl:variable name="title" 
                             select=".//tei:titleStmt/tei:title/text()"/>
-                        
+                        <!-- Safe version of the title for filenames -->
+                        <xsl:variable name="safe-title"
+                            select="replace(translate(normalize-space($title),
+                            '’‘”“', ''''''''),
+                            ' ', '_')"/>
                         <!-- Date -->
                         <xsl:variable name="date"
                             select="lower-case(.//tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit/tei:witness/tei:biblStruct/tei:monogr/tei:imprint/tei:time)"/>
@@ -97,8 +113,10 @@
                         <div class="box"
                             data-title="{$title}"
                             data-genre="{$genre}">
-                            <a href="{concat('../HTML/plays/', $filename, '.html')}">
+                            <a class ="play" href="{concat('../HTML/plays/', $filename, '.html')}">
                                 <xsl:value-of select="$title"/>
+                                <p/>
+                                <xsl:value-of select="$date"/>
                             </a>
                         </div>
                         
@@ -106,6 +124,7 @@
                         <xsl:result-document
                         href="file:///C:/Users/77zap/GitHub/Shakespeare-XML-Analysis/HTML/plays/{concat($filename, '.html')}"
                         method="html">
+                            
                             <html>
                                 <head>
                                     <meta charset="utf-8" />
@@ -115,13 +134,51 @@
                                     <!-- add tab icon -->
                                     <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
                                         <link rel="stylesheet" href="../../CSS/styles.css"/>
+                                    <style>
+                                        /* ===== CENTER and SCALE SVG CHART ===== */
+                                        .chart-container {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin-top: 3rem;
+                                        width: 100%; 
+                                        }
+                                        
+                                        /* Make the SVG large and readable */
+                                        .chart-container svg {
+                                        width: 80vw;      /* responsive width */
+                                        max-width: 1600px;
+                                        height: 600px;    /* fixed readable height */
+                                        }
+                                        
+                                        /* Make all text inside the SVG white */
+                                        .chart-container svg text {
+                                        fill: white;
+                                        font-family: Arial, sans-serif;
+                                        font-size: 22px;
+                                        }
+                                        
+                                        /* Bar color override (the steelblue default is too dark on black) */
+                                        .chart-container svg rect {
+                                        fill: #4db8ff;   /* bright readable blue */
+                                        stroke: white;
+                                        stroke-width: 1;
+                                        }
+                                        
+                                    </style>
                                 </head>
                                 <body>
                                     <div class="subpage-labels">
+                                        <a href="../index.html">HOME</a>
                                         <a href="../about.html">ABOUT</a>
-                                        <a href="../words.html">WORDS</a>
                                         <a href="../play-index.html">CORPUS</a>
-                                        <a href="../analysis.html">ANALYSIS</a>
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn">ANALYSIS</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                                <a href="../newDef.html">New Definitions</a>
+                                                <a href="../words.html">Frequency</a>
+                                            </div>
+                                        </div>
                                     </div>
                                     <header class="play-header">
                                         <h1 class="play-title">
@@ -129,13 +186,22 @@
                                         </h1>
                                     </header>
                                     
-                                    <!-- Count neologisms example -->
-                                    <section class="play-meta">
-                                        
-                                        <!-- Short Description (placeholder for you to fill manually later) -->
-                                        <p class="play-description">
-                                            <i>No description has been added for this play yet.</i>
-                                        </p>
+                                    <section class="play-meta">                                        
+                                            
+                                            <!-- Lookup the short description from your description XML -->
+                                            <xsl:variable name="desc"
+                                                select="$play-descriptions/shakespeare_plays/play[@title = $title]/description"/>
+                                            
+                                            <p class="play-description">
+                                                <xsl:choose>
+                                                    <xsl:when test="$desc">
+                                                        <xsl:value-of select="$desc"/>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <i>No description available.</i>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
+                                            </p>
                                         
                                         <p class="play-genre">
                                             <strong>Genre: </strong>
@@ -143,10 +209,117 @@
                                         </p>
                                         
                                         <p class="play-date">
-                                            <strong>Approx. Date: </strong>
+                                            <strong>Approx. Date Written: </strong>
                                             <span><xsl:value-of select="$date"/></span>
                                         </p>
+                                        <!-- Chart of Neologisms and their frequency -->
+                                        <!-- LOAD THE FREQUENCY XML FOR THIS PLAY -->
+                                        <!-- =============================== -->
+                                        <xsl:variable name="freq-file"
+                                            select="concat(
+                                            'file:///Users/77zap/Github/Shakespeare-XML-Analysis/Data/Analysis/individual_plays/',
+                                            replace($safe-title, '\s+', '_'),
+                                            '.xml'
+                                            )"/>
+                                        
+                                        <xsl:variable name="freq" select="doc($freq-file)"/>
+                                        
+                                        <!-- =============================== -->
+                                        <!-- NEOLGISM FREQUENCY BAR CHART -->
+                                        <!-- =============================== -->
+                                        <div class="chart-container">
+                                           
+                                            <svg xmlns="http://www.w3.org/2000/svg">
+                                            
+                                            <!-- Chart parameters -->
+                                            <xsl:variable name="bar-width" select="40"/>
+                                            <xsl:variable name="spacing" select="$bar-width div 4"/>
+                                            <xsl:variable name="max-height" select="100"/>
+                                            <xsl:variable name="y-scale" select="4"/>
+                                            <xsl:variable name="count-words" select="count($freq/play/w)"/>
+                                            
+                                            <xsl:variable name="x-axis-length"
+                                                select="$spacing + (($bar-width + $spacing) * $count-words)"/>
+                                            <xsl:variable name="y-axis-length" select="$max-height * $y-scale"/>
+                                            
+                                            <svg viewBox="0 -{$y-axis-length} {$x-axis-length+200} {$y-axis-length+100}">
+                                                
+                                                <!-- X-axis -->
+                                                <line x1="80" y1="0" x2="{80 + $x-axis-length}" y2="0"
+                                                    stroke="white"/>
+                                                <!-- Y-axis -->
+                                                <line x1="80" y1="0" x2="80" y2="-{$y-axis-length}"
+                                                    stroke="white"/>
+                                                <!-- Y-axis label -->
+                                                <text x="60" y="-{$y-axis-length div 2}"
+                                                    text-anchor="middle" font-size="40" transform="rotate(-90, 60, -{$y-axis-length div 2})">
+                                                    Frequency
+                                                </text>    
+                                                    
+                                                <!-- Title -->
+                                                <text x="{($x-axis-length+200) div 2}" y="-{$y-axis-length - 20}"
+                                                    text-anchor="middle" font-size="40">
+                                                    Neologisms in <xsl:value-of select="$title"/>
+                                                </text>
+                                                
+                                                <!-- Draw bars -->
+                                                <xsl:for-each select="$freq/play/w">
+                                                    <xsl:sort select="@n" data-type="number" order="descending"/>
+                                                    
+                                                    <xsl:variable name="height" select="@n * $y-scale * 4"/>
+                                                    <xsl:variable name="x-pos"
+                                                        select="$bar-width + (position() * ($spacing + $bar-width))"/>
+                                                    
+                                                    <rect x="{$x-pos}" y="-{$height}" width="{$bar-width}"
+                                                        height="{$height}" fill="steelblue"/>
+                                                    
+                                                    <!-- word text -->
+                                                    <text x="{$x-pos + ($bar-width div 2) + $spacing}" y="30"
+                                                        font-size="20" text-anchor="end"
+                                                        transform="rotate(-90,{$x-pos + ($bar-width div 2)}, 30 )">
+                                                        <a href="{concat('../neologisms/', ., '.html')}"><xsl:value-of select="."/></a>
+                                                    </text>
+                                                    
+                                                    <!-- frequency text -->
+                                                    <text x="{$x-pos + ($bar-width div 2)}" y="-{$height}"
+                                                        font-size="18" text-anchor="middle">
+                                                        <xsl:value-of select="@n"/>
+                                                    </text>
+                                                </xsl:for-each>
+                                                
+                                            </svg>
+                                            
+                                        </svg>
+                                        </div>
                                     </section>
+                                    <script>
+                                        
+                                        function filterPlays() {
+                                        let input = document.getElementById('searchbar').value.toLowerCase();
+                                        let items = document.querySelectorAll('#playGrid .box');
+                                        
+                                        items.forEach(box => {
+                                        let title = box.dataset.title.toLowerCase();
+                                        box.style.display = title.includes(input) ? 'block' : 'none';
+                                        });
+                                        }
+                                        
+                                        function filterCategory(cat) {
+                                        let items = document.querySelectorAll('#playGrid .box');
+                                        
+                                        items.forEach(box => {
+                                        let g = box.dataset.genre || "";
+                                        if (cat === "all") {
+                                        box.style.display = "block";
+                                        } else {
+                                        box.style.display = g.includes(cat) ? "block" : "none";
+                                        }
+                                        });
+                                        }
+                                        
+                                    </script>
+                                    
+                                    <script src="../../JavaScript/script.js"></script>
                                 </body>
                             </html>
                         </xsl:result-document>
@@ -156,35 +329,32 @@
                 
                 <script>
                     
-                        function filterPlays() { let input = document.getElementById('searchbar').value.toLowerCase(); let items = document.querySelectorAll('#playGrid .box'); items.forEach(box => { let title = box.dataset.title.toLowerCase(); box.style.display = title.includes(input) ? 'block' : 'none'; }); } function filterCategory(cat) { let items = document.querySelectorAll('#playGrid .box'); items.forEach(box => { let g = box.dataset.genre || ""; if (cat === "all") { box.style.display = "block"; } else { box.style.display = g.includes(cat) ? "block" : "none"; } }); }
-    function filterPlays() {
-        let input = document.getElementById('searchbar').value.toLowerCase();
-
-        let com = document.getElementById("comedyCheck").checked;
-        let tra = document.getElementById("tragedyCheck").checked;
-        let his = document.getElementById("historyCheck").checked;
-
-        let boxes = document.querySelectorAll(".box");
-
-        boxes.forEach(box => {
-            let title = box.dataset.title.toLowerCase();
-            let genre = box.dataset.genre.toLowerCase();
-
-            let textMatch = title.includes(input);
-
-            let genreMatch =
-            (!com &amp;&amp; !tra &amp;&amp; !his) ||
-            (com &amp;&amp; genre.includes("comedy")) ||
-            (tra &amp;&amp; genre.includes("tragedy")) ||
-            (his &amp;&amp; genre.includes("history"));
-
-box.style.display = (textMatch &amp;&amp; genreMatch) ? "block" : "none";
-        });
-    }
+                    function filterPlays() {
+                    let input = document.getElementById('searchbar').value.toLowerCase();
+                    let items = document.querySelectorAll('#playGrid .box');
+                    
+                    items.forEach(box => {
+                    let title = box.dataset.title.toLowerCase();
+                    box.style.display = title.includes(input) ? 'block' : 'none';
+                    });
+                    }
+                    
+                    function filterCategory(cat) {
+                    let items = document.querySelectorAll('#playGrid .box');
+                    
+                    items.forEach(box => {
+                    let g = box.dataset.genre || "";
+                    if (cat === "all") {
+                    box.style.display = "block";
+                    } else {
+                    box.style.display = g.includes(cat) ? "block" : "none";
+                    }
+                    });
+                    }
                     
                 </script>
                 
-                <script src="../../JavaScript/script.js"></script>
+                <script src="../JavaScript/script.js"></script>
                 
             </body>
         </html>

@@ -6,16 +6,83 @@
       <title>Shakespeare's Neologisms</title>
       <link rel="icon" type="image/x-icon" href="images/favicon.ico">
       <link rel="stylesheet" href="../../CSS/styles.css">
+      <style>
+                                        /* ===== CENTER and SCALE SVG CHART ===== */
+                                        .chart-container {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin-top: 3rem;
+                                        width: 100%; 
+                                        }
+                                        
+                                        /* Make the SVG large and readable */
+                                        .chart-container svg {
+                                        width: 80vw;      /* responsive width */
+                                        max-width: 1600px;
+                                        height: 600px;    /* fixed readable height */
+                                        }
+                                        
+                                        /* Make all text inside the SVG white */
+                                        .chart-container svg text {
+                                        fill: white;
+                                        font-family: Arial, sans-serif;
+                                        font-size: 22px;
+                                        }
+                                        
+                                        /* Bar color override (the steelblue default is too dark on black) */
+                                        .chart-container svg rect {
+                                        fill: #4db8ff;   /* bright readable blue */
+                                        stroke: white;
+                                        stroke-width: 1;
+                                        }
+                                        
+                                    </style>
    </head>
    <body>
-      <div class="subpage-labels"><a href="../about.html">ABOUT</a><a href="../words.html">WORDS</a><a href="../play-index.html">CORPUS</a><a href="../analysis.html">ANALYSIS</a></div>
+      <div class="subpage-labels"><a href="../index.html">HOME</a><a href="../about.html">ABOUT</a><a href="../play-index.html">CORPUS</a><div class="dropdown"><button onclick="myFunction()" class="dropbtn">ANALYSIS</button><div id="myDropdown" class="dropdown-content"><a href="../newDef.html">New Definitions</a><a href="../words.html">Frequency</a></div>
+         </div>
+      </div>
       <header class="play-header">
          <h1 class="play-title">The Comedy of Errors</h1>
       </header>
       <section class="play-meta">
-         <p class="play-description"><i>No description has been added for this play yet.</i></p>
+         <p class="play-description">A farcical tale of two sets of twins separated at birth, leading to misunderstandings,
+            chaos, and eventual reunion.</p>
          <p class="play-genre"><strong>Genre: </strong><span>Comedy</span></p>
-         <p class="play-date"><strong>Approx. Date: </strong><span>1592</span></p>
-      </section>
-   </body>
+         <p class="play-date"><strong>Approx. Date Written: </strong><span>1592</span></p>
+         <div class="chart-container"><svg xmlns="http://www.w3.org/2000/svg"><svg viewBox="0 -400 210 500">
+                  <line x1="80" y1="0" x2="90" y2="0" stroke="white"/>
+                  <line x1="80" y1="0" x2="80" y2="-400" stroke="white"/>
+                  <text x="60" y="-200" text-anchor="middle" font-size="40" transform="rotate(-90, 60, -200)">
+                     Frequency
+                     </text>
+                  <text x="105" y="-380" text-anchor="middle" font-size="40">
+                     Neologisms in The Comedy of Errors</text></svg></svg></div>
+      </section><script>
+                                        
+                                        function filterPlays() {
+                                        let input = document.getElementById('searchbar').value.toLowerCase();
+                                        let items = document.querySelectorAll('#playGrid .box');
+                                        
+                                        items.forEach(box => {
+                                        let title = box.dataset.title.toLowerCase();
+                                        box.style.display = title.includes(input) ? 'block' : 'none';
+                                        });
+                                        }
+                                        
+                                        function filterCategory(cat) {
+                                        let items = document.querySelectorAll('#playGrid .box');
+                                        
+                                        items.forEach(box => {
+                                        let g = box.dataset.genre || "";
+                                        if (cat === "all") {
+                                        box.style.display = "block";
+                                        } else {
+                                        box.style.display = g.includes(cat) ? "block" : "none";
+                                        }
+                                        });
+                                        }
+                                        
+                                    </script><script src="../../JavaScript/script.js"></script></body>
 </html>

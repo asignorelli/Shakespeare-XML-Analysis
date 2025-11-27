@@ -267,6 +267,7 @@ body {
   border-left: 3px solid rgba(255, 255, 255, 0.1);
   padding-left: 28px;
   margin-left: 10px;
+  text-align: left;
 }
 
 /* 2. Drop cap style for first paragraph */
@@ -419,8 +420,9 @@ body {
 /* ==== HEADER TITLE ==== */
 .play-header {
     margin-top: 10%;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 
 .box{
@@ -430,31 +432,76 @@ body {
 
 
 .play-title {
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 0;
     font-weight: 700;
-}
+    color:#1e7cff;
+    }
 
 /* ==== PLAY META SECTION ==== */
 .play-meta {
     max-width: 700px;
     margin: auto;
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
+    margin-left: 100px;
+    font-family: Verdana, Arial;
 }
 
 .play-description {
-    font-style: italic;
     color: white;
     margin-bottom: 20px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    
 }
 
 .play-meta p {
     margin: 8px 0;
-    font-size: 1.15rem;
+    font-size: 1.55rem;
 }
 
 .play-meta strong {
     color: white;
+}
+
+
+/* STYLING FOR EACH INDIVIDUAL WORD PAGE */
+.word-info {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom:50px;
+}   
+.word-info h1 {
+    font-size: 8rem;
+    color: #1e7cff;
+}
+.word-info h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8rem;
+    font-size: 1.5rem;
+}
+.word-info p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+.speech {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10%;
+}
+.speech h2 {
+    font-size: 2rem;
+    margin-top: 90px;
+    margin-bottom:0px;
+    text-decoration: underline;
+}
+.speech-text {
+    font-size: 1.75rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.neologism {
+    color:#1e7cff;
+}
+.speech h2 a{
+    color: inherit; /* Inherits the color from its parent */
+    text-decoration: none; /* Removes the underline */
 }

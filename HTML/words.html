@@ -1,44 +1,431 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word</title>
-    <link rel="stylesheet" href="../CSS/styles.css">
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.7/d3.cloud.min.js"></script>
-
-</head>
-<body>
-    
-<div class="subpage-labels">
-      <a href="index.html">HOME</a>
-      <a href="about.html">ABOUT</a>
-      <a href="play-index.html">CORPUS</a>
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">ANALYSIS</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="newDef.html">New Definitions</a>
-          <a href="words.html">Frequency</a>
-        </div>
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Shakespeare's Neologisms</title>
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+      <link rel="stylesheet" href="../CSS/styles.css"><script src="https://d3js.org/d3.v7.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.7/d3.cloud.min.js"></script></head>
+   <body>
+      <div class="subpage-labels"><a href="index.html">HOME</a><a href="about.html">ABOUT</a><a href="play-index.html">CORPUS</a><div class="dropdown"><button onclick="myFunction()" class="dropbtn">ANALYSIS</button><div id="myDropdown" class="dropdown-content"><a href="newDef.html">New Definitions</a><a href="words.html">Frequency</a></div>
+         </div>
       </div>
-    </div>
-    <section class="about" style="padding-top: 100px; padding-bottom: 0;">
-        <div class="container">
+      <section class="about" style="padding-top: 100px; padding-bottom: 0;">
+         <div class="container">
             <h2 class="word-title">NEOLOGISMS</h2>
             <p class="word-description-big">
-                So which neologisms are used most prevalently throughout Shakespeare's works? 
-            </p>
+               So which neologisms are used most prevalently throughout Shakespeare's works? 
+               </p>
             <p class="word-description">
-                Below is a word cloud visualization representing the frequency of Shakespeare's neologisms across his entire corpus. 
-                The size of each word corresponds to how often it appears in his plays and sonnets.
-            </p>
-        </div>
-    </section>
+               Below is a word cloud visualization representing the frequency of Shakespeare's neologisms
+               across his entire corpus. 
+               The size of each word corresponds to how often it appears in his plays and sonnets.
+               </p>
+         </div>
+      </section>
+      <div id="word-cloud"></div>
+      <p class="word-description">
+         Here is the full list of all of the neologisms. Click on each one to learn more. 
+         </p>
+      <div id="word-search">
+         <ul>
+            <li><a href="neologisms/gar.html">gar</a></li>
+<li><a href="neologisms/joan.html">joan</a></li>
+<li><a href="neologisms/nonny.html">nonny</a></li>
+<li><a href="neologisms/sola.html">sola</a></li>
+<li><a href="neologisms/juvenal.html">juvenal</a></li>
+<li><a href="neologisms/via.html">via</a></li>
+<li><a href="neologisms/untutored.html">untutored</a></li>
+<li><a href="neologisms/loo.html">loo</a></li>
+<li><a href="neologisms/sherris.html">sherris</a></li>
+<li><a href="neologisms/sympathize.html">sympathize</a></li>
+<li><a href="neologisms/fer.html">fer</a></li>
+<li><a href="neologisms/bawcock.html">bawcock</a></li>
+<li><a href="neologisms/diable.html">diable</a></li>
+<li><a href="neologisms/dateless.html">dateless</a></li>
+<li><a href="neologisms/bavian.html">bavian</a></li>
+<li><a href="neologisms/propertied.html">propertied</a></li>
+<li><a href="neologisms/exposure.html">exposure</a></li>
+<li><a href="neologisms/unfathered.html">unfathered</a></li>
+<li><a href="neologisms/uncurrent.html">uncurrent</a></li>
+<li><a href="neologisms/unbated.html">unbated</a></li>
+<li><a href="neologisms/argal.html">argal</a></li>
+<li><a href="neologisms/canopied.html">canopied</a></li>
+<li><a href="neologisms/sessa.html">sessa</a></li>
+<li><a href="neologisms/aroint.html">aroint</a></li>
+<li><a href="neologisms/passado.html">passado</a></li>
+<li><a href="neologisms/allons.html">allons</a></li>
+<li><a href="neologisms/nayword.html">nayword</a></li>
+<li><a href="neologisms/fixture.html">fixture</a></li>
+<li><a href="neologisms/expressure.html">expressure</a></li>
+<li><a href="neologisms/directitude.html">directitude</a></li>
+<li><a href="neologisms/unhardened.html">unhardened</a></li>
+<li><a href="neologisms/collied.html">collied</a></li>
+<li><a href="neologisms/undistinguishable.html">undistinguishable</a></li>
+<li><a href="neologisms/trippingly.html">trippingly</a></li>
+<li><a href="neologisms/keech.html">keech</a></li>
+<li><a href="neologisms/drollery.html">drollery</a></li>
+<li><a href="neologisms/undeserver.html">undeserver</a></li>
+<li><a href="neologisms/foutre.html">foutre</a></li>
+<li><a href="neologisms/dwindle.html">dwindle</a></li>
+<li><a href="neologisms/ungrown.html">ungrown</a></li>
+<li><a href="neologisms/unpregnant.html">unpregnant</a></li>
+<li><a href="neologisms/chapless.html">chapless</a></li>
+<li><a href="neologisms/smirched.html">smirched</a></li>
+<li><a href="neologisms/deracinate.html">deracinate</a></li>
+<li><a href="neologisms/savagery.html">savagery</a></li>
+<li><a href="neologisms/resurvey.html">resurvey</a></li>
+<li><a href="neologisms/untender.html">untender</a></li>
+<li><a href="neologisms/fitment.html">fitment</a></li>
+<li><a href="neologisms/unsolicited.html">unsolicited</a></li>
+<li><a href="neologisms/stigmatic.html">stigmatic</a></li>
+<li><a href="neologisms/unmeritable.html">unmeritable</a></li>
+<li><a href="neologisms/soundless.html">soundless</a></li>
+<li><a href="neologisms/untread.html">untread</a></li>
+<li><a href="neologisms/spleenful.html">spleenful</a></li>
+<li><a href="neologisms/aidance.html">aidance</a></li>
+<li><a href="neologisms/hearsed.html">hearsed</a></li>
+<li><a href="neologisms/stelled.html">stelled</a></li>
+<li><a href="neologisms/dowerless.html">dowerless</a></li>
+<li><a href="neologisms/unbonneted.html">unbonneted</a></li>
+<li><a href="neologisms/suum.html">suum</a></li>
+<li><a href="neologisms/prenzie.html">prenzie</a></li>
+<li><a href="neologisms/sneaping.html">sneaping</a></li>
+<li><a href="neologisms/unpruned.html">unpruned</a></li>
+<li><a href="neologisms/lustihood.html">lustihood</a></li>
+<li><a href="neologisms/runnion.html">runnion</a></li>
+<li><a href="neologisms/effectless.html">effectless</a></li>
+<li><a href="neologisms/bottled.html">bottled</a></li>
+<li><a href="neologisms/unwept.html">unwept</a></li>
+<li><a href="neologisms/unswayed.html">unswayed</a></li>
+<li><a href="neologisms/hist.html">hist</a></li>
+<li><a href="neologisms/discase.html">discase</a></li>
+<li><a href="neologisms/pash.html">pash</a></li>
+<li><a href="neologisms/allottery.html">allottery</a></li>
+<li><a href="neologisms/batler.html">batler</a></li>
+<li><a href="neologisms/unclaimed.html">unclaimed</a></li>
+<li><a href="neologisms/slippered.html">slippered</a></li>
+<li><a href="neologisms/eventful.html">eventful</a></li>
+<li><a href="neologisms/unexpressive.html">unexpressive</a></li>
+<li><a href="neologisms/mockable.html">mockable</a></li>
+<li><a href="neologisms/scrippage.html">scrippage</a></li>
+<li><a href="neologisms/carlot.html">carlot</a></li>
+<li><a href="neologisms/omittance.html">omittance</a></li>
+<li><a href="neologisms/uncuckolded.html">uncuckolded</a></li>
+<li><a href="neologisms/unseminared.html">unseminared</a></li>
+<li><a href="neologisms/cloyless.html">cloyless</a></li>
+<li><a href="neologisms/derogately.html">derogately</a></li>
+<li><a href="neologisms/uncurbable.html">uncurbable</a></li>
+<li><a href="neologisms/unslipping.html">unslipping</a></li>
+<li><a href="neologisms/philippan.html">philippan</a></li>
+<li><a href="neologisms/undinted.html">undinted</a></li>
+<li><a href="neologisms/plumpy.html">plumpy</a></li>
+<li><a href="neologisms/ribaudred.html">ribaudred</a></li>
+<li><a href="neologisms/unqualitied.html">unqualitied</a></li>
+<li><a href="neologisms/boggler.html">boggler</a></li>
+<li><a href="neologisms/plighter.html">plighter</a></li>
+<li><a href="neologisms/discandying.html">discandying</a></li>
+<li><a href="neologisms/discandy.html">discandy</a></li>
+<li><a href="neologisms/immoment.html">immoment</a></li>
+<li><a href="neologisms/unpolicied.html">unpolicied</a></li>
+<li><a href="neologisms/bemock.html">bemock</a></li>
+<li><a href="neologisms/agued.html">agued</a></li>
+<li><a href="neologisms/budger.html">budger</a></li>
+<li><a href="neologisms/empiricutic.html">empiricutic</a></li>
+<li><a href="neologisms/spectacled.html">spectacled</a></li>
+<li><a href="neologisms/unaching.html">unaching</a></li>
+<li><a href="neologisms/bewitchment.html">bewitchment</a></li>
+<li><a href="neologisms/ungravely.html">ungravely</a></li>
+<li><a href="neologisms/unclog.html">unclog</a></li>
+<li><a href="neologisms/cannibally.html">cannibally</a></li>
+<li><a href="neologisms/dotant.html">dotant</a></li>
+<li><a href="neologisms/spectatorship.html">spectatorship</a></li>
+<li><a href="neologisms/unshout.html">unshout</a></li>
+<li><a href="neologisms/unswayable.html">unswayable</a></li>
+<li><a href="neologisms/villagery.html">villagery</a></li>
+<li><a href="neologisms/brisky.html">brisky</a></li>
+<li><a href="neologisms/superpraise.html">superpraise</a></li>
+<li><a href="neologisms/minimus.html">minimus</a></li>
+<li><a href="neologisms/entwist.html">entwist</a></li>
+<li><a href="neologisms/barky.html">barky</a></li>
+<li><a href="neologisms/continuantly.html">continuantly</a></li>
+<li><a href="neologisms/exion.html">exion</a></li>
+<li><a href="neologisms/fustilarian.html">fustilarian</a></li>
+<li><a href="neologisms/sneap.html">sneap</a></li>
+<li><a href="neologisms/persistency.html">persistency</a></li>
+<li><a href="neologisms/tardily.html">tardily</a></li>
+<li><a href="neologisms/temperality.html">temperality</a></li>
+<li><a href="neologisms/pulsidge.html">pulsidge</a></li>
+<li><a href="neologisms/sortance.html">sortance</a></li>
+<li><a href="neologisms/fangless.html">fangless</a></li>
+<li><a href="neologisms/forgetive.html">forgetive</a></li>
+<li><a href="neologisms/correctioner.html">correctioner</a></li>
+<li><a href="neologisms/neglectingly.html">neglectingly</a></li>
+<li><a href="neologisms/uncolted.html">uncolted</a></li>
+<li><a href="neologisms/finless.html">finless</a></li>
+<li><a href="neologisms/moulten.html">moulten</a></li>
+<li><a href="neologisms/skimble-skamble.html">skimble-skamble</a></li>
+<li><a href="neologisms/reputeless.html">reputeless</a></li>
+<li><a href="neologisms/impaint.html">impaint</a></li>
+<li><a href="neologisms/cital.html">cital</a></li>
+<li><a href="neologisms/illume.html">illume</a></li>
+<li><a href="neologisms/sledded.html">sledded</a></li>
+<li><a href="neologisms/comart.html">comart</a></li>
+<li><a href="neologisms/compulsatory.html">compulsatory</a></li>
+<li><a href="neologisms/jointress.html">jointress</a></li>
+<li><a href="neologisms/unprevailing.html">unprevailing</a></li>
+<li><a href="neologisms/primy.html">primy</a></li>
+<li><a href="neologisms/besmirch.html">besmirch</a></li>
+<li><a href="neologisms/impartment.html">impartment</a></li>
+<li><a href="neologisms/unhand.html">unhand</a></li>
+<li><a href="neologisms/distilment.html">distilment</a></li>
+<li><a href="neologisms/unaneled.html">unaneled</a></li>
+<li><a href="neologisms/hillo.html">hillo</a></li>
+<li><a href="neologisms/encompassment.html">encompassment</a></li>
+<li><a href="neologisms/unwrung.html">unwrung</a></li>
+<li><a href="neologisms/pajock.html">pajock</a></li>
+<li><a href="neologisms/annexment.html">annexment</a></li>
+<li><a href="neologisms/reword.html">reword</a></li>
+<li><a href="neologisms/unpeg.html">unpeg</a></li>
+<li><a href="neologisms/sanctuarize.html">sanctuarize</a></li>
+<li><a href="neologisms/skyish.html">skyish</a></li>
+<li><a href="neologisms/scarfed.html">scarfed</a></li>
+<li><a href="neologisms/definement.html">definement</a></li>
+<li><a href="neologisms/inventorially.html">inventorially</a></li>
+<li><a href="neologisms/extolment.html">extolment</a></li>
+<li><a href="neologisms/concernancy.html">concernancy</a></li>
+<li><a href="neologisms/ungored.html">ungored</a></li>
+<li><a href="neologisms/sumless.html">sumless</a></li>
+<li><a href="neologisms/sternage.html">sternage</a></li>
+<li><a href="neologisms/umbered.html">umbered</a></li>
+<li><a href="neologisms/intertissued.html">intertissued</a></li>
+<li><a href="neologisms/sonance.html">sonance</a></li>
+<li><a href="neologisms/besmirched.html">besmirched</a></li>
+<li><a href="neologisms/untempering.html">untempering</a></li>
+<li><a href="neologisms/attemptable.html">attemptable</a></li>
+<li><a href="neologisms/unseduced.html">unseduced</a></li>
+<li><a href="neologisms/chaffless.html">chaffless</a></li>
+<li><a href="neologisms/chaliced.html">chaliced</a></li>
+<li><a href="neologisms/pudency.html">pudency</a></li>
+<li><a href="neologisms/sharded.html">sharded</a></li>
+<li><a href="neologisms/unkinglike.html">unkinglike</a></li>
+<li><a href="neologisms/insultment.html">insultment</a></li>
+<li><a href="neologisms/imperceiverant.html">imperceiverant</a></li>
+<li><a href="neologisms/irregulous.html">irregulous</a></li>
+<li><a href="neologisms/daisied.html">daisied</a></li>
+<li><a href="neologisms/emballing.html">emballing</a></li>
+<li><a href="neologisms/a-ripening.html">a-ripening</a></li>
+<li><a href="neologisms/crestless.html">crestless</a></li>
+<li><a href="neologisms/spelling.html">spelling</a></li>
+<li><a href="neologisms/airless.html">airless</a></li>
+<li><a href="neologisms/wafture.html">wafture</a></li>
+<li><a href="neologisms/unowed.html">unowed</a></li>
+<li><a href="neologisms/silverly.html">silverly</a></li>
+<li><a href="neologisms/charneco.html">charneco</a></li>
+<li><a href="neologisms/abrook.html">abrook</a></li>
+<li><a href="neologisms/unbloodied.html">unbloodied</a></li>
+<li><a href="neologisms/bateless.html">bateless</a></li>
+<li><a href="neologisms/priceless.html">priceless</a></li>
+<li><a href="neologisms/relier.html">relier</a></li>
+<li><a href="neologisms/increaseful.html">increaseful</a></li>
+<li><a href="neologisms/crimeful.html">crimeful</a></li>
+<li><a href="neologisms/unrecalling.html">unrecalling</a></li>
+<li><a href="neologisms/betumbled.html">betumbled</a></li>
+<li><a href="neologisms/vastly.html">vastly</a></li>
+<li><a href="neologisms/predecease.html">predecease</a></li>
+<li><a href="neologisms/felicitate.html">felicitate</a></li>
+<li><a href="neologisms/reverb.html">reverb</a></li>
+<li><a href="neologisms/disquantity.html">disquantity</a></li>
+<li><a href="neologisms/untented.html">untented</a></li>
+<li><a href="neologisms/enguard.html">enguard</a></li>
+<li><a href="neologisms/superserviceable.html">superserviceable</a></li>
+<li><a href="neologisms/cullionly.html">cullionly</a></li>
+<li><a href="neologisms/fleshment.html">fleshment</a></li>
+<li><a href="neologisms/bemadding.html">bemadding</a></li>
+<li><a href="neologisms/superflux.html">superflux</a></li>
+<li><a href="neologisms/guessingly.html">guessingly</a></li>
+<li><a href="neologisms/bemonster.html">bemonster</a></li>
+<li><a href="neologisms/remediate.html">remediate</a></li>
+<li><a href="neologisms/opposeless.html">opposeless</a></li>
+<li><a href="neologisms/squinny.html">squinny</a></li>
+<li><a href="neologisms/indistinguished.html">indistinguished</a></li>
+<li><a href="neologisms/immediacy.html">immediacy</a></li>
+<li><a href="neologisms/adoptedly.html">adoptedly</a></li>
+<li><a href="neologisms/cardinally.html">cardinally</a></li>
+<li><a href="neologisms/unwedgeable.html">unwedgeable</a></li>
+<li><a href="neologisms/prompture.html">prompture</a></li>
+<li><a href="neologisms/vastidity.html">vastidity</a></li>
+<li><a href="neologisms/viewless.html">viewless</a></li>
+<li><a href="neologisms/unshunned.html">unshunned</a></li>
+<li><a href="neologisms/unweighing.html">unweighing</a></li>
+<li><a href="neologisms/ungenitured.html">ungenitured</a></li>
+<li><a href="neologisms/unsisting.html">unsisting</a></li>
+<li><a href="neologisms/academe.html">academe</a></li>
+<li><a href="neologisms/festinately.html">festinately</a></li>
+<li><a href="neologisms/egma.html">egma</a></li>
+<li><a href="neologisms/a-repairing.html">a-repairing</a></li>
+<li><a href="neologisms/greasily.html">greasily</a></li>
+<li><a href="neologisms/uneducated.html">uneducated</a></li>
+<li><a href="neologisms/a-hooting.html">a-hooting</a></li>
+<li><a href="neologisms/superscript.html">superscript</a></li>
+<li><a href="neologisms/preambulate.html">preambulate</a></li>
+<li><a href="neologisms/ushering.html">ushering</a></li>
+<li><a href="neologisms/unsullied.html">unsullied</a></li>
+<li><a href="neologisms/manus.html">manus</a></li>
+<li><a href="neologisms/infamonize.html">infamonize</a></li>
+<li><a href="neologisms/bepray.html">bepray</a></li>
+<li><a href="neologisms/parti-coated.html">parti-coated</a></li>
+<li><a href="neologisms/reportingly.html">reportingly</a></li>
+<li><a href="neologisms/vagrom.html">vagrom</a></li>
+<li><a href="neologisms/noncome.html">noncome</a></li>
+<li><a href="neologisms/reclusive.html">reclusive</a></li>
+<li><a href="neologisms/unmitigated.html">unmitigated</a></li>
+<li><a href="neologisms/preceptial.html">preceptial</a></li>
+<li><a href="neologisms/choppy.html">choppy</a></li>
+<li><a href="neologisms/unsex.html">unsex</a></li>
+<li><a href="neologisms/compunctious.html">compunctious</a></li>
+<li><a href="neologisms/mansionry.html">mansionry</a></li>
+<li><a href="neologisms/pauser.html">pauser</a></li>
+<li><a href="neologisms/fitful.html">fitful</a></li>
+<li><a href="neologisms/rooky.html">rooky</a></li>
+<li><a href="neologisms/birthdom.html">birthdom</a></li>
+<li><a href="neologisms/confineless.html">confineless</a></li>
+<li><a href="neologisms/undeeded.html">undeeded</a></li>
+<li><a href="neologisms/intrenchant.html">intrenchant</a></li>
+<li><a href="neologisms/guardage.html">guardage</a></li>
+<li><a href="neologisms/restem.html">restem</a></li>
+<li><a href="neologisms/enwheel.html">enwheel</a></li>
+<li><a href="neologisms/denotement.html">denotement</a></li>
+<li><a href="neologisms/enmesh.html">enmesh</a></li>
+<li><a href="neologisms/dispraisingly.html">dispraisingly</a></li>
+<li><a href="neologisms/exsufflicate.html">exsufflicate</a></li>
+<li><a href="neologisms/startingly.html">startingly</a></li>
+<li><a href="neologisms/unbookish.html">unbookish</a></li>
+<li><a href="neologisms/relume.html">relume</a></li>
+<li><a href="neologisms/iterance.html">iterance</a></li>
+<li><a href="neologisms/reprobance.html">reprobance</a></li>
+<li><a href="neologisms/sleided.html">sleided</a></li>
+<li><a href="neologisms/wenchless.html">wenchless</a></li>
+<li><a href="neologisms/appearer.html">appearer</a></li>
+<li><a href="neologisms/unstooping.html">unstooping</a></li>
+<li><a href="neologisms/sprightfully.html">sprightfully</a></li>
+<li><a href="neologisms/undeaf.html">undeaf</a></li>
+<li><a href="neologisms/stringless.html">stringless</a></li>
+<li><a href="neologisms/uncurse.html">uncurse</a></li>
+<li><a href="neologisms/guiltily.html">guiltily</a></li>
+<li><a href="neologisms/misadventured.html">misadventured</a></li>
+<li><a href="neologisms/fleckled.html">fleckled</a></li>
+<li><a href="neologisms/pilcher.html">pilcher</a></li>
+<li><a href="neologisms/alligator.html">alligator</a></li>
+<li><a href="neologisms/niggarding.html">niggarding</a></li>
+<li><a href="neologisms/unbless.html">unbless</a></li>
+<li><a href="neologisms/rondure.html">rondure</a></li>
+<li><a href="neologisms/pebbled.html">pebbled</a></li>
+<li><a href="neologisms/millioned.html">millioned</a></li>
+<li><a href="neologisms/laughable.html">laughable</a></li>
+<li><a href="neologisms/unforfeited.html">unforfeited</a></li>
+<li><a href="neologisms/fap.html">fap</a></li>
+<li><a href="neologisms/unconfinable.html">unconfinable</a></li>
+<li><a href="neologisms/uncape.html">uncape</a></li>
+<li><a href="neologisms/shelvy.html">shelvy</a></li>
+<li><a href="neologisms/sprag.html">sprag</a></li>
+<li><a href="neologisms/unfool.html">unfool</a></li>
+<li><a href="neologisms/anthropophaginian.html">anthropophaginian</a></li>
+<li><a href="neologisms/varletto.html">varletto</a></li>
+<li><a href="neologisms/defunctive.html">defunctive</a></li>
+<li><a href="neologisms/basta.html">basta</a></li>
+<li><a href="neologisms/combless.html">combless</a></li>
+<li><a href="neologisms/chapeless.html">chapeless</a></li>
+<li><a href="neologisms/slickly.html">slickly</a></li>
+<li><a href="neologisms/unpinked.html">unpinked</a></li>
+<li><a href="neologisms/marcantant.html">marcantant</a></li>
+<li><a href="neologisms/slish.html">slish</a></li>
+<li><a href="neologisms/instinctively.html">instinctively</a></li>
+<li><a href="neologisms/unmitigable.html">unmitigable</a></li>
+<li><a href="neologisms/chirurgeonly.html">chirurgeonly</a></li>
+<li><a href="neologisms/razorable.html">razorable</a></li>
+<li><a href="neologisms/rootedly.html">rootedly</a></li>
+<li><a href="neologisms/bosky.html">bosky</a></li>
+<li><a href="neologisms/unshrubbed.html">unshrubbed</a></li>
+<li><a href="neologisms/windring.html">windring</a></li>
+<li><a href="neologisms/sedged.html">sedged</a></li>
+<li><a href="neologisms/printless.html">printless</a></li>
+<li><a href="neologisms/smell-less.html">smell-less</a></li>
+<li><a href="neologisms/soldieress.html">soldieress</a></li>
+<li><a href="neologisms/uncandied.html">uncandied</a></li>
+<li><a href="neologisms/meditance.html">meditance</a></li>
+<li><a href="neologisms/visitating.html">visitating</a></li>
+<li><a href="neologisms/unpanged.html">unpanged</a></li>
+<li><a href="neologisms/intertangled.html">intertangled</a></li>
+<li><a href="neologisms/operance.html">operance</a></li>
+<li><a href="neologisms/disinsanity.html">disinsanity</a></li>
+<li><a href="neologisms/misbecomingly.html">misbecomingly</a></li>
+<li><a href="neologisms/unwappered.html">unwappered</a></li>
+<li><a href="neologisms/jadery.html">jadery</a></li>
+<li><a href="neologisms/unsphere.html">unsphere</a></li>
+<li><a href="neologisms/unbreeched.html">unbreeched</a></li>
+<li><a href="neologisms/childness.html">childness</a></li>
+<li><a href="neologisms/forbiddenly.html">forbiddenly</a></li>
+<li><a href="neologisms/unvenerable.html">unvenerable</a></li>
+<li><a href="neologisms/unearthly.html">unearthly</a></li>
+<li><a href="neologisms/missingly.html">missingly</a></li>
+<li><a href="neologisms/removedness.html">removedness</a></li>
+<li><a href="neologisms/pugging.html">pugging</a></li>
+<li><a href="neologisms/unbraided.html">unbraided</a></li>
+<li><a href="neologisms/unfilial.html">unfilial</a></li>
+<li><a href="neologisms/unpathed.html">unpathed</a></li>
+<li><a href="neologisms/disliken.html">disliken</a></li>
+<li><a href="neologisms/unclew.html">unclew</a></li>
+<li><a href="neologisms/dich.html">dich</a></li>
+<li><a href="neologisms/spilth.html">spilth</a></li>
+<li><a href="neologisms/wappened.html">wappened</a></li>
+<li><a href="neologisms/oathable.html">oathable</a></li>
+<li><a href="neologisms/conceptious.html">conceptious</a></li>
+<li><a href="neologisms/exceptless.html">exceptless</a></li>
+<li><a href="neologisms/yellowing.html">yellowing</a></li>
+<li><a href="neologisms/unrecuring.html">unrecuring</a></li>
+<li><a href="neologisms/successantly.html">successantly</a></li>
+<li><a href="neologisms/codding.html">codding</a></li>
+<li><a href="neologisms/corresponsive.html">corresponsive</a></li>
+<li><a href="neologisms/tortive.html">tortive</a></li>
+<li><a href="neologisms/persistsive.html">persistive</a></li>
+<li><a href="neologisms/untimbered.html">untimbered</a></li>
+<li><a href="neologisms/importless.html">importless</a></li>
+<li><a href="neologisms/insisture.html">insisture</a></li>
+<li><a href="neologisms/oppugnancy.html">oppugnancy</a></li>
+<li><a href="neologisms/asinego.html">asinego</a></li>
+<li><a href="neologisms/fathomless.html">fathomless</a></li>
+<li><a href="neologisms/infectiously.html">infectiously</a></li>
+<li><a href="neologisms/unfamed.html">unfamed</a></li>
+<li><a href="neologisms/untent.html">untent</a></li>
+<li><a href="neologisms/kingdomed.html">kingdomed</a></li>
+<li><a href="neologisms/assubjugate.html">assubjugate</a></li>
+<li><a href="neologisms/plantage.html">plantage</a></li>
+<li><a href="neologisms/characterless.html">characterless</a></li>
+<li><a href="neologisms/unplausive.html">unplausive</a></li>
+<li><a href="neologisms/uncomprehensive.html">uncomprehensive</a></li>
+<li><a href="neologisms/languageless.html">languageless</a></li>
+<li><a href="neologisms/allayment.html">allayment</a></li>
+<li><a href="neologisms/rejoindure.html">rejoindure</a></li>
+<li><a href="neologisms/indistinguishable.html">indistinguishable</a></li>
+<li><a href="neologisms/deceptious.html">deceptious</a></li>
+<li><a href="neologisms/enrapt.html">enrapt</a></li>
+<li><a href="neologisms/bragless.html">bragless</a></li>
+<li><a href="neologisms/unprofited.html">unprofited</a></li>
+<li><a href="neologisms/rubious.html">rubious</a></li>
+<li><a href="neologisms/semblative.html">semblative</a></li>
+<li><a href="neologisms/barful.html">barful</a></li>
+<li><a href="neologisms/impeticos.html">impeticos</a></li>
+<li><a href="neologisms/cloyment.html">cloyment</a></li>
+<li><a href="neologisms/cubiculo.html">cubiculo</a></li>
+<li><a href="neologisms/biddy.html">biddy</a></li>
+<li><a href="neologisms/unchary.html">unchary</a></li>
+<li><a href="neologisms/unauspicious.html">unauspicious</a></li>
+<li><a href="neologisms/nonregardance.html">nonregardance</a></li>
+<li><a href="neologisms/joinder.html">joinder</a></li>
+<li><a href="neologisms/incardinate.html">incardinate</a></li>
+<li><a href="neologisms/a-billing.html">a-billing</a></li>
 
-    <div id="word-cloud"></div>
-
-    <script src="../JavaScript/script.js"></script>
-</body>
+         </ul>
+      </div><script src="../JavaScript/script.js"></script></body>
 </html>

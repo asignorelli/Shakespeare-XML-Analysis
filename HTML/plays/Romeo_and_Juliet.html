@@ -6,16 +6,107 @@
       <title>Shakespeare's Neologisms</title>
       <link rel="icon" type="image/x-icon" href="images/favicon.ico">
       <link rel="stylesheet" href="../../CSS/styles.css">
+      <style>
+                                        /* ===== CENTER and SCALE SVG CHART ===== */
+                                        .chart-container {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin-top: 3rem;
+                                        width: 100%; 
+                                        }
+                                        
+                                        /* Make the SVG large and readable */
+                                        .chart-container svg {
+                                        width: 80vw;      /* responsive width */
+                                        max-width: 1600px;
+                                        height: 600px;    /* fixed readable height */
+                                        }
+                                        
+                                        /* Make all text inside the SVG white */
+                                        .chart-container svg text {
+                                        fill: white;
+                                        font-family: Arial, sans-serif;
+                                        font-size: 22px;
+                                        }
+                                        
+                                        /* Bar color override (the steelblue default is too dark on black) */
+                                        .chart-container svg rect {
+                                        fill: #4db8ff;   /* bright readable blue */
+                                        stroke: white;
+                                        stroke-width: 1;
+                                        }
+                                        
+                                    </style>
    </head>
    <body>
-      <div class="subpage-labels"><a href="../about.html">ABOUT</a><a href="../words.html">WORDS</a><a href="../play-index.html">CORPUS</a><a href="../analysis.html">ANALYSIS</a></div>
+      <div class="subpage-labels"><a href="../index.html">HOME</a><a href="../about.html">ABOUT</a><a href="../play-index.html">CORPUS</a><div class="dropdown"><button onclick="myFunction()" class="dropbtn">ANALYSIS</button><div id="myDropdown" class="dropdown-content"><a href="../newDef.html">New Definitions</a><a href="../words.html">Frequency</a></div>
+         </div>
+      </div>
       <header class="play-header">
          <h1 class="play-title">Romeo and Juliet</h1>
       </header>
       <section class="play-meta">
-         <p class="play-description"><i>No description has been added for this play yet.</i></p>
+         <p class="play-description">Two young lovers from feuding families fall into a doomed romance defined by passion
+            and fate.</p>
          <p class="play-genre"><strong>Genre: </strong><span>Tragedy</span></p>
-         <p class="play-date"><strong>Approx. Date: </strong><span>1594</span></p>
-      </section>
-   </body>
+         <p class="play-date"><strong>Approx. Date Written: </strong><span>1594</span></p>
+         <div class="chart-container"><svg xmlns="http://www.w3.org/2000/svg"><svg viewBox="0 -400 610 500">
+                  <line x1="80" y1="0" x2="490" y2="0" stroke="white"/>
+                  <line x1="80" y1="0" x2="80" y2="-400" stroke="white"/>
+                  <text x="60" y="-200" text-anchor="middle" font-size="40" transform="rotate(-90, 60, -200)">
+                     Frequency
+                     </text>
+                  <text x="305" y="-380" text-anchor="middle" font-size="40">
+                     Neologisms in Romeo and Juliet</text>
+                  <rect x="90" y="-32" width="40" height="32" fill="steelblue"/>
+                  <text x="120" y="30" font-size="20" text-anchor="end" transform="rotate(-90,110, 30 )"><a href="../neologisms/hist.html">hist</a></text>
+                  <text x="110" y="-32" font-size="18" text-anchor="middle">2</text>
+                  <rect x="140" y="-32" width="40" height="32" fill="steelblue"/>
+                  <text x="170" y="30" font-size="20" text-anchor="end" transform="rotate(-90,160, 30 )"><a href="../neologisms/passado.html">passado</a></text>
+                  <text x="160" y="-32" font-size="18" text-anchor="middle">2</text>
+                  <rect x="190" y="-16" width="40" height="16" fill="steelblue"/>
+                  <text x="220" y="30" font-size="20" text-anchor="end" transform="rotate(-90,210, 30 )"><a href="../neologisms/misadventured.html">misadventured</a></text>
+                  <text x="210" y="-16" font-size="18" text-anchor="middle">1</text>
+                  <rect x="240" y="-16" width="40" height="16" fill="steelblue"/>
+                  <text x="270" y="30" font-size="20" text-anchor="end" transform="rotate(-90,260, 30 )"><a href="../neologisms/fleckled.html">fleckled</a></text>
+                  <text x="260" y="-16" font-size="18" text-anchor="middle">1</text>
+                  <rect x="290" y="-16" width="40" height="16" fill="steelblue"/>
+                  <text x="320" y="30" font-size="20" text-anchor="end" transform="rotate(-90,310, 30 )"><a href="../neologisms/pilcher.html">pilcher</a></text>
+                  <text x="310" y="-16" font-size="18" text-anchor="middle">1</text>
+                  <rect x="340" y="-16" width="40" height="16" fill="steelblue"/>
+                  <text x="370" y="30" font-size="20" text-anchor="end" transform="rotate(-90,360, 30 )"><a href="../neologisms/chapless.html">chapless</a></text>
+                  <text x="360" y="-16" font-size="18" text-anchor="middle">1</text>
+                  <rect x="390" y="-16" width="40" height="16" fill="steelblue"/>
+                  <text x="420" y="30" font-size="20" text-anchor="end" transform="rotate(-90,410, 30 )"><a href="../neologisms/alligator.html">alligator</a></text>
+                  <text x="410" y="-16" font-size="18" text-anchor="middle">1</text>
+                  <rect x="440" y="-16" width="40" height="16" fill="steelblue"/>
+                  <text x="470" y="30" font-size="20" text-anchor="end" transform="rotate(-90,460, 30 )"><a href="../neologisms/dateless.html">dateless</a></text>
+                  <text x="460" y="-16" font-size="18" text-anchor="middle">1</text></svg></svg></div>
+      </section><script>
+                                        
+                                        function filterPlays() {
+                                        let input = document.getElementById('searchbar').value.toLowerCase();
+                                        let items = document.querySelectorAll('#playGrid .box');
+                                        
+                                        items.forEach(box => {
+                                        let title = box.dataset.title.toLowerCase();
+                                        box.style.display = title.includes(input) ? 'block' : 'none';
+                                        });
+                                        }
+                                        
+                                        function filterCategory(cat) {
+                                        let items = document.querySelectorAll('#playGrid .box');
+                                        
+                                        items.forEach(box => {
+                                        let g = box.dataset.genre || "";
+                                        if (cat === "all") {
+                                        box.style.display = "block";
+                                        } else {
+                                        box.style.display = g.includes(cat) ? "block" : "none";
+                                        }
+                                        });
+                                        }
+                                        
+                                    </script><script src="../../JavaScript/script.js"></script></body>
 </html>

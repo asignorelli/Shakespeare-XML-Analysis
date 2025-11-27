@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <html>
-
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,121 +8,155 @@
       <link rel="stylesheet" href="../CSS/styles.css">
       <style>
                     body {
-         margin: 0;
-         padding: 0 7rem;
-         padding-top: 80px;
-         /* left/right margin */
-      }
-
-      #searchbar {
-         width: 100%;
-         position: relative;
-         font-size: 1.2rem;
-         padding: 10px;
-         margin: 1.5rem 0;
-         border-radius: 8px;
-         border: 2px solid #555;
-      }
-
-      #filters {
-         margin-bottom: 1rem;
-      }
-
-      .grid {
-         display: grid;
-         grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-         grid-gap: 1.2rem;
-      }
-
-      .box {
-         border: 2px solid #444;
-         padding: 20px;
-         background: #f5f5f5;
-         border-radius: 8px;
-         text-align: center;
-         font-size: 1.2rem;
-         cursor: pointer;
-      }
+                    margin: 0;
+                    padding: 0 7rem;
+                    padding-top: 80px;/* left/right margin */
+                    }
+                    #searchbar {
+                    width: 100%;
+                    position:relative;                  
+                    font-size: 1.2rem;
+                    padding: 10px;
+                    margin: 1.5rem 0;
+                    border-radius: 8px;
+                    border: 2px solid #555;
+                    }
+                    #filters {
+                    margin-bottom: 1rem;
+                    }
+                    .grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+                    grid-gap: 1.2rem;
+                    }
+                    .box {
+                    border: 2px solid #444;
+                    padding: 20px;
+                    background: #f5f5f5;
+                    border-radius: 8px;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                    font-family: Verdana, Arial;
+                    
+                    }
+                    a.play {
+                    color:black;
+                    text-decoration:none;
+                    }                    
                 </style>
    </head>
    <body>
-   <div class="subpage-labels">
-   <a href="index.html">HOME</a>
-   <a href="about.html">ABOUT</a>
-   <a href="play-index.html">CORPUS</a>
-   <div class="dropdown">
-   <button onclick="myFunction()" class="dropbtn">ANALYSIS</button>
-   <div id="myDropdown" class="dropdown-content">
-   <a href="newDef.html">New Definitions</a>
-   <a href="words.html">Frequency</a>
-   </div>
-   </div>
-   </div>
+      <div class="subpage-labels"><a href="index.html">HOME</a><a href="about.html">ABOUT</a><a href="play-index.html">CORPUS</a><div class="dropdown"><button onclick="myFunction()" class="dropbtn">ANALYSIS</button><div id="myDropdown" class="dropdown-content"><a href="newDef.html">New Definitions</a><a href="words.html">Frequency</a></div>
+         </div>
+      </div><input id="searchbar" type="text" placeholder="Search for a play…" onkeyup="filterPlays()"><div id="filters"><label><input type="checkbox" class="genreFilter" value="Comedy"> Comedy </label><label><input type="checkbox" class="genreFilter" value="Tragedy"> Tragedy</label><label><input type="checkbox" class="genreFilter" value="History"> History</label></div>
       <div class="grid" id="playGrid">
-         <div class="box" data-title="Antony and Cleopatra" data-genre="Tragedy"><a href="../HTML/plays/Antony_and_Cleopatra.html">Antony and Cleopatra</a></div>
-         <div class="box" data-title="As You Like It" data-genre="Comedy"><a href="../HTML/plays/As_You_Like_It.html">As You Like It</a></div>
-         <div class="box" data-title="A Midsummer Night’s Dream" data-genre="Comedy"><a href="../HTML/plays/A_Midsummer_Night_s_Dream.html">A Midsummer Night’s Dream</a></div>
-         <div class="box" data-title="Coriolanus" data-genre="Tragedy"><a href="../HTML/plays/Coriolanus.html">Coriolanus</a></div>
-         <div class="box" data-title="Cymbeline" data-genre="Tragedy"><a href="../HTML/plays/Cymbeline.html">Cymbeline</a></div>
-         <div class="box" data-title="Hamlet" data-genre="Tragedy"><a href="../HTML/plays/Hamlet.html">Hamlet</a></div>
-         <div class="box" data-title="Henry IV, Part 2" data-genre="History"><a href="../HTML/plays/Henry_IV_Part_2.html">Henry IV, Part 2</a></div>
-         <div class="box" data-title="Henry IV, Part I" data-genre="History"><a href="../HTML/plays/Henry_IV_Part_I.html">Henry IV, Part I</a></div>
-         <div class="box" data-title="Henry V" data-genre="History"><a href="../HTML/plays/Henry_V.html">Henry V</a></div>
-         <div class="box" data-title="Henry VIII" data-genre="History"><a href="../HTML/plays/Henry_VIII.html">Henry VIII</a></div>
-         <div class="box" data-title="Henry VI, Part 1" data-genre="History"><a href="../HTML/plays/Henry_VI_Part_1.html">Henry VI, Part 1</a></div>
-         <div class="box" data-title="Henry VI, Part 2" data-genre="History"><a href="../HTML/plays/Henry_VI_Part_2.html">Henry VI, Part 2</a></div>
-         <div class="box" data-title="Henry VI, Part 3" data-genre="History"><a href="../HTML/plays/Henry_VI_Part_3.html">Henry VI, Part 3</a></div>
-         <div class="box" data-title="Julius Caesar" data-genre="Tragedy"><a href="../HTML/plays/Julius_Caesar.html">Julius Caesar</a></div>
-         <div class="box" data-title="King John" data-genre="History"><a href="../HTML/plays/King_John.html">King John</a></div>
-         <div class="box" data-title="King Lear" data-genre="Tragedy"><a href="../HTML/plays/King_Lear.html">King Lear</a></div>
-         <div class="box" data-title="Love’s Labor’s Lost" data-genre="Comedy"><a href="../HTML/plays/Love_s_Labor_s_Lost.html">Love’s Labor’s Lost</a></div>
-         <div class="box" data-title="Lucrece" data-genre="Poem Tragedy"><a href="../HTML/plays/Lucrece.html">Lucrece</a></div>
-         <div class="box" data-title="Macbeth" data-genre="Tragedy"><a href="../HTML/plays/Macbeth.html">Macbeth</a></div>
-         <div class="box" data-title="Measure for Measure" data-genre="Comedy"><a href="../HTML/plays/Measure_for_Measure.html">Measure for Measure</a></div>
-         <div class="box" data-title="Much Ado About Nothing" data-genre="Comedy"><a href="../HTML/plays/Much_Ado_About_Nothing.html">Much Ado About Nothing</a></div>
-         <div class="box" data-title="Othello" data-genre="Tragedy"><a href="../HTML/plays/Othello.html">Othello</a></div>
-         <div class="box" data-title="Pericles, Prince of Tyre" data-genre="History"><a href="../HTML/plays/Pericles_Prince_of_Tyre.html">Pericles, Prince of Tyre</a></div>
-         <div class="box" data-title="Richard II" data-genre="History"><a href="../HTML/plays/Richard_II.html">Richard II</a></div>
-         <div class="box" data-title="Richard III" data-genre="History"><a href="../HTML/plays/Richard_III.html">Richard III</a></div>
-         <div class="box" data-title="Romeo and Juliet" data-genre="Tragedy"><a href="../HTML/plays/Romeo_and_Juliet.html">Romeo and Juliet</a></div>
-         <div class="box" data-title="Sonnets" data-genre="Sonnets"><a href="../HTML/plays/Sonnets.html">Sonnets</a></div>
-         <div class="box" data-title="The Comedy of Errors" data-genre="Comedy"><a href="../HTML/plays/The_Comedy_of_Errors.html">The Comedy of Errors</a></div>
-         <div class="box" data-title="The Merchant of Venice" data-genre="Comedy"><a href="../HTML/plays/The_Merchant_of_Venice.html">The Merchant of Venice</a></div>
-         <div class="box" data-title="The Merry Wives of Windsor" data-genre="Comedy"><a href="../HTML/plays/The_Merry_Wives_of_Windsor.html">The Merry Wives of Windsor</a></div>
-         <div class="box" data-title="The Phoenix and Turtle" data-genre="Poem"><a href="../HTML/plays/The_Phoenix_and_Turtle.html">The Phoenix and Turtle</a></div>
-         <div class="box" data-title="The Taming of the Shrew" data-genre="Comedy"><a href="../HTML/plays/The_Taming_of_the_Shrew.html">The Taming of the Shrew</a></div>
-         <div class="box" data-title="The Tempest" data-genre="Comedy"><a href="../HTML/plays/The_Tempest.html">The Tempest</a></div>
-         <div class="box" data-title="The Two Gentlemen of Verona" data-genre="Comedy"><a href="../HTML/plays/The_Two_Gentlemen_of_Verona.html">The Two Gentlemen of Verona</a></div>
-         <div class="box" data-title="The Two Noble Kinsmen" data-genre="Comedy Tragedy"><a href="../HTML/plays/The_Two_Noble_Kinsmen.html">The Two Noble Kinsmen</a></div>
-         <div class="box" data-title="The Winter’s Tale" data-genre="Comedy"><a href="../HTML/plays/The_Winter_s_Tale.html">The Winter’s Tale</a></div>
-         <div class="box" data-title="Timon of Athens" data-genre="Tragedy"><a href="../HTML/plays/Timon_of_Athens.html">Timon of Athens</a></div>
-         <div class="box" data-title="Titus Andronicus" data-genre="Tragedy"><a href="../HTML/plays/Titus_Andronicus.html">Titus Andronicus</a></div>
-         <div class="box" data-title="Troilus and Cressida" data-genre="Tragedy"><a href="../HTML/plays/Troilus_and_Cressida.html">Troilus and Cressida</a></div>
-         <div class="box" data-title="Twelfth Night" data-genre="Comedy"><a href="../HTML/plays/Twelfth_Night.html">Twelfth Night</a></div>
-         <div class="box" data-title="Venus and Adonis" data-genre="Poem"><a href="../HTML/plays/Venus_and_Adonis.html">Venus and Adonis</a></div>
+         <div class="box" data-title="Antony and Cleopatra" data-genre="Tragedy"><a class="play" href="../HTML/plays/Antony_and_Cleopatra.html">Antony and Cleopatra
+               <p></p>1606</a></div>
+         <div class="box" data-title="As You Like It" data-genre="Comedy"><a class="play" href="../HTML/plays/As_You_Like_It.html">As You Like It
+               <p></p>1599</a></div>
+         <div class="box" data-title="A Midsummer Night's Dream" data-genre="Comedy"><a class="play" href="../HTML/plays/A_Midsummer_Night_s_Dream.html">A Midsummer Night's Dream
+               <p></p>1595</a></div>
+         <div class="box" data-title="Coriolanus" data-genre="Tragedy"><a class="play" href="../HTML/plays/Coriolanus.html">Coriolanus
+               <p></p>1607</a></div>
+         <div class="box" data-title="Cymbeline" data-genre="Tragedy"><a class="play" href="../HTML/plays/Cymbeline.html">Cymbeline
+               <p></p>1609</a></div>
+         <div class="box" data-title="Hamlet" data-genre="Tragedy"><a class="play" href="../HTML/plays/Hamlet.html">Hamlet
+               <p></p>1600</a></div>
+         <div class="box" data-title="Henry IV, Part 1" data-genre="History"><a class="play" href="../HTML/plays/Henry_IV_Part_1.html">Henry IV, Part 1
+               <p></p>1597</a></div>
+         <div class="box" data-title="Henry IV, Part 2" data-genre="History"><a class="play" href="../HTML/plays/Henry_IV_Part_2.html">Henry IV, Part 2
+               <p></p>1597</a></div>
+         <div class="box" data-title="Henry V" data-genre="History"><a class="play" href="../HTML/plays/Henry_V.html">Henry V
+               <p></p>1598</a></div>
+         <div class="box" data-title="Henry VIII" data-genre="History"><a class="play" href="../HTML/plays/Henry_VIII.html">Henry VIII
+               <p></p>1612</a></div>
+         <div class="box" data-title="Henry VI, Part 1" data-genre="History"><a class="play" href="../HTML/plays/Henry_VI_Part_1.html">Henry VI, Part 1
+               <p></p>1591</a></div>
+         <div class="box" data-title="Henry VI, Part 2" data-genre="History"><a class="play" href="../HTML/plays/Henry_VI_Part_2.html">Henry VI, Part 2
+               <p></p>1591</a></div>
+         <div class="box" data-title="Henry VI, Part 3" data-genre="History"><a class="play" href="../HTML/plays/Henry_VI_Part_3.html">Henry VI, Part 3
+               <p></p>1591</a></div>
+         <div class="box" data-title="Julius Caesar" data-genre="Tragedy"><a class="play" href="../HTML/plays/Julius_Caesar.html">Julius Caesar
+               <p></p>1599</a></div>
+         <div class="box" data-title="King John" data-genre="History"><a class="play" href="../HTML/plays/King_John.html">King John
+               <p></p>1596</a></div>
+         <div class="box" data-title="King Lear" data-genre="Tragedy"><a class="play" href="../HTML/plays/King_Lear.html">King Lear
+               <p></p>1605</a></div>
+         <div class="box" data-title="Love’s Labor’s Lost" data-genre="Comedy"><a class="play" href="../HTML/plays/Love_s_Labor_s_Lost.html">Love’s Labor’s Lost
+               <p></p>1594</a></div>
+         <div class="box" data-title="Lucrece" data-genre="Poem Tragedy"><a class="play" href="../HTML/plays/Lucrece.html">Lucrece
+               <p></p>1594</a></div>
+         <div class="box" data-title="Macbeth" data-genre="Tragedy"><a class="play" href="../HTML/plays/Macbeth.html">Macbeth
+               <p></p>1605</a></div>
+         <div class="box" data-title="Measure for Measure" data-genre="Comedy"><a class="play" href="../HTML/plays/Measure_for_Measure.html">Measure for Measure
+               <p></p>1604</a></div>
+         <div class="box" data-title="Much Ado About Nothing" data-genre="Comedy"><a class="play" href="../HTML/plays/Much_Ado_About_Nothing.html">Much Ado About Nothing
+               <p></p>1598</a></div>
+         <div class="box" data-title="Othello" data-genre="Tragedy"><a class="play" href="../HTML/plays/Othello.html">Othello
+               <p></p>1604</a></div>
+         <div class="box" data-title="Pericles, Prince of Tyre" data-genre="History"><a class="play" href="../HTML/plays/Pericles_Prince_of_Tyre.html">Pericles, Prince of Tyre
+               <p></p>1608</a></div>
+         <div class="box" data-title="Richard II" data-genre="History"><a class="play" href="../HTML/plays/Richard_II.html">Richard II
+               <p></p>1595</a></div>
+         <div class="box" data-title="Richard III" data-genre="History"><a class="play" href="../HTML/plays/Richard_III.html">Richard III
+               <p></p>1592</a></div>
+         <div class="box" data-title="Romeo and Juliet" data-genre="Tragedy"><a class="play" href="../HTML/plays/Romeo_and_Juliet.html">Romeo and Juliet
+               <p></p>1594</a></div>
+         <div class="box" data-title="Sonnets" data-genre="Sonnets"><a class="play" href="../HTML/plays/Sonnets.html">Sonnets
+               <p></p>1609</a></div>
+         <div class="box" data-title="The Comedy of Errors" data-genre="Comedy"><a class="play" href="../HTML/plays/The_Comedy_of_Errors.html">The Comedy of Errors
+               <p></p>1592</a></div>
+         <div class="box" data-title="The Merchant of Venice" data-genre="Comedy"><a class="play" href="../HTML/plays/The_Merchant_of_Venice.html">The Merchant of Venice
+               <p></p>1596</a></div>
+         <div class="box" data-title="The Merry Wives of Windsor" data-genre="Comedy"><a class="play" href="../HTML/plays/The_Merry_Wives_of_Windsor.html">The Merry Wives of Windsor
+               <p></p>1600</a></div>
+         <div class="box" data-title="The Phoenix and Turtle" data-genre="Poem"><a class="play" href="../HTML/plays/The_Phoenix_and_Turtle.html">The Phoenix and Turtle
+               <p></p>1601</a></div>
+         <div class="box" data-title="The Taming of the Shrew" data-genre="Comedy"><a class="play" href="../HTML/plays/The_Taming_of_the_Shrew.html">The Taming of the Shrew
+               <p></p>1593</a></div>
+         <div class="box" data-title="The Tempest" data-genre="Comedy"><a class="play" href="../HTML/plays/The_Tempest.html">The Tempest
+               <p></p>1611</a></div>
+         <div class="box" data-title="The Two Gentlemen of Verona" data-genre="Comedy"><a class="play" href="../HTML/plays/The_Two_Gentlemen_of_Verona.html">The Two Gentlemen of Verona
+               <p></p>1594</a></div>
+         <div class="box" data-title="The Two Noble Kinsmen" data-genre="Comedy Tragedy"><a class="play" href="../HTML/plays/The_Two_Noble_Kinsmen.html">The Two Noble Kinsmen
+               <p></p>1612</a></div>
+         <div class="box" data-title="The Winter's Tale" data-genre="Comedy"><a class="play" href="../HTML/plays/The_Winter_s_Tale.html">The Winter's Tale
+               <p></p>1610</a></div>
+         <div class="box" data-title="Timon of Athens" data-genre="Tragedy"><a class="play" href="../HTML/plays/Timon_of_Athens.html">Timon of Athens
+               <p></p>1607</a></div>
+         <div class="box" data-title="Titus Andronicus" data-genre="Tragedy"><a class="play" href="../HTML/plays/Titus_Andronicus.html">Titus Andronicus
+               <p></p>1593</a></div>
+         <div class="box" data-title="Troilus and Cressida" data-genre="Tragedy"><a class="play" href="../HTML/plays/Troilus_and_Cressida.html">Troilus and Cressida
+               <p></p>1601</a></div>
+         <div class="box" data-title="Twelfth Night" data-genre="Comedy"><a class="play" href="../HTML/plays/Twelfth_Night.html">Twelfth Night
+               <p></p>1599</a></div>
+         <div class="box" data-title="Venus and Adonis" data-genre="Poem"><a class="play" href="../HTML/plays/Venus_and_Adonis.html">Venus and Adonis
+               <p></p>1593</a></div>
       </div><script>
                     
-             function filterPlays() {
-         let input = document.getElementById('searchbar').value.toLowerCase();
-         let items = document.querySelectorAll('#playGrid .box');
-
-         items.forEach(box => {
-            let title = box.dataset.title.toLowerCase();
-            box.style.display = title.includes(input) ? 'block' : 'none';
-         });
-      }
-
-      function filterCategory(cat) {
-         let items = document.querySelectorAll('#playGrid .box');
-
-         items.forEach(box => {
-            let g = box.dataset.genre || "";
-            if (cat === "all") {
-               box.style.display = "block";
-            } else {
-               box.style.display = g.includes(cat) ? "block" : "none";
-            }
-         });
-      }
+                    function filterPlays() {
+                    let input = document.getElementById('searchbar').value.toLowerCase();
+                    let items = document.querySelectorAll('#playGrid .box');
                     
-                </script><script src="../../JavaScript/script.js"></script></body>
+                    items.forEach(box => {
+                    let title = box.dataset.title.toLowerCase();
+                    box.style.display = title.includes(input) ? 'block' : 'none';
+                    });
+                    }
+                    
+                    function filterCategory(cat) {
+                    let items = document.querySelectorAll('#playGrid .box');
+                    
+                    items.forEach(box => {
+                    let g = box.dataset.genre || "";
+                    if (cat === "all") {
+                    box.style.display = "block";
+                    } else {
+                    box.style.display = g.includes(cat) ? "block" : "none";
+                    }
+                    });
+                    }
+                    
+                </script><script src="../JavaScript/script.js"></script></body>
+</html>
