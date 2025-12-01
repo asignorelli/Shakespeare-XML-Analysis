@@ -8,6 +8,7 @@
     <xsl:output method="html" indent="yes" />
     <xsl:param name="play-folder" as="xs:string" 
         select="'../shakespeare-neo-and-newDef'"/>
+   
     <!-- MAIN TEMPLATE: produces wordIndex.html -->
     <xsl:template match="/frequency">
         <html>
@@ -51,7 +52,7 @@
                 <p class="word-description">
                     Here is the full list of all of the neologisms. Click on each one to learn more. 
                 </p>
-                <div id="word-search">
+                <div class="word-search">
                     <ul>
                     <xsl:for-each select="w">
                         
@@ -59,7 +60,7 @@
                         
                         <xsl:variable name="word" select="."/>
                             
-                                <li><a href="{concat($word, '.html')}"><xsl:value-of select="$word"/></a></li>
+                                <li><a href="{concat('neologisms/', $word, '.html')}"><xsl:value-of select="$word"/></a></li>
                         
                         <!-- Generate individual HTML page for each word -->
                         <xsl:result-document href="file:///C:/Users/77zap/GitHub/Shakespeare-XML-Analysis/HTML/neologisms/{concat($word,'.html')}" method="html">

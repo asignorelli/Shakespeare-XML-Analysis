@@ -1,0 +1,1984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+    <!-- Word entries with placeholders -->
+    <entry>
+        <word>gar</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>joan</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>nonny</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sola</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>juvenal</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>via</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untutored</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>loo</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sherris</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sympathize</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fer</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bawcock</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>diable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dateless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bavian</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>propertied</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>exposure</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unfathered</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncurrent</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbated</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>argal</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>canopied</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sessa</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>aroint</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>passado</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>allons</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>nayword</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fixture</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>expressure</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>directitude</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unhardened</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>collied</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>undistinguishable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>trippingly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>keech</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>drollery</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>undeserver</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>foutre</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dwindle</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ungrown</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpregnant</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>chapless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>smirched</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>deracinate</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>savagery</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>resurvey</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untender</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fitment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unsolicited</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>stigmatic</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unmeritable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>soundless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untread</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>spleenful</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>aidance</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>hearsed</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>stelled</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dowerless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbonneted</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>suum</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>prenzie</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sneaping</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpruned</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>lustihood</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>runnion</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>effectless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bottled</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unwept</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unswayed</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>hist</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>discase</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pash</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>allottery</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>batler</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unclaimed</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>slippered</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>eventful</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unexpressive</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>mockable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>scrippage</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>carlot</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>omittance</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncuckolded</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unseminared</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cloyless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>derogately</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncurbable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unslipping</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>philippan</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>undinted</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>plumpy</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ribaudred</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unqualitied</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>boggler</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>plighter</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>discandying</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>discandy</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>immoment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpolicied</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bemock</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>agued</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>budger</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>empiricutic</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>spectacled</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unaching</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bewitchment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ungravely</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unclog</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cannibally</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dotant</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>spectatorship</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unshout</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unswayable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>villagery</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>brisky</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>superpraise</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>minimus</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>entwist</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>barky</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>continuantly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>exion</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fustilarian</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sneap</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>persistency</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>tardily</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>temperality</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pulsidge</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sortance</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fangless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>forgetive</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>correctioner</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>neglectingly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncolted</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>finless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>moulten</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>skimble-skamble</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reputeless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>impaint</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cital</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>illume</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sledded</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>comart</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>compulsatory</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>jointress</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unprevailing</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>primy</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>besmirch</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>impartment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unhand</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>distilment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unaneled</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>hillo</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>encompassment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unwrung</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pajock</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>annexment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reword</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpeg</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sanctuarize</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>skyish</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>scarfed</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>definement</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>inventorially</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>extolment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>concernancy</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ungored</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sumless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sternage</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>umbered</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>intertissued</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sonance</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>besmirched</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untempering</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>attemptable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unseduced</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>chaffless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>chaliced</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pudency</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sharded</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unkinglike</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>insultment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>imperceiverant</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>irregulous</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>daisied</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>emballing</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>a-ripening</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>crestless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>spelling</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>airless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>wafture</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unowed</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>silverly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>charneco</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>abrook</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbloodied</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bateless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>priceless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>relier</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>increaseful</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>crimeful</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unrecalling</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>betumbled</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>vastly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>predecease</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>felicitate</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reverb</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>disquantity</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untented</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>enguard</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>superserviceable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cullionly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fleshment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bemadding</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>superflux</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>guessingly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bemonster</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>remediate</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>opposeless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>squinny</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>indistinguished</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>immediacy</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>adoptedly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cardinally</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unwedgeable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>prompture</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>vastidity</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>viewless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unshunned</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unweighing</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ungenitured</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unsisting</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>academe</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>festinately</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>egma</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>a-repairing</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>greasily</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uneducated</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>a-hooting</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>superscript</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>preambulate</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ushering</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unsullied</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>manus</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>infamonize</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bepray</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>parti-coated</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reportingly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>vagrom</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>noncome</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reclusive</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unmitigated</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>preceptial</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>choppy</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unsex</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>compunctious</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>mansionry</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pauser</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fitful</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>rooky</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>birthdom</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>confineless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>undeeded</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>intrenchant</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>guardage</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>restem</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>enwheel</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>denotement</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>enmesh</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dispraisingly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>exsufflicate</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>startingly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbookish</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>relume</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>iterance</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reprobance</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sleided</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>wenchless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>appearer</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unstooping</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sprightfully</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>undeaf</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>stringless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncurse</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>guiltily</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>misadventured</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fleckled</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pilcher</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>alligator</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>niggarding</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>rondure</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pebbled</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>millioned</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>laughable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unforfeited</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fap</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unconfinable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncape</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>shelvy</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sprag</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unfool</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>anthropophaginian</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>varletto</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>defunctive</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>basta</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>combless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>chapeless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>slickly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpinked</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>marcantant</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>slish</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>instinctively</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unmitigable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>chirurgeonly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>razorable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>rootedly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bosky</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unshrubbed</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>windring</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sedged</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>printless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>smell-less</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>soldieress</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncandied</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>meditance</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>visitating</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpanged</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>intertangled</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>operance</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>disinsanity</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>misbecomingly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unwappered</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>jadery</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unsphere</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbreeched</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>childness</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>forbiddenly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unvenerable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unearthly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>missingly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>removedness</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pugging</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbraided</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unfilial</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpathed</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>disliken</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unclew</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dich</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>spilth</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>wappened</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>oathable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>conceptious</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>exceptless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>yellowing</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unrecuring</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>successantly</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>codding</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>corresponsive</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>tortive</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>persistive</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untimbered</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>importless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>insisture</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>oppugnancy</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>asinego</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fathomless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>infectiously</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unfamed</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untent</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>kingdomed</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>assubjugate</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>plantage</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>characterless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unplausive</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncomprehensive</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>languageless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>allayment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>rejoindure</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>indistinguishable</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>deceptious</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>enrapt</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bragless</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unprofited</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>rubious</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>semblative</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>barful</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>impeticos</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cloyment</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cubiculo</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>biddy</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unchary</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unauspicious</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>nonregardance</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>joinder</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>incardinate</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>a-billing</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+</definitions>

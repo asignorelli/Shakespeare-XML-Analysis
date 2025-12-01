@@ -1,0 +1,1984 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definitions>
+    
+    <entry>
+        <word>gar</word>
+        <pos>Interjection</pos><definition>similar to God, Gah. Used as in by God, etc.</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>joan</word>
+        <pos>Noun</pos><definition>A general name for a female rustic</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>nonny</word>
+        <pos>Interjection</pos><definition>Part of a refrain, used in songs</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sola</word>
+        <pos>Interjection</pos><definition>A cry for someone's attention, or a call for someone to notice you</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>juvenal</word>
+        <pos>Noun</pos><definition>A person who writes satires</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>via</word>
+        <pos>Interjection</pos><definition>Onward, or a call to incite action or movement</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untutored</word>
+        <pos>Adjective</pos><definition>uneducated, simple minded, untaught</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>loo</word>
+        <pos>Interjection</pos><definition>Inciting a dog to chase</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sherris</word>
+        <pos>Noun</pos><definition>sherry, or liquor</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sympathize</word>
+        <pos>Verb</pos><definition>to be with someone, to suffer with them; to be correspondingly affected</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fer</word>
+        <pos>Verb</pos><definition>apparently meaningless</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bawcock</word>
+        <pos>Noun</pos><definition>Good fellow, a term of endearment, "my good sir"</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>diable</word>
+        <pos>Interjection</pos><definition>expressing a strong feeling</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dateless</word>
+        <pos>Adjective and noun</pos><definition>having no time limit; endless; eternal</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bavian</word>
+        <pos>Noun</pos><definition>used to describe a character in a dance that represents a baboon engaging in wild, crazy, or foolish behavior</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>propertied</word>
+        <pos>Adjective</pos><definition>having a specific property, nature, or quality</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>exposure</word>
+        <pos>Noun</pos><definition>The state of being exposed, the action of exposing</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unfathered</word>
+        <pos>Adjective</pos><definition>having no father</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncurrent</word>
+        <pos>Adjective</pos><definition>when talking about money, not current, not in circulation</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbated</word>
+        <pos>Adjective</pos><definition>unabated, not putting an end to</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>argal</word>
+        <pos>Adverb</pos><definition>Similar to therefore</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>canopied</word>
+        <pos>Adjective</pos><definition>to be covered with a canopy</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sessa</word>
+        <pos>Interjection</pos><definition>an exclamation of sorts, uncertain meaning behind it</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>aroint</word>
+        <pos>Verb</pos><definition>meaning apparently</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>passado</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>allons</word>
+        <pos>Interjection</pos><definition>"Let's go" used as a way of encouragement, or "There you go"</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>nayword</word>
+        <pos>Noun</pos><definition>a password catchprase</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fixture</word>
+        <pos>Noun</pos><definition>The act of becoming fixed, or settling, being firmly in place</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>expressure</word>
+        <pos>Noun</pos><definition>The act of showing something in a symbolic manner or in words.</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>directitude</word>
+        <pos>Noun</pos><definition>used as a humerous blunder</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unhardened</word>
+        <pos>Adjective</pos><definition>not having a toughened or unfeeling attitude</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>collied</word>
+        <pos>Verb</pos><definition>To blacken with soot, to begrime</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>undistinguishable</word>
+        <pos>Incapable of being discerned or made out</pos><definition>not perceivable</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>trippingly</word>
+        <pos>Adverb</pos><definition>in a tripping manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>keech</word>
+        <pos>Noun</pos><definition>a lump of congealed fat, or a lump of fat that has been rolled into a lump</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>drollery</word>
+        <pos>Noun</pos><definition>the action of a droll, such as jesting</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>undeserver</word>
+        <pos>Noun</pos><definition>a person who is not deserving of something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>foutre</word>
+        <pos>Noun</pos><definition>used in phrases, to care</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dwindle</word>
+        <pos>Verb</pos><definition>to become smaller and smaller, waste away</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ungrown</word>
+        <pos>Adjective</pos><definition>not grown up, immature</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpregnant</word>
+        <pos>Adjective</pos><definition>not pregnant, not having offspring in the uterus</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>chapless</word>
+        <pos>Adjective</pos><definition>not having a lower jaw (chap)</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>smirched</word>
+        <pos>Adjective</pos><definition>marked with a stain, made dirty</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>deracinate</word>
+        <pos>Verb</pos><definition>to exterminate, to eradicate, to uproot</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>savagery</word>
+        <pos>Noun</pos><definition>being fierce or cruel, savage</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>resurvey</word>
+        <pos>Verb</pos><definition>to consider again, read over again</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untender</word>
+        <pos>Adjective</pos><definition>not kind when dealing with others, ungentle</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fitment</word>
+        <pos>Noun</pos><definition>used as a piece of furniture</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unsolicited</word>
+        <pos>Adjective</pos><definition>not asked for, or given voluntarily</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>stigmatic</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unmeritable</word>
+        <pos>Adjective</pos><definition>meritless, not having merit</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>soundless</word>
+        <pos>Adjective</pos><definition>having no sound, being quiet or silent</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untread</word>
+        <pos>Verb</pos><definition>to retrace your path</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>spleenful</word>
+        <pos>Adjective</pos><definition>Full of spleen; passionate, irritable, angry</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>aidance</word>
+        <pos>Noun</pos><definition>assistance, aid</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>hearsed</word>
+        <pos>Verb</pos><definition>to have laid a corpse in a coffin</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>stelled</word>
+        <pos>Adjective</pos><definition>Formed into stars, stellar</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dowerless</word>
+        <pos>Adjective</pos><definition>without a portion, without a dower</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbonneted</word>
+        <pos>Adjective</pos><definition>Not wearing a bonnet, having your head uncovered</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>suum</word>
+        <pos>Noun</pos><definition>an imitation of the noises that the wind makes</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>prenzie</word>
+        <pos>Adjective</pos><definition>precise</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sneaping</word>
+        <pos>Adjective</pos><definition>A description of the wind, cold, nipping, biting</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpruned</word>
+        <pos>Adjective</pos><definition>not trimmed, not pruned</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>lustihood</word>
+        <pos>Noun</pos><definition>lustfulness, robustness</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>runnion</word>
+        <pos>Noun</pos><definition>used as slang for a term of abuse towards a woman</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>effectless</word>
+        <pos>Adjective and adverb</pos><definition>without any effect, being fruitless</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bottled</word>
+        <pos>Adjective</pos><definition>resembling a bottle in its shape</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unwept</word>
+        <pos>Adjective</pos><definition>not wept or mourned for</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unswayed</word>
+        <pos>Adjective</pos><definition>Not influenced, not swayed, not affected</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>hist</word>
+        <pos>Interjection</pos><definition>used to attract attention or call someone to listen</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>discase</word>
+        <pos>Verb</pos><definition>to undress oneself</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pash</word>
+        <pos>Noun</pos><definition>the head or the brain</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>allottery</word>
+        <pos>Noun</pos><definition>a designated portion of something given out to something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>batler</word>
+        <pos>Noun</pos><definition>definition unclear, possibly a "beetle" for battling clothes</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unclaimed</word>
+        <pos>Adjective</pos><definition>Not claimed, not requested if someone has a right to it</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>slippered</word>
+        <pos>Adjective</pos><definition>having slippers on</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>eventful</word>
+        <pos>Adjective</pos><definition>full of striking events or interesting happenings</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unexpressive</word>
+        <pos>Adjective</pos><definition>Not expressive, not expressing a feeling</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>mockable</word>
+        <pos>Adjective</pos><definition>worthy of being mocked or made fun of</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>scrippage</word>
+        <pos>Noun</pos><definition>the contents of a bag or scrip</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>carlot</word>
+        <pos>Noun</pos><definition>a peasant, poor person, now obsolete</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>omittance</word>
+        <pos>Noun</pos><definition>omission, neglecting to do something which you have a moral duty to do</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>Adjective, not cuckolded</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unseminared</word>
+        <pos>Adjective</pos><definition>deprived of a sex drive, virility</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cloyless</word>
+        <pos>Adjective</pos><definition>not satisfying something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>derogately</word>
+        <pos>Adverb</pos><definition>meaning derogatorily</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncurbable</word>
+        <pos>Adjective</pos><definition>not being able to be curbed or restrained</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unslipping</word>
+        <pos>Adjective</pos><definition>not slipping through, such as a knot</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>philippan</word>
+        <pos>Adjective</pos><definition>used in Antony and Cleopatra to associate with the Battle of Phillipi</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>undinted</word>
+        <pos>Verb</pos><definition>to not make an impression on someone or something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>plumpy</word>
+        <pos>Adjective</pos><definition>having large stature, the quality of being plump</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ribaudred</word>
+        <pos>Adjective</pos><definition>definition disputed among historians; some believe it is similar to ribald</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unqualitied</word>
+        <pos>Adjective</pos><definition>deprived of quality</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>boggler</word>
+        <pos>Noun</pos><definition>one who boggles or hesitates when negotiating</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>plighter</word>
+        <pos>Noun</pos><definition>a person who makes a promise</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>discandying</word>
+        <pos>Verb</pos><definition>the process of melting or dissolving</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>discandy</word>
+        <pos>Verb</pos><definition>to melt or dissolve</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>immoment</word>
+        <pos>Adjective</pos><definition>of no moment</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpolicied</word>
+        <pos>Adjective</pos><definition>not politically or socially organized</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bemock</word>
+        <pos>Verb</pos><definition>to mock at or flout at</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>agued</word>
+        <pos>Verb</pos><definition>shaky or trembling,</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>budger</word>
+        <pos>Noun</pos><definition>one who budges or stirs</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>empiricutic</word>
+        <pos>Adjective</pos><definition>meaning empirical</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>spectacled</word>
+        <pos>Adjective</pos><definition>describing someone who has glasses</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unaching</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bewitchment</word>
+        <pos>Noun</pos><definition>the power of bewitching someone; fascination or charm</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ungravely</word>
+        <pos>Adverb</pos><definition>not in an important degree, not seriously</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unclog</word>
+        <pos>Verb</pos><definition>to remove an obstruction from something that is hindering it</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cannibally</word>
+        <pos>Adverb</pos><definition>acting in a manner of a cannibal</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dotant</word>
+        <pos>Noun</pos><definition>a person whose age is showing through their impaired intelligence</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>spectatorship</word>
+        <pos>Noun</pos><definition>Presentation to the eyes of spectators</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unshout</word>
+        <pos>Verb</pos><definition>to remove a shout, stop shouting</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unswayable</word>
+        <pos>Adjective</pos><definition>not able to be moved or changed</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>villagery</word>
+        <pos>Noun</pos><definition>a collection of villages</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>brisky</word>
+        <pos>Adjective</pos><definition>of brisk nature, cold and chilly</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>superpraise</word>
+        <pos>Verb</pos><definition>a higher celebration or praising</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>minimus</word>
+        <pos>Noun</pos><definition>a very small or insignificant creature</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>entwist</word>
+        <pos>Verb</pos><definition>to become twisted or form into a twist</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>barky</word>
+        <pos>Adjective</pos><definition>covered with bark</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>continuantly</word>
+        <pos>Adverb</pos><definition>a humorous perversion</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>exion</word>
+        <pos>Noun</pos><definition>used as a mistaken word (malapropism) for action</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fustilarian</word>
+        <pos>Noun</pos><definition>definition uncertain, used as a noncense word</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sneap</word>
+        <pos>Noun</pos><definition>a rebuke, a snub</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>persistency</word>
+        <pos>Noun</pos><definition>the quality of being persistent, continually adhering to an opinion, course of action, or purpose</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>tardily</word>
+        <pos>Adverb</pos><definition>moving slowly, or slow progress</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>temperality</word>
+        <pos>Noun</pos><definition>a combination of temper or temperature used in a humurous sense</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pulsidge</word>
+        <pos>Noun</pos><definition>a blunder for pulse, used in a humorous sense</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sortance</word>
+        <pos>Noun</pos><definition>an agreement or correspondence</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fangless</word>
+        <pos>Adjective</pos><definition>having no fangs or teeth</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>forgetive</word>
+        <pos>Adjective</pos><definition>definition uncertain, possibly meaning inventive or creative</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>correctioner</word>
+        <pos>Noun</pos><definition>a person who corrects another on a fact</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>neglectingly</word>
+        <pos>Adverb</pos><definition>synonymous to neglectfully</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncolted</word>
+        <pos>Adjective</pos><definition>losing a horse</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>finless</word>
+        <pos>Adjective</pos><definition>not having a fin or fins</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>moulten</word>
+        <pos>Adjective</pos><definition>like a bird that has moulted</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>skimble-skamble</word>
+        <pos>Adjective</pos><definition />
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reputeless</word>
+        <pos>Adjective</pos><definition>nonsensical, confusing, incoherent</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>impaint</word>
+        <pos>Verb</pos><definition>to paint upon something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cital</word>
+        <pos>Noun</pos><definition>the act of citing someone</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>illume</word>
+        <pos>Verb</pos><definition>to light up, make brighter</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sledded</word>
+        <pos>Adjective</pos><definition>to be mounted on a sled</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>comart</word>
+        <pos>Noun</pos><definition>definition uncertain</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>compulsatory</word>
+        <pos>Adjective</pos><definition>subject to compulsion; compulsory</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>jointress</word>
+        <pos>Noun</pos><definition>a widow who holds property or a title from their deceased spouse</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unprevailing</word>
+        <pos>Adjective</pos><definition>not victorious, not superior</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>primy</word>
+        <pos>Adjective</pos><definition>in one's prime</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>besmirch</word>
+        <pos>Verb</pos><definition>to dirty or ruin with smoke, soot, or mud</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>impartment</word>
+        <pos>Noun</pos><definition>a communication that has been imparted on to someone else</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unhand</word>
+        <pos>Verb</pos><definition>to take hands off, to release from custody</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>distilment</word>
+        <pos>Noun</pos><definition>the process of distillation</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unaneled</word>
+        <pos>Adjective</pos><definition>not having received extreme anointment with oil</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>hillo</word>
+        <pos>Interjection</pos><definition>a call to a distant personl; Hello</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>encompassment</word>
+        <pos>Noun</pos><definition>the action of encompassing</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unwrung</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pajock</word>
+        <pos>Noun</pos><definition>a vain or conceited person</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>annexment</word>
+        <pos>Noun</pos><definition>the act of adding something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reword</word>
+        <pos>Verb</pos><definition>to repeat, to say again in words</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpeg</word>
+        <pos>Verb</pos><definition>to unfasten and remove pegs, usually with laundry from a clothes line</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sanctuarize</word>
+        <pos>Verb</pos><definition>to shelter using a sanctuary</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>skyish</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>scarfed</word>
+        <pos>Adjective</pos><definition>decorated with a scarf, or clothed with a scarf</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>definement</word>
+        <pos>Noun</pos><definition>description or definition</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>inventorially</word>
+        <pos>Adverb</pos><definition>when taking inventory, being detailed</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>extolment</word>
+        <pos>Noun</pos><definition>The action of praising or extolling; a eulogy</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>concernancy</word>
+        <pos>Noun</pos><definition>an interest or concern</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ungored</word>
+        <pos>Adjective</pos><definition>not pierced</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sumless</word>
+        <pos>Adjective</pos><definition>unquantifiable, cannot be counted</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sternage</word>
+        <pos>Noun</pos><definition>the collective sterns of a fleet</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>umbered</word>
+        <pos>Adjective</pos><definition>stained with umber, painted dark brown</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>intertissued</word>
+        <pos>Adjective</pos><definition>interwoven</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sonance</word>
+        <pos>Noun</pos><definition>the quality of sound, describing a particular sound</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>besmirched</word>
+        <pos>Verb</pos><definition>having discoloured or soiled with smoke, soot, or mud</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untempering</word>
+        <pos>Verb</pos><definition>to soften or change a person to the desirable degree of a certain characteristic</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>attemptable</word>
+        <pos>Adjective</pos><definition>able to make attempts upon</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unseduced</word>
+        <pos>Adjective</pos><definition>not charmed or enticed into sexual activity</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>chaffless</word>
+        <pos>Adjective</pos><definition>free from chaff</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>chaliced</word>
+        <pos>Adjective</pos><definition>when talking about flowers, having a blossom that resembles a chalice</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pudency</word>
+        <pos>Noun</pos><definition>an instance of embarrassment or modesty</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sharded</word>
+        <pos>Adjective</pos><definition>living in dung, as in a beetle</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unkinglike</word>
+        <pos>Adjective</pos><definition>not characteristic of being a king, not having the qualities to be a king</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>insultment</word>
+        <pos>Noun</pos><definition>an insult</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>imperceiverant</word>
+        <pos>Adjective</pos><definition>lacking in perception</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>irregulous</word>
+        <pos>Adjective</pos><definition>disregarding rules, being lawless or disorderly</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>daisied</word>
+        <pos>Adjective</pos><definition>being surrounded by daisies</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>emballing</word>
+        <pos>Noun</pos><definition>As explained by commentators, it is "Investing with the ball as the emblem of royalty"</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>a-ripening</word>
+        <pos>Adjective</pos><definition>No definition according to OED</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>crestless</word>
+        <pos>Adjective</pos><definition>having no crest, not bearing a crest</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>spelling</word>
+        <pos>Adjective</pos><definition>as in spells, charms, describing something as magical or related to spellcasting</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>airless</word>
+        <pos>Adjective</pos><definition>Not open to the air, unventilated</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>wafture</word>
+        <pos>Noun</pos><definition>the act of waving</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unowed</word>
+        <pos>Adjective</pos><definition>not owned</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>silverly</word>
+        <pos>Adverb</pos><definition>with an appearance that is silvery in color</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>charneco</word>
+        <pos>Noun</pos><definition>a type of wine</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>abrook</word>
+        <pos>Verb</pos><definition>to endure, to tolerate</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbloodied</word>
+        <pos>Adjective</pos><definition>not stained with blood</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bateless</word>
+        <pos>Adjective</pos><definition>something that cannot be blunted</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>priceless</word>
+        <pos>Adjective</pos><definition>invaluable, not obtainable for money, beyond price</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>relier</word>
+        <pos>Noun</pos><definition>a person who relies on someone or something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>increaseful</word>
+        <pos>Adjective</pos><definition>fruitful</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>crimeful</word>
+        <pos>Adjective</pos><definition>full of crime; criminal</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unrecalling</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>betumbled</word>
+        <pos>Adjective</pos><definition>to be disoredered, confused</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>vastly</word>
+        <pos>Adverb</pos><definition>In a desolate manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>predecease</word>
+        <pos>Verb</pos><definition>to die before someone else, particularly before a spouse or family member</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>felicitate</word>
+        <pos>Verb</pos><definition>to make happy</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reverb</word>
+        <pos>Verb</pos><definition>short for reverberate, which is to cause an echo or sound to sound again</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>disquantity</word>
+        <pos>Verb</pos><definition>to diminish, get smaller</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untented</word>
+        <pos>Verb</pos><definition>to take down a tent or remove its contents</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>enguard</word>
+        <pos>Verb</pos><definition>to protect</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>superserviceable</word>
+        <pos>Adjective</pos><definition>being overly helpful, offering too much service than required</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cullionly</word>
+        <pos>Adjective</pos><definition>despicable, rascally</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fleshment</word>
+        <pos>Noun</pos><definition>the excitement from a first success</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bemadding</word>
+        <pos>Adjective</pos><definition>the process of making someone more mad</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>superflux</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>guessingly</word>
+        <pos>Noun</pos><definition>an unneccessary or excess amount of something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bemonster</word>
+        <pos>Verb</pos><definition>to make monstrous or hideous</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>remediate</word>
+        <pos>Adjective</pos><definition>to offer a remedy for or to help relieve</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>opposeless</word>
+        <pos>Adjective</pos><definition>unopposable, not to be opposed</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>squinny</word>
+        <pos>Verb</pos><definition>to squint</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>indistinguished</word>
+        <pos>Adjective</pos><definition>not distinguished</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>immediacy</word>
+        <pos>Noun</pos><definition>the quality of being immediate or direct</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>adoptedly</word>
+        <pos>Adverb</pos><definition>in an adopted manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cardinally</word>
+        <pos>Adverb</pos><definition>relating to a Cardinal Sin, used in a humorous manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unwedgeable</word>
+        <pos>Adjective</pos><definition>incapable of being split into wedges</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>prompture</word>
+        <pos>Noun</pos><definition>a suggestion or instigation</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>vastidity</word>
+        <pos>Noun</pos><definition>vastness</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>viewless</word>
+        <pos>Adjective</pos><definition>invsible, cannot be perceived by the eye</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unshunned</word>
+        <pos>Verb</pos><definition>to have not shunned, or not avoided</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unweighing</word>
+        <pos>Adjective</pos><definition>thoughless, inconsiderate</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ungenitured</word>
+        <pos>Adjective</pos><definition>not having offspring, or not procreating</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unsisting</word>
+        <pos>Adjective</pos><definition>possibly "insisting"</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>academe</word>
+        <pos>Noun</pos><definition>academia, a place of higher education</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>festinately</word>
+        <pos>Adverb</pos><definition>quickly, hastily</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>egma</word>
+        <pos>Noun</pos><definition>a blundered "enigma"</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>a-repairing</word>
+        <pos>Verb</pos><definition>combining "a" and "repairing" to keep with iambic pentameter</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>greasily</word>
+        <pos>Adverb</pos><definition>in a greasy manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uneducated</word>
+        <pos>Adjective</pos><definition>having little or no formal education</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>a-hooting</word>
+        <pos>Noun</pos><definition>the cry of an owl</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>superscript</word>
+        <pos>Noun</pos><definition>a superscribed thing, or an address on a letter (the heading)</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>preambulate</word>
+        <pos>Verb</pos><definition>to go before or in front of</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>ushering</word>
+        <pos>Verb</pos><definition>the process of acting as an usher</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unsullied</word>
+        <pos>Adjective</pos><definition>to stain or tarnish</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>manus</word>
+        <pos>Noun</pos><definition>the hand</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>infamonize</word>
+        <pos>Verb</pos><definition>no definition provided</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bepray</word>
+        <pos>Verb</pos><definition>"pray", to make an earnest request</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>parti-coated</word>
+        <pos>Adjective</pos><definition>having a parti-coat</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reportingly</word>
+        <pos>Adverb</pos><definition>according to a report</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>vagrom</word>
+        <pos>Adjective</pos><definition>characterized by vagrancy</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>noncome</word>
+        <pos>Noun</pos><definition>a state of bewilderment of insanity</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reclusive</word>
+        <pos>Adjective</pos><definition>characterized by seclusion from human interaction or society</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unmitigated</word>
+        <pos>Adjective</pos><definition>not reduced in intensity or severity</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>preceptial</word>
+        <pos>Adjective</pos><definition>instructive, conssisting of precepts</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>choppy</word>
+        <pos>Adjective</pos><definition>full of chops or clefts</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unsex</word>
+        <pos>Verb</pos><definition>to deprive a person of the characteristics or qualities traditionally associated with him/her sex</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>compunctious</word>
+        <pos>Adjective</pos><definition>feeling remorse or compunction</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>mansionry</word>
+        <pos>Noun</pos><definition>the collection of dwelling places</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pauser</word>
+        <pos>Noun</pos><definition>a person who pauses or stops something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fitful</word>
+        <pos>Adjective</pos><definition>in terms of a disease, characterized by fits or bouts of it</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>rooky</word>
+        <pos>Adjective</pos><definition>full of rooks</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>birthdom</word>
+        <pos>Noun</pos><definition>possessions for which a person is entitled by birth; birthright</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>confineless</word>
+        <pos>Adjective</pos><definition>boundless</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>undeeded</word>
+        <pos>Adjective</pos><definition>to undo a transfer of a deed</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>intrenchant</word>
+        <pos>Adjective</pos><definition>unable to be cut</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>guardage</word>
+        <pos>Noun</pos><definition>keeping or guardianship</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>restem</word>
+        <pos>Verb</pos><definition>to go back against the current or tide</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>enwheel</word>
+        <pos>Verb</pos><definition>to surround</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>denotement</word>
+        <pos>Noun</pos><definition>the fact of denoting or making known; indication</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>enmesh</word>
+        <pos>Verb</pos><definition>to surround with meshes, or catch in a net</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dispraisingly</word>
+        <pos>Adverb</pos><definition>in a depreciating or blameful manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>exsufflicate</word>
+        <pos>Adjective</pos><definition>inflated, puffed up</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>startingly</word>
+        <pos>Adverb</pos><definition>irregularly</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbookish</word>
+        <pos>Adjective</pos><definition>not studious or bookish</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>relume</word>
+        <pos>Verb</pos><definition>to relight, such as a candle or flame</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>iterance</word>
+        <pos>Noun</pos><definition>repitition or iteration</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>reprobance</word>
+        <pos>Noun</pos><definition>the state of being reprobate, or rejected by God (an unredeemed sinner)</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sleided</word>
+        <pos>Adjective</pos><definition>in sleaved silk</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>wenchless</word>
+        <pos>Adjective</pos><definition>without a wench</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>appearer</word>
+        <pos>Noun</pos><definition>one who appears</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unstooping</word>
+        <pos>Adjective</pos><definition>the process of not bowing down</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sprightfully</word>
+        <pos>Adverb</pos><definition>in a highly energetic manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>undeaf</word>
+        <pos>Verb</pos><definition>to deprive of being deaf, to hear</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>stringless</word>
+        <pos>Adjective</pos><definition>having no strings</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncurse</word>
+        <pos>Verb</pos><definition>cancelling or reversing a curse</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>guiltily</word>
+        <pos>Adverb</pos><definition>in a guilty manner or condition</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>misadventured</word>
+        <pos>Adjective</pos><definition>unfortunate, misguided</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fleckled</word>
+        <pos>Adjective</pos><definition>marked with little flecks or spots</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pilcher</word>
+        <pos>Noun</pos><definition>an outer garment of skin, leather</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>alligator</word>
+        <pos>Noun</pos><definition>any of the broad-snouted crocodilians</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>niggarding</word>
+        <pos>Verb</pos><definition>to be sparing of</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbless</word>
+        <pos>Verb</pos><definition>to deprive of a blessing or happiness</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>rondure</word>
+        <pos>Noun</pos><definition>roundness, or a round object</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pebbled</word>
+        <pos>Adjective</pos><definition>covered with pebbles</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>millioned</word>
+        <pos>Adjective</pos><definition>numbering a million, or countless</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>laughable</word>
+        <pos>Adjective</pos><definition>able to be laughed at</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unforfeited</word>
+        <pos>Adjective</pos><definition>not given up</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fap</word>
+        <pos>Adjective</pos><definition>drunk or intoxicated</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unconfinable</word>
+        <pos>Adjective</pos><definition>not able to be confined or be subject to boundaries</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncape</word>
+        <pos>Verb</pos><definition>definition unknown</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>shelvy</word>
+        <pos>Adjective</pos><definition>when talking about a shore, having shelves or dangerous sandbanks</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sprag</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unfool</word>
+        <pos>Adjective</pos><definition>smart or clever</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>anthropophaginian</word>
+        <pos>Noun</pos><definition>a cannibal</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>varletto</word>
+        <definition>[Add definition here]</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>defunctive</word>
+        <pos>Adjective</pos><definition>pertaining to dying</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>basta</word>
+        <pos>Interjection</pos><definition>"That's enough!"</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>combless</word>
+        <pos>Adjective</pos><definition>without a comb</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>chapeless</word>
+        <pos>Adjective</pos><definition>wanting a chape or sheath</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>slickly</word>
+        <pos>Adverb</pos><definition>cleverly, in a deft manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpinked</word>
+        <pos>Adjective</pos><definition>not pinked</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>marcantant</word>
+        <pos>Noun</pos><definition>a merchant</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>slish</word>
+        <pos>Noun</pos><definition>a slit</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>instinctively</word>
+        <pos>Adverb</pos><definition>in an instinctive manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unmitigable</word>
+        <pos>Adjective</pos><definition>uncompromising</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>chirurgeonly</word>
+        <pos>Adverb</pos><definition>like a proper surgeon</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>razorable</word>
+        <pos>Adjective</pos><definition>capable of being shaved</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>rootedly</word>
+        <pos>Adverb</pos><definition>in a rooted or firmly established manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bosky</word>
+        <pos>Adjective</pos><definition>full of thickets, bushy</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unshrubbed</word>
+        <pos>Verb</pos><definition>to remove shrubbery or bushes</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>windring</word>
+        <pos>Adjective</pos><definition>winding, wandering</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>sedged</word>
+        <pos>Adjective</pos><definition>woven with sedge</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>printless</word>
+        <pos>Adjective</pos><definition>leaving no trace or print</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>smell-less</word>
+        <pos>Adjective</pos><definition>scentless</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>soldieress</word>
+        <pos>Noun</pos><definition>a female soldier</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncandied</word>
+        <pos>Adjective</pos><definition>not melting</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>meditance</word>
+        <pos>Noun</pos><definition>meditation</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>visitating</word>
+        <pos>Adjective</pos><definition>visiting</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpanged</word>
+        <pos>Adjective</pos><definition>not painful</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>intertangled</word>
+        <pos>Adjective</pos><definition>intertwined together, as in love</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>operance</word>
+        <pos>Noun</pos><definition>the quality of being operant</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>disinsanity</word>
+        <pos>Noun</pos><definition>insanity or madness</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>misbecomingly</word>
+        <pos>Adverb</pos><definition>unbecomingly, unfittingly</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unwappered</word>
+        <pos>Adjective</pos><definition>unexhausted</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>jadery</word>
+        <pos>Noun</pos><definition>behavior characteristic of a jade</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unsphere</word>
+        <pos>Verb</pos><definition>to remove from its sphere</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbreeched</word>
+        <pos>Adjective</pos><definition>not dressed in breeches</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>childness</word>
+        <pos>Noun</pos><definition>the quality or state of being a child</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>forbiddenly</word>
+        <pos>Adverb</pos><definition>not allowed, forbidden</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unvenerable</word>
+        <pos>Adjective</pos><definition>not highly respected or of high esteem</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unearthly</word>
+        <pos>Adjective</pos><definition>out of this world, celestial</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>missingly</word>
+        <pos>Adverb</pos><definition>with a sense of loss</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>removedness</word>
+        <pos>Noun</pos><definition>the quality of being removed</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>pugging</word>
+        <pos>Adjective</pos><definition>uncertain meaning</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unbraided</word>
+        <pos>Adjective</pos><definition>undamaged, untarnished</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unfilial</word>
+        <pos>Adjective</pos><definition>when talking about sentiments or duty, not due from a child to a parent</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unpathed</word>
+        <pos>Adjective</pos><definition>without a path</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>disliken</word>
+        <pos>Verb</pos><definition>to disguise</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unclew</word>
+        <pos>Verb</pos><definition>to undo or to reveal or to open up</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>dich</word>
+        <pos>Verb</pos><definition>"may it do", "do it"</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>spilth</word>
+        <pos>Noun</pos><definition>the action of spilling</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>wappened</word>
+        <pos>Adjective</pos><definition>unknown origin and meaning</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>oathable</word>
+        <pos>Adjective</pos><definition>deserving of an oath</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>conceptious</word>
+        <pos>Adjective</pos><definition>fertile, likely to conceive</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>exceptless</word>
+        <pos>Adjective</pos><definition>making no exception</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>yellowing</word>
+        <pos>Adjective</pos><definition>that howls or bellows</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unrecuring</word>
+        <pos>Adjective</pos><definition>that does not heal</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>successantly</word>
+        <pos>Adverb</pos><definition>in succession</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>codding</word>
+        <pos>Adjective</pos><definition>lustful</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>corresponsive</word>
+        <pos>Adjective</pos><definition>answering, corresponding</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>tortive</word>
+        <pos>Adjective</pos><definition>tortuous, twisting</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>persistive</word>
+        <pos>Adjective</pos><definition>being persistent, tending to persist</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untimbered</word>
+        <pos>Adjective</pos><definition>not furnished with timbers</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>importless</word>
+        <pos>Adjective</pos><definition>meaningless, unimportant</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>insisture</word>
+        <pos>Noun</pos><definition>steady continuance in their path</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>oppugnancy</word>
+        <pos>Noun</pos><definition>the quality of being oppugnant, or conflict</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>asinego</word>
+        <pos>Noun</pos><definition>a little ass</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>fathomless</word>
+        <pos>Adjective</pos><definition>that cannot be clasped with the arms</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>infectiously</word>
+        <pos>Adverb</pos><definition>in a contagious manner</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unfamed</word>
+        <pos>Adjective</pos><definition>not renowned or famous</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>untent</word>
+        <pos>Verb</pos><definition>to take down a tent or remove its contents</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>kingdomed</word>
+        <pos>Adjective</pos><definition>having a kingdom</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>assubjugate</word>
+        <pos>Verb</pos><definition>to reduce to subjugation</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>plantage</word>
+        <pos>Noun</pos><definition>vegetation or herbage</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>characterless</word>
+        <pos>Adjective</pos><definition>lacking a personality or individuality</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unplausive</word>
+        <pos>Adjective</pos><definition>disapproving</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>uncomprehensive</word>
+        <pos>Adjective</pos><definition>that cannot be comprehended</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>languageless</word>
+        <pos>Adjective</pos><definition>incapable of speech</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>allayment</word>
+        <pos>Noun</pos><definition>The action of subduing or allaying something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>rejoindure</word>
+        <pos>Noun</pos><definition>a reunion, the act of being rejoined</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>indistinguishable</word>
+        <pos>Adjective</pos><definition>of intederminate shape or structure</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>deceptious</word>
+        <pos>Adjective</pos><definition>one that tends to deceive, cheat, or lie</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>enrapt</word>
+        <pos>Adjective</pos><definition>absorbed in philosophical thought, enraptured</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>bragless</word>
+        <pos>Adjective</pos><definition>humble, without boasting</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unprofited</word>
+        <pos>Adjective</pos><definition>having not benefited from something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>rubious</word>
+        <pos>Adjective</pos><definition>ruby colored</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>semblative</word>
+        <pos>Adjective</pos><definition>"resembling", "seeming", "appearing"</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>barful</word>
+        <pos>Adjective</pos><definition>full of hindrances or disruptions</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>impeticos</word>
+        <pos>Verb</pos><definition>a joke word, twisted from impocket, made to sound like petticoat</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cloyment</word>
+        <pos>Noun</pos><definition>satiety, being full of food</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>cubiculo</word>
+        <pos>Noun</pos><definition>a bedchamber</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>biddy</word>
+        <pos>Noun</pos><definition>a name for a chicken or hen</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unchary</word>
+        <pos>Adjective</pos><definition>not cautious or wary</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>unauspicious</word>
+        <pos>Adjective</pos><definition>not of good omen, unlucky, unfortunate</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>nonregardance</word>
+        <pos>Noun</pos><definition>failure to regard something</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>joinder</word>
+        <pos>Noun</pos><definition>the act of joining</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>incardinate</word>
+        <pos>Adjective</pos><definition>used as a blunder for "incarnate"</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+    <entry>
+        <word>a-billing</word>
+        <pos>Verb</pos><definition>to stroke bill with bill, as in birds</definition>
+        <summary>[Add summary here]</summary>
+    </entry>
+</definitions>
