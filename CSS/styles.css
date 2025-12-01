@@ -4,13 +4,13 @@
   --blue: #1e7cff;
   --accent-blue: #2790ff;
   --title-stroke: rgba(0, 0, 0, 0.6);
-  --font-sans: "Quartzo", system-ui, sans-serif;
+  --font-sans: "Skam", system-ui, sans-serif;
 }
 
 /* my custom font */
 @font-face {
-  font-family: "Quartzo";
-  src: url("../HTML/fonts/Quartzo.woff2") format("woff2");
+  font-family: "Skam";
+  src: url("../HTML/fonts/Skam Font.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
