@@ -8,7 +8,8 @@
     <xsl:output method="html" indent="yes" />
     <xsl:param name="play-folder" as="xs:string" 
         select="'../shakespeare-neo-and-newDef'"/>
-   
+    <xsl:param name="definitions-file" as="xs:string" 
+        select="'../Data/Analysis/neologism_definitions.xml'"/>
     <!-- MAIN TEMPLATE: produces wordIndex.html -->
     <xsl:template match="/frequency">
         <html>
@@ -59,7 +60,8 @@
                         <xsl:sort select="@n" order="descending" data-type="number"/>
                         
                         <xsl:variable name="word" select="."/>
-                            
+                        <xsl:variable name="entry"
+                            select="doc($definitions-file)/definitions/entry[lower-case(word) = lower-case($word)]"/>    
                                 <li><a href="{concat('neologisms/', $word, '.html')}"><xsl:value-of select="$word"/></a></li>
                         
                         <!-- Generate individual HTML page for each word -->
@@ -80,8 +82,11 @@
                                     <div class="word-info">
                                         <h1><xsl:value-of select="$word"/></h1>
                                     <h2>Shakespearean Definition: </h2>
-                                    <!-- Placeholder to be filled by LLM -->
-                                    <p class="definition">[Definition will go here]</p>
+                                        <p class="definition">
+                                            <strong><xsl:value-of select="$entry/pos"/></strong>
+                                            <xsl:text> - </xsl:text>
+                                            <xsl:value-of select="$entry/definition"/>
+                                        </p>
                                     <p>Frequency:
                                             <xsl:value-of select="@n"/>
                                     </p>

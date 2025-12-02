@@ -284,9 +284,9 @@
                 <xsl:variable name="padding" select="250"/>
                 
                 <svg viewBox="
-                    0 -{$y-axis-length }
-                    {$x-axis-length + $padding}
-                    {$y-axis-length }
+                    0 -{$y-axis-length +$padding}
+                    {$x-axis-length}
+                    {$y-axis-length+(2*$padding)}
                     "
                     style="transform: rotate(90deg); transform-origin: center;">
                     
