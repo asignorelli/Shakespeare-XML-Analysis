@@ -12,10 +12,11 @@
 </head>
 
 <body>
-   <div class="subpage-labels">
-      <a href="index.html">HOME</a>
-      <a href="about.html">ABOUT</a>
-      <a href="play-index.html">CORPUS</a>
+
+  <div class="subpage-labels">
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="play-index.html">CORPUS</a>
       <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">ANALYSIS</button>
         <div id="myDropdown" class="dropdown-content">
@@ -23,56 +24,166 @@
           <a href="words.html">Frequency</a>
         </div>
       </div>
-    </div>
+  </div>
+
   <div class="gradient-spacer"></div>
 
-<section class="about">
-  <div class="container fade-section">
 
-    <!-- Vertical accent line container -->
-    <div class="about-content">
+  <!-- ABOUT SECTION WITH SCROLL + TEXT -->
+  <section class="about">
+    <div class="container fade-section">
 
-      <h2>About This Project</h2>
-      <p class="dropcap">
-        This project explores the neologisms coined by William Shakespeare throughout his literary works.
-        Neologisms are newly invented words or phrases that often reflect the cultural and societal changes
-        of their time. Shakespeare is renowned for his inventive use of language, and many of the words he
-        created have become an integral part of the English lexicon.
-      </p>
-      <h2>Research Questions</h2>
-      <div class="method-grid">
-      <!-- Left column: description -->
-      <p>Our main research questions we are answering are:<br/>
-      - How has Shakespeare's use of Neologisms influenced his works?<br/>
-      - How are these neologisms spread across his entire corpus<br/></p>
-        
-      </div>
-      <h2>Methodology</h2>
+      <!-- NEW layout wrapper: left = scroll, right = text -->
+      <div class="about-layout">
 
-      <div class="method-grid">
-        <!-- Left column: description -->
-        <p>
-          Throughout this project, we examined the full corpus of Shakespeare's works, including all plays
-          and sonnets. These were formatted as XML files, and our team developed a multi-step process to
-          analyze the text. We first obtained a list of Shakespeare's invented words (neologisms) from:
-          <a href="http://elizabethandrama.org/shakespeare-invented-words-project/master-list-invented-words/">
-            Elizabethan Drama – Invented Words
-          </a>.
-          Using this list, we generated an XSLT transformation that looped across the collection of the corpus and gave markup to each neologism across the entire corpus. Using these neologisms, we were able to extract data in the form of counts and frequency for the neologisms. This data, combined with a list of every neologism and its definition and part of speech was used to provide the input for our charts. Now, we used XSLT to help with the production of this webpage, including generating each play page, word page, and all of the charts associated with them. 
-        </p>
+        <!-- LEFT COLUMN: scroll svg -->
+        <div class="scroll-column">
 
-      <div class="team-members">
-        <h2>Team Members</h2>
-        <span>Ava Finn</span>
-        <span>Henry Paz</span>
-        <span>Alyssa Signorelli</span>
-        <span>Josh Stedenbeck</span>
-      </div>
+          <svg xmlns="http://www.w3.org/2000/svg"
+            width="320" height="240" viewBox="0 0 320 240">
+            
+            <rect x="0" y="0" width="320" height="240" fill="#111111"/>
+            
+            <defs>
+                <clipPath id="clip-scroll">
+                    <rect id="reveal"
+                        x="80" y="40" width="160" height="0">
+                        <animate attributeName="height"
+                            from="0" to="140"
+                            dur="1.8s"
+                            fill="freeze"/>
+                    </rect>
+                </clipPath>
+            </defs>
+            
+            <rect id="leftRod" x="70" y="40" width="10" height="30" rx="5" fill="#5a3b25">
+                <animate attributeName="height"
+                    from="30" to="150"
+                    dur="1.8s"
+                    fill="freeze"/>
+            </rect>
+            
+            <circle cx="75" cy="40" r="6" fill="#7a5233">
+                <animate attributeName="cy"
+                    from="40" to="40"
+                    dur="1.8s"
+                    fill="freeze"/>
+            </circle>
+            <circle cx="75" cy="70" r="6" fill="#7a5233">
+                <animate attributeName="cy"
+                    from="70" to="190"
+                    dur="1.8s"
+                    fill="freeze"/>
+            </circle>
+            
+            <rect id="rightRod" x="240" y="40" width="10" height="30" rx="5" fill="#5a3b25">
+                <animate attributeName="height"
+                    from="30" to="150"
+                    dur="1.8s"
+                    fill="freeze"/>
+            </rect>
+            
+            <circle cx="245" cy="40" r="6" fill="#7a5233">
+                <animate attributeName="cy"
+                    from="40" to="40"
+                    dur="1.8s"
+                    fill="freeze"/>
+            </circle>
+            <circle cx="245" cy="70" r="6" fill="#7a5233">
+                <animate attributeName="cy"
+                    from="70" to="190"
+                    dur="1.8s"
+                    fill="freeze"/>
+            </circle>
+            
+            <g clip-path="url(#clip-scroll)">
+                
+                <rect x="80" y="40" width="160" height="140" rx="8"
+                    fill="#f4e3b0" stroke="#c9b188" stroke-width="2"/>
+                
+                <rect x="80" y="40" width="160" height="14" rx="7"
+                    fill="#f0dca0" stroke="#c9b188" stroke-width="1.5"/>
+                <rect x="80" y="166" width="160" height="14" rx="7"
+                    fill="#f0dca0" stroke="#c9b188" stroke-width="1.5"/>
+                
+                <g stroke="#d0b987" stroke-width="1">
+                    <line x1="95" y1="70" x2="225" y2="70"/>
+                    <line x1="95" y1="85" x2="225" y2="85"/>
+                    <line x1="95" y1="100" x2="225" y2="100"/>
+                    <line x1="95" y1="115" x2="225" y2="115"/>
+                    <line x1="95" y1="130" x2="190" y2="130"/>
+                </g>
+                
+                <text x="160" y="155"
+                    text-anchor="middle"
+                    font-family="Georgia, serif"
+                    font-size="20"
+                    fill="#7a5c33">
+                    neologism
+                </text>
+                
+            </g>
+            
+          </svg>
+
+        </div> <!-- end scroll-column -->
+
+
+        <!-- RIGHT COLUMN: your original text -->
+        <div class="text-column">
+
+          <div class="about-content">
+
+            <h2>About This Project</h2>
+            <p class="dropcap">
+              This project explores the neologisms coined by William Shakespeare throughout his literary works.
+              Neologisms are newly invented words or phrases that often reflect the cultural and societal changes
+              of their time. Shakespeare is renowned for his inventive use of language, and many of the words he
+              created have become an integral part of the English lexicon.
+            </p>
+
+            <h2>Research Questions</h2>
+            <p>
+              Our main research questions we are answering are:<br/>
+              – How has Shakespeare's use of Neologisms influenced his works?<br/>
+              – How are these neologisms spread across his entire corpus?<br/>
+            </p>
+
+            <h2>Methodology</h2>
+            <p>
+              Throughout this project, we examined the full corpus of Shakespeare's works, including all plays
+              and sonnets. These were formatted as XML files, and our team developed a multi-step process to
+              analyze the text. We first obtained a list of Shakespeare's invented words (neologisms) from:
+              <a href="http://elizabethandrama.org/shakespeare-invented-words-project/master-list-invented-words/">
+                Elizabethan Drama – Invented Words
+              </a>.
+              Using this list, we generated an XSLT transformation that looped across the collection of the corpus
+              and gave markup to each neologism. Using these neologisms, we extracted data for counts and
+              frequency. This, combined with definitions and parts of speech, powered our charts. XSLT also
+              generated each play page, word page, and chart.
+
+            </p>
+
+            <div class="team-members">
+              <h2>Team Members</h2>
+              <span>Ava Finn</span>
+              <span>Henry Paz</span>
+              <span>Alyssa Signorelli</span>
+              <span>Josh Stedenbeck</span>
+            </div>
+
+          </div>
+
+        </div> <!-- end text-column -->
+
+
+      </div> <!-- end about-layout -->
 
     </div>
-  </div>
-</section>
-<script src="../JavaScript/script.js" defer></script>
+  </section>
+
+
+  <script src="../JavaScript/script.js" defer></script>
 
 </body>
 
