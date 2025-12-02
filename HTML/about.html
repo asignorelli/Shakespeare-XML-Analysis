@@ -39,7 +39,14 @@
         of their time. Shakespeare is renowned for his inventive use of language, and many of the words he
         created have become an integral part of the English lexicon.
       </p>
-
+      <h2>Research Questions</h2>
+      <div class="method-grid">
+      <!-- Left column: description -->
+      <p>Our main research questions we are answering are:<br/>
+      - How has Shakespeare's use of Neologisms influenced his works?<br/>
+      - How are these neologisms spread across his entire corpus<br/></p>
+        
+      </div>
       <h2>Methodology</h2>
 
       <div class="method-grid">
@@ -47,12 +54,11 @@
         <p>
           Throughout this project, we examined the full corpus of Shakespeare's works, including all plays
           and sonnets. These were formatted as XML files, and our team developed a multi-step process to
-          analyze the text. We first obtained a list of Shakespeare's invented words from:
+          analyze the text. We first obtained a list of Shakespeare's invented words (neologisms) from:
           <a href="http://elizabethandrama.org/shakespeare-invented-words-project/master-list-invented-words/">
             Elizabethan Drama – Invented Words
           </a>.
-          Using this list, we generated an XSLT transformation that marks each instance of a matching word in
-          the corpus. This provided us with a comprehensive dataset of Shakespearean neologisms.
+          Using this list, we generated an XSLT transformation that looped across the collection of the corpus and gave markup to each neologism across the entire corpus. Using these neologisms, we were able to extract data in the form of counts and frequency for the neologisms. This data, combined with a list of every neologism and its definition and part of speech was used to provide the input for our charts. Now, we used XSLT to help with the production of this webpage, including generating each play page, word page, and all of the charts associated with them. 
         </p>
 
       <div class="team-members">

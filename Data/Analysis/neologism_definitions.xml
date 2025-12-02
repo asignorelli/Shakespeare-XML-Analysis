@@ -2,7 +2,7 @@
 <definitions>
     
     <entry>
-        <word>gar</word>
+        <word>gar</word>/
         <pos>Interjection</pos><definition>similar to God, Gah. Used as in by God, etc.</definition>
         <summary>[Add summary here]</summary>
     </entry>
@@ -163,7 +163,7 @@
     </entry>
     <entry>
         <word>undistinguishable</word>
-        <pos>Incapable of being discerned or made out</pos><definition>not perceivable</definition>
+        <pos>Adjective</pos><definition>not perceivable</definition>
         <summary>[Add summary here]</summary>
     </entry>
     <entry>
