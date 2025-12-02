@@ -167,6 +167,14 @@
             <h2>Neologisms By Part of Speech</h2>
             <p>This chart below examines the distribution of part of speech across all of Shakespeare's
                neologisms. The part of speech data was obtained from the Oxford English Dictionary.
+               High-frequency words often appear across multiple plays, meaning they entered Shakespeare’s regular personal vocabulary, and were not just one-off innovations.
+Frequency Is Not Distributed Evenly<br/>
+Across the entire corpus, Shakespeare’s neologisms fall into two sharply different behaviors:</br>
+	•	a small handful of sound-based words repeat dozens of times,<br/>
+	•	while hundreds of semantic neologisms appear only once.
+
+This is the biggest structural imbalance in the dataset.
+
                </p>
             <div class="chart2"><svg xmlns="http://www.w3.org/2000/svg"><svg viewBox="                     0 -2060                     550                     2310                     " style="transform: rotate(90deg); transform-origin: center;">
                      <line x1="80" y1="0" x2="630" y2="0" stroke="white"/>
@@ -195,6 +203,104 @@
                      <rect x="575" y="-10" width="50" height="10" fill="darkorange"/>
                      <text x="610" y="-30" font-size="30" text-anchor="middle" transform="rotate(-90, 610, -30)">1</text>
                      <text x="610" y="40" font-size="25" text-anchor="end" transform="rotate(-90,600,40)">Adjective and adverb</text></svg></svg></div>
+         
+        
+
+         <p>
+            The main pattern across all Shakespearean neologisms is a split between “sound-based” stage words (high frequency) and “semantic” invented words (low frequency). The sound-words repeat constantly because they function as musical cues, crowd noises, or comedic fillers. The semantic words barely appear more than once, but they’re the ones that actually expand English into new conceptual territory. This explains why the most common invented words are nonsense syllables, yet the part-of-speech breakdown is dominated by complex adjectives.
+         </p>
+         <div class="chart"><svg xmlns="http://www.w3.org/2000/svg"
+    width="600" height="300" viewBox="0 0 600 300">
+    
+    <!-- dark background -->
+    <rect x="0" y="0" width="600" height="300" fill="#0f0f10"/>
+    
+    <!-- title -->
+    <text x="300" y="32" text-anchor="middle"
+        font-size="20" fill="white">
+        Frequency Is Not Distributed Evenly
+    </text>
+    
+    <!-- axes -->
+    <line x1="80" y1="240" x2="540" y2="240"
+        stroke="white" stroke-width="2"/>
+    <line x1="80" y1="70" x2="80" y2="240"
+        stroke="white" stroke-width="2"/>
+    
+    <!-- y-axis label -->
+    <text x="40" y="155" text-anchor="middle"
+        fill="white" font-size="14"
+        transform="rotate(-90 40,155)">
+        total tokens
+    </text>
+    
+    <!-- x-axis label -->
+    <text x="300" y="270" text-anchor="middle"
+        fill="white" font-size="14">
+        neologism type
+    </text>
+    
+    <!-- ===== BAR 1: SOUND WORDS ===== -->
+    <rect x="150" y="85" width="70" height="155"
+        fill="#4db8ff" stroke="white" stroke-width="1"/>
+    <text x="185" y="255" text-anchor="middle"
+        fill="white" font-size="14">
+        sound
+    </text>
+    <text x="185" y="75" text-anchor="middle"
+        fill="white" font-size="11">
+        few words, high use
+    </text>
+    
+    <!-- ===== BAR 2: SEMANTIC WORDS ===== -->
+    <rect x="350" y="160" width="70" height="80"
+        fill="#4db8ff" stroke="white" stroke-width="1"/>
+    <text x="385" y="255" text-anchor="middle"
+        fill="white" font-size="14">
+        semantic
+    </text>
+    <text x="385" y="150" text-anchor="middle"
+        fill="white" font-size="11">
+        many words, low use
+    </text>
          </div>
+</svg>
+         <p>
+            Shakespeare frequently reuses the prefix un- over and over (unbated, unwept, unsex, unearthly) and the same evaluative endings like -less, -ful, -ish, -able, etc. He’s not inventing brand-new roots, but just attaching familiar prefixes and suffixes to normal words. That’s why most of the neologisms end up being adjectives, as he is basically using modified or intensified versions of existing ideas, not new concepts.
+         </p>
+         <svg xmlns="http://www.w3.org/2000/svg"
+    width="500" height="200" viewBox="0 0 500 200">
+    
+    <!-- dark background so it matches the rest of your site -->
+    <rect width="500" height="200" fill="#0f0f10" />
+    
+    <!-- base word: 'bated' in blue, static -->
+    <text x="250" y="120"
+        text-anchor="start"
+        font-family="Georgia, serif"
+        font-size="60"
+        fill="#4db8ff">
+        bated
+    </text>
+    
+    <!-- prefix 'un' in red, slides in from the left and then stops -->
+    <text x="50" y="120"
+        text-anchor="end"
+        font-family="Georgia, serif"
+        font-size="60"
+        fill="#ff6b6b">
+        un
+        <!-- animate the x-position from 50 → 250 over 1.6s -->
+        <!-- text-anchor="end" means the RIGHT edge of 'un' will land at x=250,
+         so it sits flush against the start of 'bated' -->
+        <animate attributeName="x"
+            from="50"
+            to="250"
+            dur="1.6s"
+            fill="freeze" />
+    </text>
+    
+</svg>
+       </div>
       </section><script src="../JavaScript/script.js" defer></script></body>
 </html>
