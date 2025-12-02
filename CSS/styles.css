@@ -224,7 +224,6 @@ body {
   /* responsive size */
   max-height: 65vh;
   object-fit: contain;
-  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.85));
 }
 
 /* about section */
@@ -350,10 +349,11 @@ body {
     font-weight: 700;
     text-align: center;
     margin-top: 3rem;
-    font-size: 11rem;
+    font-size: 9rem;
 }
 
 .about .word-description-big {
+    padding-top: 2.5rem;
     font-size: 2rem;
     line-height: 1.6;
     max-width: 1000px;
@@ -376,6 +376,7 @@ body {
     font-size:2.5rem;
     margin-left:5%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
     margin-bottom: 30px;
 
     
@@ -422,6 +423,10 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.word-search a:hover {
+  color: #224cf5;
+}
+
 .word-search {
     font-size:1.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -430,10 +435,12 @@ body {
     column-gap: 20px;        /* Space between columns */
     list-style-position: inside;
     padding: 0;
+    transition: 0.3s ease; 
 }
 .word-search a {
     color:white;
-    text-decoration:none;    
+    text-decoration:none; 
+     transition: 0.3s ease;    
 }
 /* PLAY Pages CSS Styling */
 /* ==== HEADER TITLE ==== */
@@ -469,7 +476,7 @@ body {
 
 .play-description {
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 1.5rem;
     
 }
@@ -486,12 +493,12 @@ body {
 
 /* STYLING FOR EACH INDIVIDUAL WORD PAGE */
 .word-info {
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-bottom:50px;
 }   
 .word-info h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     color: #1e7cff;
 }
 .word-info h2 {
@@ -506,12 +513,17 @@ body {
 .speech {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 10%;
+    transition: color 0.3s ease;
 }
 .speech h2 {
     font-size: 2rem;
     margin-top: 90px;
     margin-bottom:0px;
     text-decoration: underline;
+    transition: color 0.3s ease;
+}
+.speech h2 a:hover {
+    color: #1e7cff;
 }
 .speech-text {
     font-size: 1.75rem;
@@ -523,4 +535,49 @@ body {
 .speech h2 a{
     color: inherit; /* Inherits the color from its parent */
     text-decoration: none; /* Removes the underline */
+}
+
+/* ===== CENTER and SCALE SVG CHART ===== */
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+/* Make the SVG large and readable */
+.chart-container svg {
+  width: 80vw;
+  max-width: 1600px;
+  height: 600px;
+}
+
+/* Make all text inside the SVG white */
+.chart-container svg text {
+  fill: white;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+}
+
+.play-meta p span {
+  color: #4db8ff;
+}
+/* Bar color override */
+.chart-container svg rect {
+  fill: #4db8ff;
+  stroke: white;
+  stroke-width: 1;
+}
+
+/* Keep SVG links white (visited or not) */
+.chart-container svg a,
+.chart-container svg a:visited {
+  fill: white;
+  transition: fill 0.3s ease;
+}
+
+/* Add hover effect to SVG links */
+.chart-container svg a:hover {
+  fill: #4db8ff;
 }

@@ -31,21 +31,21 @@ document.addEventListener("DOMContentLoaded", () => {
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("myDropdown").classList.toggle("show");
 }
 
 // Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
+window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
     }
-  }
 }
 
 // WORD PAGE
@@ -76,7 +76,6 @@ function loadWordsFromXML() {
     const xmlString = `<?xml version="1.0" encoding="UTF-8"?>
 <frequency>
    <w n="30">gar</w>
-   <w n="29">week</w>
    <w n="28">joan</w>
    <w n="14">nonny</w>
    <w n="10">sola</w>
@@ -401,7 +400,11 @@ function createWordCloud(words) {
             });
 
             w.el.addEventListener("click", () => {
-                alert(`${w.text}: frequency = ${w.freq}`);
+                // 1. Get the word text and make sure it's lowercase
+                const fileName = w.text.toLowerCase();
+
+                // 2. Navigate to the correct page
+                window.location.href = `neologisms/${fileName}.html`;
             });
         });
     }, 100);
